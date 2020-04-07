@@ -18,25 +18,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=['POST', 'GET'])
 def index():
-    pd.set_option('display.max_columns', None)
-    global df
-    # The current request method is available by using the method attribute
-    if request.method == 'POST':
-        # if request.form['data'] == 'received':
-        data = df[['date', 'open']]
-        data = data.rename(columns={'open': 'close'})
-        print(data)
-        print("Hello World!")
-        chart_data = data.to_dict(orient='records')
-        chart_data = json.dumps(chart_data, indent=2)
-        data = {'chart_data': chart_data}
-        return jsonify(data)  # Should be a json string
-
-    data = df[['date', 'close']]
-    chart_data = data.to_dict(orient='records')
-    chart_data = json.dumps(chart_data, indent=2)
-    data = {'chart_data': chart_data}
-    return render_template("index.html", data=data)
+    return render_template("index.html")
 
 
 @app.route("/kmeans", methods=['POST', 'GET'])
@@ -71,9 +53,9 @@ def plot_k(k, x):
     df_kcluster0 = kcluster0.sample(n=int(0.25 * len(kcluster0)))
     df_kcluster1 = kcluster1.sample(n=int(0.25 * len(kcluster1)))
     df_kcluster2 = kcluster2.sample(n=int(0.25 * len(kcluster2)))
-    # print(df_kcluster0.shape)
-    # print(df_kcluster1.shape)
-    # print(df_kcluster2.shape)
+    print(df_kcluster0.shape)
+    print(df_kcluster1.shape)
+    print(df_kcluster2.shape)
     df_ = pd.concat([df_kcluster0, df_kcluster1, df_kcluster2])
     # print(df_)
     return df_
@@ -109,29 +91,6 @@ def find_area(val):
     return area
 
 
-def hot_encoding(df_, col_list):
-    for col in col_list:
-        df_ = df_.merge(pd.get_dummies(df_[col]), left_index=True, right_index=True)
-        df_ = df_.drop([col], axis=1)
-    return df_
-
-
-# def pca(df_, p_c):
-#     print("df shape rows {} cols {}".format(df_.shape[0], df_.shape[1]))
-#     x = StandardScaler().fit_transform(df_)
-#     pca_ = decomposition.PCA(n_components=p_c)
-#     pc = pca_.fit_transform(x)
-#     pc_list = []
-#     for f in range(p_c):
-#         pc_list.append("PC{}".format(f+1))
-#     pc_df = pd.DataFrame(data=pc, columns=pc_list)
-#     pc_df['Cluster'] = df_['cluster_num']
-#     print("{}".format(pc_df.head()))
-#     df_pca = pd.DataFrame({'var': pca_.explained_variance_ratio_, 'PC': pc_list})
-#     sns.barplot(x='PC', y="var", data=df_pca, color="c")
-#     plt.show()
-
-
 @app.route("/random", methods=['GET'])
 def random_sampling():
     global df_main
@@ -139,6 +98,30 @@ def random_sampling():
     df_random = df_main.sample(n=int(0.25 * len(df_main)))
     print("len of random = {}".format(len(df_random)))
     return render_template("pca.html", data=pca(df_random))
+
+
+def generate_eigenValues(data):
+    cov_mat = np.cov(data.T)
+    eig_values, eig_vectors = np.linalg.eig(cov_mat)
+    idx = eig_values.argsort()[::-1]
+    eig_values = eig_values[idx]
+    eig_vectors = eig_vectors[:, idx]
+    return eig_values, eig_vectors
+
+
+def plot_intrinsic_dimensionality_pca(data, k):
+    [eigenValues, eigenVectors] = generate_eigenValues(data)
+    print ("eigenValues")
+    squaredLoadings = []
+    ftrCount = len(eigenVectors)
+    for ftrId in range(0, ftrCount):
+        loadings = 0
+        for compId in range(0, k):
+            loadings = loadings + eigenVectors[compId][ftrId] * eigenVectors[compId][ftrId]
+        squaredLoadings.append(loadings)
+
+    print('squaredLoadings {}'.format(squaredLoadings))
+    return squaredLoadings
 
 
 def pca(df_=None):
@@ -161,29 +144,31 @@ def process_val(val):
     else: return float(val)
 
 
+@app.route('/scatter_matrix_random')
+def scatter_plot():
+    global df_main
+    df_ = plot_k(3, df_main)
+    squared_loadings = plot_intrinsic_dimensionality_pca(df_, 3)
+    imp_ftrs = sorted(range(len(squared_loadings)), key=lambda k: squared_loadings[k], reverse=True)
+    print("important features {}".format(imp_ftrs))
+    data_columns = pd.DataFrame()
+    for i in range(0, 4):
+        data_columns[df_.columns[imp_ftrs[i]]] = df_[df_.columns[imp_ftrs[i]]]
+    print(data_columns.columns)
+    data_columns['clusterid'] = df_['cluster_num']
+    data_columns = data_columns.drop("cluster_num", axis=1)
+    print(data_columns)
+    csv = data_columns.to_csv("csv")
+    print(csv)
+    return render_template("scatter.html", data=csv)
+
+
 if __name__ == "__main__":
     df = pd.read_csv('forex_rates.csv')
     df_main = df.drop("Time Serie", axis=1)
+    print(df_main.columns)
     for c in df_main.columns:
         df_main[c] = df_main[c].map(lambda val: process_val(val))
-
-
-    # df_main = df_main.replace()
-    # df_main['room_area'] = df_main['room_area'].map(lambda area: find_area(area))
-    # df_main = pd.read_csv('goibibo_data.csv')
-    # df_main['room_area'] = df_main['room_area'].map(lambda area: find_area(area))
-    # cat_cols = ['hotel_category', 'property_type', 'additional_info', 'address', 'area', 'city', 'country',
-    #             'crawl_date', 'hotel_brand', 'hotel_description',
-    #             'hotel_facilities', 'latitude', 'locality', 'longitude', 'pageurl', 'point_of_interest', 'property_id',
-    #             'property_name', 'province', 'qts', 'query_time_stamp', 'review_count_by_category', 'room_facilities',
-    #             'room_type', 'similar_hotel',
-    #             'site_stay_review_rating', 'sitename', 'state', 'uniq_id']
-    #
-    # for c in cat_cols:
-    #     print(c)
-    #     df_main = df_main.drop(c, axis=1)
-    # print("df new ")
-    # print(df_main)
-    # df_new = process_csv('goibibo_data.csv')
-    # # df_main = hot_encoding(df_main, cat_cols)
+    scaler = StandardScaler()
+    df_main[df_main.columns] = scaler.fit_transform(df_main[df_main.columns])
     app.run(debug=True)

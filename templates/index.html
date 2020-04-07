@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <meta charset="utf-8">
 <style> /* set the CSS */
 
@@ -19,131 +19,111 @@ path {
 }
 
 </style>
+<head>
+    <meta charset="UTF-8">
+    <title>Visualization lab2 - Flight data analytics</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for ('static', filename='style.css') }}">
+</head>
 <body>
-
-<div id="option">
-    <input name="updateButton" type="button" value="Update" onclick="updateData()" />
-</div>
-
-<!-- load the d3.js library -->
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<script>
-
-var data = {{ data.chart_data | safe }}
-console.log(data);
-// Set the dimensions of the canvas / graph
-var margin = {top: 30, right: 20, bottom: 30, left: 50},
-    width = 600 - margin.left - margin.right,
-    height = 270 - margin.top - margin.bottom;
-
-// Parse the date / time
-var parseDate = d3.time.format("%d-%b-%y").parse;
-//var parseDate = d3.time.format("%y-%b-%d").parse;
-//var parseDate = d3.time.format("%Y-%m-%d").parse;
-
-// Set the ranges
-var x = d3.time.scale().range([0, width]);
-var y = d3.scale.linear().range([height, 0]);
-
-// Define the axes
-var xAxis = d3.svg.axis().scale(x)
-    .orient("bottom").ticks(5);
-
-var yAxis = d3.svg.axis().scale(y)
-    .orient("left").ticks(5);
-
-// Define the line
-var valueline = d3.svg.line()
-    .x(function(d) { return x(d.date); })
-    .y(function(d) { return y(d.close); });
-
-var valueline2 = d3.svg.line()
-  .x(function(d){ return x(d.date);})
-  .y(function(d){ return y(d.open);});
-
-// Adds the svg canvas
-var svg = d3.select("body")
-    .append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-        .attr("transform",
-              "translate(" + margin.left + "," + margin.top + ")");
-
-// Get the data
-
-function drawdata(data){
-  //console.log(data)
-  data.forEach(function(d) {
-      d.date = parseDate(d.date);
-      d.close = +d.close;
-  });
-
-  // Scale the range of the data
-  x.domain(d3.extent(data, function(d) { return d.date; }));
-  y.domain([0, d3.max(data, function(d) { return d.close; })]);
-
-  // Add the valueline path.
-  svg.append("path")
-      .attr("class", "line")
-      .attr("d", valueline(data));
-
-  // Add the X Axis
-  svg.append("g")
-      .attr("class", "x axis")
-      .attr("transform", "translate(0," + height + ")")
-      .call(xAxis);
-
-  // Add the Y Axis
-  svg.append("g")
-      .attr("class", "y axis")
-      .call(yAxis);
-}
-
-
-drawdata(data)
-
-// ** Update data section (Called from the onclick)
-function updateData() {
-
-    // Get the data again
-      // Request the "" page and send some additional data along (while still ignoring the return results).
-    // $.post("", {'data': 'received'}, function(data_infunc){
-      // console.log({data_infunc})
-      $.post("", {'data': 'received'}, function(data_infunc){
-      data2 = JSON.parse(data_infunc.chart_data)
-      console.log(data2);
-      data2.forEach(function(d) {
-      d.date = parseDate(d.date);
-      d.close = +d.close;
-      });
-
-      //console.log(data2);
-      // Scale the range of the data again
-    	x.domain(d3.extent(data2, function(d) { return d.date; }));
-	    y.domain([0, d3.max(data2, function(d) { return d.close; })]);
-
-    // Select the section we want to apply our changes to
-    var svg = d3.select("body").transition();
-    //
-    // // Make the changes
-        svg.select(".line")   // change the line
-            .duration(750)
-            .attr("d", valueline(data2));
-        svg.select(".x.axis") // change the x axis
-            .duration(750)
-            .call(xAxis);
-        svg.select(".y.axis") // change the y axis
-            .duration(750)
-            .call(yAxis);
-    })
-
-
-
-}
-
-</script>
+<center>
+    <h1>Visualization Lab 2</h1>
+    <h2>Data Clustering and Dimension Reduction</h2>
+</center>
+<hr>
+ <div class="row" >
+     <div class="dropdown1">
+        <select id="map1">
+            <option val="Select Task">Select Task</option>
+            <option val="Task 1">Task 1</option>
+            <option val="Task 2">Task 2</option>
+        </select>
+     </div>
+     <div class="dropdown2">
+        <select id="map2" onchange="mapSelect()">
+            <option val="Select sub-task">Select sub-task</option>
+        </select>
+     </div>
+ </div>
 </body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+<script src="/static/d3-tip.js"></script>
+<script>
+select_category = new Array('Select sub-task');
+task_category=new Array('Select sub-task', 'PCA_SCREE');
+task_category_names = new Array('Select sub-task', "PCA Scree Plot");
+tasks=new Array('Select sub-task', 'PCA_RANDOM_SAMPLING','PCA_ADAPTIVE_SAMPLING','MDS_EUCLIDEAN_RANDOM_SAMPLING', 'MDS_EUCLIDEAN_ADAPTIVE_SAMPLING',
+    'MDS_CORRELATION_RANDOM_SAMPLING', 'MDS_CORRELATION_ADAPTIVE_SAMPLING', 'SCATTER_MATRIX_RANDOM_SAMPLING', 'SCATTER_MATRIX_ADAPTIVE_SAMPLING');
+task_names=new Array('Select sub-task', 'PCA Random Sampling','PCA Adaptive Sampling','MDS Euclidean Random Sampling', 'MDS Euclidean Adaptive Sampling',
+    'MDS Correlation Random Sampling', 'MDS Correlation Adaptive Sampling', 'Scatter Matrix Random Sampling', 'Scatter Matrix Adaptive Sampling');
+
+populateSelect();
+
+$(function() {
+      $('#map1').change(function(){
+        populateSelect();
+    });
+});
+
+function populateSelect(){
+    map1=$('#map1').val();
+    console.log(map1);
+    $('#map2').html('');
+
+    if(map1=='Task 1'){
+        task_category.forEach(function(t, i) {
+            $('#map2').append('<option value='+t+'>'+task_category_names[i]+'</option>');
+        });
+    }
+
+    if(map1=='Task 2'){
+        tasks.forEach(function(t, i) {
+            $('#map2').append('<option value='+t+'>'+task_names[i]+'</option>');
+        });
+    }
+
+    if(map1=='Select Task'){
+        select_category.forEach(function(t, i) {
+            $('#map2').append('<option> '+t+'</option>');
+        });
+    }
+}
+
+function mapSelect() {
+    console.log('mapselect')
+    var dropdown = document.getElementById("map2");
+    var selectedValue = dropdown.options[dropdown.selectedIndex].value;
+    if(selectedValue == -1) {
+        // Do nothing
+    } else if(selectedValue == "PCA_RANDOM_SAMPLING") {
+        console.log(selectedValue)
+
+    } else if(selectedValue == "PCA_ADAPTIVE_SAMPLING") {
+        console.log(selectedValue)
+
+    } else if(selectedValue == "MDS_EUCLIDEAN_RANDOM_SAMPLING") {
+        console.log(selectedValue)
+
+    } else if(selectedValue == "MDS_EUCLIDEAN_ADAPTIVE_SAMPLING") {
+        console.log(selectedValue)
+
+    } else if(selectedValue == "MDS_CORRELATION_RANDOM_SAMPLING") {
+        console.log(selectedValue)
+
+    } else if(selectedValue == "MDS_CORRELATION_ADAPTIVE_SAMPLING") {
+        console.log(selectedValue)
+
+    } else if(selectedValue == "SCATTER_MATRIX_RANDOM_SAMPLING") {
+        console.log(selectedValue)
+    window.open("http://127.0.0.1:5000/scatter_matrix_random");
+    }else if(selectedValue == "SCATTER_MATRIX_ADAPTIVE_SAMPLING") {
+        console.log(selectedValue)
+
+    }else if(selectedValue == "PCA_SCREE") {
+        console.log(selectedValue)
+
+    }
+
+}
+</script>
 </html>
