@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+​
+<head>
+	<style>
+	.axis {
+	  font: 10px sans-serif;
+	}
+	.axis path,
+	.axis line {
+	  fill: none;
+	  stroke: #000;
+	  shape-rendering: crispEdges;
+	}
+	</style>
+</head>
+
+<body>
+<style>
+body {
+  font: 12px Arial;
+}
+path {
+  stroke: red;
+  stroke-width: 2;
+  fill: none;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: grey;
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+<script src="/static/d3-tip.js"></script>
+
+
+<script>
+var data = {{ data.chart_data | safe }}
+console.log(data)
+
+var margin = { top: 30, right: 40, bottom: 30, left: 50 },
+	width = 600 - margin.left - margin.right,
+	height = 270 - margin.top - margin.bottom;
+
+var x = d3.scale.ordinal().rangeBands([0, width], .09); // <-- to change the width of the columns, change the .09 at the end to whatever
+var y = d3.scale.linear().range([height, 0]);
+
+var xAxis = d3.svg.axis().scale(x)
+	.orient("bottom")
+	.tickFormat(data.label);
+
+var yAxisLeft = d3.svg.axis().scale(y)
+	.orient("left");
+
+var valueline = d3.svg.line()
+	.x(function (d) { return x(d.label) + x.rangeBand()/2; })
+	.y(function (d) { return y(d.cumulative_eigenvalue); });
+
+var svg = d3.select("body")
+	.append("svg")
+	.attr("width", width + margin.left + margin.right)
+	.attr("height", height + margin.top + margin.bottom)
+	.append("g")
+	.attr("transform",
+		"translate(" + margin.left + "," + margin.top + ")");
+
+// Get the data
+
+// Scale the range of the data
+x.domain(data.map(function (d) { return d.label; }));
+y.domain([0, d3.max(data, function (d) { return d.cumulative_eigenvalue; })]);
+
+// Add the X Axis
+svg.append("g")
+		.attr("class", "x axis")
+		.attr("transform", "translate(0," + height + ")")
+		.call(xAxis);
+
+// Add the Y Axis
+svg.append("g")
+		.attr("class", "y axis")
+		.style("fill", "steelblue")
+		.call(yAxisLeft);
+
+var tool_tip = d3.tip()
+      .attr("class", "d3-tip")
+      .offset([-8, 0])
+      //.html(function(d){d.eigenvalue.toString()})
+      .html(function(d) { return "Eigenval="+ d.eigenvalue.toString() +" Cummulative="+d.cumulative_eigenvalue.toString(); });
+    svg.call(tool_tip);
+
+// Draw the bars
+svg.selectAll("bar")
+		.data(data)
+		.enter()
+		.append("rect")
+		.style("fill", "#99ffcc")
+		.attr("x", function (d) { return x(d.label); })
+		.attr("width", x.rangeBand())
+		.attr("y", function (d) { return y(d.eigenvalue); })
+		.attr("height", function (d) { return height - y(d.eigenvalue); })
+		.on('mouseover', function(d){
+            tool_tip.show(d);
+            d3.select(this)
+                .attr("fill", "#4682b4");
+        })
+        .on('mouseout', function(d){
+            tool_tip.hide();
+            d3.select(this)
+                .attr("fill", "#69b3a2");
+        });
+
+
+// Add the valueline path
+svg.append("path")
+		.attr("d", valueline(data));
+
+</script>
+</body>

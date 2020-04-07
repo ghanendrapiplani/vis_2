@@ -1,0 +1,973 @@
+uniq_id,city,guest_recommendation,hotel_category,hotel_star_rating,image_count,property_type,room_area,room_count,site_review_count,site_review_rating,state
+e98f69f889c0235e6dc480e7df6de0de,Gurgaon,87,regular,0,17,Guest House,14 X 12 Sq.ft.,18,8,4.5,Haryana
+0c3514344c9cda8718f558e84bdb44ef,Delhi,63,regular,2,6,Hotel,14 X 14 Sq.ft.,20,121,2.8,Delhi
+04e102bdd434eaeec45f095aac031106,Delhi,76,gostays,3,20,Hotel,21 X 21 Sq.ft.,24,550,4,Delhi
+6c400590e2262416abddeccb148f439f,Chennai,67,regular,0,3,Hotel,10 X 10 Sq.ft.,22,28,3.6,Tamil Nadu
+10fc96c69463e641906a040122dbcee4,Yercaud,100,regular,0,7,Guest House,14 X 14 Sq.ft.,2,1,4.6,Tamil Nadu
+49f7eb436677a526d8f7bb06a7cd078b,Wayanad,83,regular,4,28,Hotel,25 X 11 Sq.ft.,5,72,4.3,Kerala
+5164c283c495b679048fc1eea6b59359,Mcleodganj,66,regular,2,14,Resort,12 X 12 Sq.ft.,29,12,4.1,Himachal Pradesh
+391757427f635f24e0b1b373f088a3d3,Goa,66,regular,0,2,Guest House,10 X 8 Sq.ft.,6,3,3.4,Goa
+b606ef6f7bca2604dad406116779e58d,Nainital,69,regular,4,40,Resort,10 X 10 Sq.ft.,30,23,3.5,Uttarakhand
+6cbfed60decd97968828f9fe402934f0,Chennai,72,regular,2,11,Hotel,10 X 10 Sq.ft.,20,119,3.6,Tamil Nadu
+2920f553e0b0f114a40211123c8f2532,Guwahati,100,regular,3,11,Guest House,14 X 17 Sq.ft.,16,1,4,Assam
+3e13111929e5f8b915710cdd05917ef6,Tiruvannamalai,85,regular,3,9,Hotel,12 X 18 Sq.ft.,18,35,4.5,Tamil Nadu
+cbdfaf2d8dbe6f02bed23b2ac1943fbe,Rishikesh,70,regular,2,10,Hotel,15 X 14 Sq.ft.,15,24,3.1,Uttarakhand
+cccf6365a9509be0bc7920bfa0280c5b,Goa,63,regular,0,30,Resort,250 X 250 Sq.ft.,10,11,3.9,Goa
+78f7b01980174f6dea0077e86ff1be64,Jaipur,93,regular,2,21,Hostel,100 X 80 Sq.ft.,41,60,4.4,Rajasthan
+a6a457343e62227c29ecfff9db53d42a,Noida,0,regular,0,33,Hotel,18 X 16 Sq.ft.,5,2,1.3,Uttar Pradesh
+9e04643da8560c880e964a6c49f2bec6,Udaipur,79,regular,3,33,Resort,19 X 16 Sq.ft.,17,145,4.2,Rajasthan
+53ac472d7ce902537ca169b31601161c,Munnar,72,regular,3,14,Resort,12 X 22 Sq.ft.,30,80,4.2,Kerala
+3a44cedbdfae317ba2c2fce56b62af0d,Chennai,78,regular,2,6,Hotel,10 X 10 Sq.ft.,11,50,3.4,Tamil Nadu
+68b92bb2287ea66f696244d7e3c43296,Hyderabad,89,regular,5,13,Hotel,19 X 19 Sq.ft.,110,124,4.5,Andhra Pradesh
+f41fec2d09195952423d377be83161a8,Goa,100,regular,0,31,Hotel,14 X 10 Sq.ft.,12,2,4.8,Goa
+4ac7586fd0a2814b49a89a258fc8055a,Bangalore,84,regular,0,5,Lodge,12 X 12 Sq.ft.,20,44,4.3,Karnataka
+3abe7d16ae7b0f86b9353c736c4ca251,Bhiwadi,95,regular,3,6,Hotel,11 X 14 Sq.ft.,10,21,4.8,Rajasthan
+d581cca145a5826a07f97cbc63623f67,Pune,100,regular,0,16,Service Apartment,12 X 15 Sq.ft.,130,1,5,Maharashtra
+e8f6f1308dfdd026ed2537b0f28e830c,Gurgaon,75,regular,2,16,Hotel,16 X 16 Sq.ft.,8,8,3.7,Haryana
+9b61237f834a007c400f2511f891a017,Jaisalmer,58,regular,4,61,Hotel,12 X 12 Sq.ft.,43,24,3.9,Rajasthan
+f2c31ee6664721a37d1fe203246d5e32,Guwahati,50,regular,1,9,Guest House,24 X 15 Sq.ft.,35,2,3,Assam
+1761da8f1d11341e80dab3ad318c3743,Nainital,66,regular,3,5,Tent,12 X 10 Sq.ft.,4,3,4.7,Uttarakhand
+c2627705d8edc41b1c4f91d3a463382a,Gangtok,90,regular,3,30,Resort,12 X 15 Sq.ft.,18,20,4.5,Sikkim
+7b4a2a0779e81768e31de043329a5028,Kolkata,83,regular,4,27,Hotel,16 X 16 Sq.ft.,35,216,4.3,West Bengal
+7368a610cd5a8d43c7c12eda5340b8ee,Goa,100,regular,4,8,Resort,16 X 16 Sq.ft.,20,2,5,Goa
+daecefb1ceac086c6d02774c8969aff2,Alleppey,100,regular,2,7,Hotel,14 X 14 Sq.ft.,10,2,3,Kerala
+6386fed116d271215e59729864ac6ce4,Pune,66,regular,2,3,Hotel,10 X 12 Sq.ft.,25,12,3.6,Maharashtra
+53481c04f9f0ec9d4aa2d8f5e3fe1186,Gandhinagar,72,regular,5,16,Resort,17 X 17 Sq.ft.,200,47,3.2,Gujarat
+696b02499bb28e936b729fc11055e506,Mathura,63,regular,0,29,Guest House,12 X 14 Sq.ft.,26,46,2.5,Uttar Pradesh
+4f7e68d7b3e39e52d815a20fd67a2e97,Visakhapatnam,50,regular,2,7,Guest House,10 X 12 Sq.ft.,6,4,3.8,Andhra Pradesh
+d5699e2b4a07dac91e4c498582d0446e,Udaipur,82,regular,0,11,Homestay,14 X 14 Sq.ft.,4,17,4.4,Rajasthan
+d02904c4313d9b172da8d4beb095699e,Bangalore,84,regular,3,10,Hotel,20 X 28 Sq.ft.,36,33,3.8,Karnataka
+74545396b9173783b88ed5174dda7d41,Goa,94,regular,0,32,Villa,40 X 20 Sq.ft.,5,35,4.5,Goa
+db839458c769d8d6a5a6c332a203ed51,Bangalore,56,gostays,3,32,Hotel,14 X 14 Sq.ft.,31,37,3.2,Karnataka
+d4eb5f1bc8b26eec2cd9bbf0512066cd,Ganpatipule,100,regular,4,50,Resort,675 X 675 Sq.ft.,24,6,3.8,Maharashtra
+297061b6499a1a52afc810d11c1e54fa,Vapi,87,gostays,3,18,Hotel,18 X 12 Sq.ft.,47,91,4.4,Gujarat
+1f2e4a4d96139a5efaaf59c0c0573dcb,Jodhpur,72,regular,0,39,Resort,12 X 14 Sq.ft.,77,25,3.9,Rajasthan
+21f68152e6d28c3e5225ef26d226af40,Delhi,85,regular,3,24,Hotel,10 X 12 Sq.ft.,11,47,4.2,Delhi
+05accd5f4cc04a72efcfa9b7f96b3119,Kalimpong,50,regular,3,17,Hotel,16 X 16 Sq.ft.,13,10,3.4,West Bengal
+d1714124c3c759f58a659241462e19c0,Puri,77,regular,3,30,Resort,12 X 12 Sq.ft.,121,49,4.1,Orissa
+49858428e291d0d2d8c1d8d7af824ded,Rewari,87,regular,3,7,Hotel,14 X 15 Sq.ft.,30,120,4.2,Haryana
+418aaacea3fd223636f0eb39f9a0d760,Goa,73,regular,1,23,Hotel,18 X 12 Sq.ft.,20,63,3.5,Goa
+782970737cf205109105597ef846b608,Udaipur,90,regular,4,62,Hotel,12 X 12 Sq.ft.,39,21,4.6,Rajasthan
+67b5b7ff271a9826155d8aa309cf0fb1,Thiruvananthapuram,85,regular,3,9,Hotel,14 X 14 Sq.ft.,80,119,4.4,Kerala
+59a3761577beca2d91dfe8eafa266e7e,Ernakulam,60,regular,3,39,Hotel,12 X 12 Sq.ft.,26,5,4.8,Kerala
+d0c875371d2c897a73ec1fdaf32f3c24,Ranchi,64,regular,4,29,Hotel,17 X 17 Sq.ft.,6,25,4.2,Jharkhand
+7ba29f0d37a59430b15a0fade3f026bb,Shimla,76,regular,3,16,Hotel,12 X 12 Sq.ft.,36,219,3.9,Himachal Pradesh
+7cc867b69c30a3e132446fba0e148cdc,Puri,64,regular,0,10,Lodge,12 X 12 Sq.ft.,8,48,3.9,Orissa
+dd5cef52ae364ff6ee4b1f4044dc29c5,Chennai,100,regular,0,21,Service Apartment,20 X 15 Sq.ft.,21,25,4.6,Tamil Nadu
+cbbd8807f03e23ed4e80f7319ea7caed,Goa,76,regular,0,4,Guest House,15 X 10 Sq.ft.,3,13,4.6,Goa
+a0fb60c305dc79f69cedbeb4657502dd,Rishikesh,100,regular,5,6,Tent,14 X 14 Sq.ft.,1,2,5,Uttarakhand
+73da1038bbf861de697c0f6827ee1f0a,Goa,59,regular,0,24,Hotel,12 X 12 Sq.ft.,21,22,3.7,Goa
+0e1db32f202bee0fb72d9e20a493e6dc,Goa,92,gostays,3,32,Hotel,22 X 22 Sq.ft.,4,25,4.6,Goa
+8d603b5b9aa5ce3cbc33d8c9e5df9113,Jaisalmer,59,regular,0,10,Tent,14 X 26 Sq.ft.,16,59,3.7,Rajasthan
+2c89e2747e9827941be16074edcb4ab8,Delhi,75,regular,1,0,Hotel,16 X 14 Sq.ft.,12,32,3.7,Delhi
+b53cb7516e043f711480fa6a40f7674a,Goa,79,gostays,2,6,Hotel,12 X 12 Sq.ft.,10,134,4.1,Goa
+a0c38b9c7c3c12869cbdc6aaafe5c3d9,Patna,85,regular,0,12,Hotel,12 X 12 Sq.ft.,29,20,4,Bihar
+33aa79a6e41ea6dc46df152e4b0fe9d1,Bharatpur,75,regular,3,31,Resort,13 X 13 Sq.ft.,11,8,4.5,Rajasthan
+f16cdbb9483a338ea57eb63b03dd166c,Goa,81,regular,0,23,Cottage,25 X 12 Sq.ft.,22,11,3.7,Goa
+1d97322b0b72e184488c3273e96e59b5,Mandarmani,82,regular,2,12,Hotel,15 X 13 Sq.ft.,20,185,4.2,West Bengal
+82d86a7e18456582bae1d09668c795e2,Ahmedabad,61,regular,4,11,Hotel,17 X 17 Sq.ft.,125,55,2.9,Gujarat
+6db62212bdca0d4bfc9c7bbef4228ad2,Kotagiri,78,regular,1,40,Resort,15 X 15 Sq.ft.,9,19,3,Tamil Nadu
+a087de92703f4b4f2dad802b3c1be473,Goa,100,regular,0,28,Hotel,14 X 14 Sq.ft.,1,1,4,Goa
+55ff53256d5406bd4d7a2ec3508534d6,Noida,40,regular,0,24,Service Apartment,16 X 16 Sq.ft.,17,15,3.5,Uttar Pradesh
+df44f065a51982bc01df9b26c7ea7794,Chennai,75,regular,0,8,Hotel,12 X 16 Sq.ft.,3,84,3.7,Tamil Nadu
+2ac4588cc3ff861d4ef501b509b8eb4f,Leh,100,regular,2,12,Hotel,12 X 15 Sq.ft.,15,1,2,Jammu and Kashmir
+8bd79ae4831dd9d82ffd7ce7759b2b48,Goa,100,regular,3,14,Resort,16 X 16 Sq.ft.,15,5,3.8,Goa
+b8be501040bffe5c8f0b2476cecbe03d,Chittorgarh,25,regular,4,25,Hotel,14 X 14 Sq.ft.,30,4,2.3,Rajasthan
+321d62141b55e9ae65d9b1472fd7ba8b,Thekkady,68,regular,4,36,Resort,200 X 100 Sq.ft.,18,32,4.3,Kerala
+92bce8cbcba576cbb0910fb077ed4a06,Ooty,72,regular,3,15,Resort,14 X 14 Sq.ft.,13,18,3.6,Tamil Nadu
+6eb57ace2cd1053d5dd31dfeb555c880,Noida,0,regular,0,21,BnB,12 X 15 Sq.ft.,14,1,5,Uttar Pradesh
+aaa9a7c9705cafc1689797fc9927645e,Leh,82,regular,0,24,Tent,10 X 10 Sq.ft.,15,17,4.7,Jammu and Kashmir
+44efb1ae1f9dc3508eb047ae6d4ea111,Ernakulam,85,regular,5,16,Hotel,12 X 12 Sq.ft.,99,20,4.3,Kerala
+48691bfd27b46542de71a70eccf83966,Jodhpur,82,gostays,3,13,Hotel,24 X 13 Sq.ft.,10,231,4.5,Rajasthan
+050ffc8cb53038eaafcc6f5fe52e69ae,Panchgani,69,regular,3,12,Resort,12 X 16 Sq.ft.,40,73,3.8,Maharashtra
+4ec95348910f562ce44a38751d1589ed,Bangalore,32,regular,0,1,Lodge,9 X 9 Sq.ft.,10,31,1.7,Karnataka
+1fbdcdad776807a869ef5e301a87e79f,Wayanad,83,regular,4,67,Resort,16 X 16 Sq.ft.,21,6,4.4,Kerala
+2ce18ad104d74e18e4bcc9422e76baca,Jaipur,66,regular,0,20,Hostel,15 X 15 Sq.ft.,33,3,3.7,Rajasthan
+05fe596d4b04d1799164314fcbb7730f,Pahalgam,82,regular,3,18,Bungalow,18 X 14 Sq.ft.,13,50,4.3,Jammu and Kashmir
+0aecabc6a7146470919f08bc9933969b,Ernakulam,60,regular,3,6,Hotel,15 X 15 Sq.ft.,79,45,3.9,Kerala
+988e868a16a8f7072ad6f80d800df86f,Pune,75,regular,3,22,Hotel,12 X 12 Sq.ft.,16,8,3.8,Maharashtra
+da736a57000566e001df08ecb7058126,Munnar,94,regular,0,6,Homestay,50 X 40 Sq.ft.,3,19,4.7,Kerala
+b808f53fb9eb6cae14bc826fb519e1b2,Delhi,90,regular,3,27,Hotel,12 X 12 Sq.ft.,15,72,4.2,Delhi
+d77a088f805496c8e5d5c60fc7a71abd,Goa,85,gostays,2,33,Hotel,16 X 16 Sq.ft.,24,516,4.3,Goa
+e739aadfc0d8548537655a970e979eb6,Manali,80,regular,4,45,Resort,15 X 15 Sq.ft.,44,15,4.1,Himachal Pradesh
+525e2e226df4b51c8d86253db8956bfc,Shimla,54,regular,2,31,Hotel,17.5 X 11 Sq.ft.,43,42,3,Himachal Pradesh
+6436d9a42b4d5f872a156d882d54ce01,Manali,42,regular,3,22,Resort,12 X 14 Sq.ft.,43,7,3.9,Himachal Pradesh
+ca006d18da1afc7f70c43d72ad27ebd7,Leh,100,regular,0,20,Hotel,14 X 14 Sq.ft.,5,5,4.7,Jammu and Kashmir
+a538228e1cee6cd036ab22fc0464c0c3,Rishikesh,100,regular,3,10,Tent,14 X 14 Sq.ft.,23,7,4.5,Uttarakhand
+73c53d7164eb8ad191ba89f91d2d577a,Delhi,73,regular,0,9,Hotel,14 X 14 Sq.ft.,30,23,3.2,Delhi
+7a237b750d993200db4081030adc5fe1,Coorg,86,regular,0,23,Homestay,30 X 25 Sq.ft.,6,104,4.7,Karnataka
+ecb9688fbc54f69cc1c899b0d539f21b,Masinagudi,100,regular,0,32,Cottage,14 X 14 Sq.ft.,12,13,4.1,Tamil Nadu
+5455d932454abeeaeda8b76037010a7e,Haridwar,57,regular,2,8,Hotel,18 X 18 Sq.ft.,22,26,3,Uttarakhand
+49dd682fab517efea1c2643019301636,Chandigarh,85,regular,2,16,Hotel,16 X 16 Sq.ft.,9,120,3.9,Punjab
+851fd88c0052cd5f1142f67aa7679cdf,Pondicherry,81,regular,4,7,Resort,12 X 12 Sq.ft.,129,79,3.9,Pondicherry
+f8fa15e9be6a8dc8c27b2df5a04ffcdb,Corbett,90,regular,3,9,Resort,16 X 16 Sq.ft.,65,21,2.9,Uttarakhand
+38175121c5eebdeb5e6907e868182981,Indore,83,regular,4,17,Hotel,12 X 12 Sq.ft.,15,333,4.4,Madhya Pradesh
+b900d579c7e8346d98c04605743b435f,Coorg,84,regular,4,46,Resort,12 X 12 Sq.ft.,101,176,4.4,Karnataka
+40a3f1fb32001d90109855cfc2fa887a,Gurgaon,80,regular,4,13,Hotel,10 X 12 Sq.ft.,44,94,4.1,Haryana
+9dc823cada58a6b2e7db4202dd5c879a,Munnar,82,regular,4,20,Hotel,22 X 14 Sq.ft.,20,88,4.2,Kerala
+76630b860f965159084401fc6048af2b,Pune,58,regular,0,5,Service Apartment,15 X 15 Sq.ft.,6,43,3.3,Maharashtra
+688070b8e5048a9764f082a1f7a68c03,Jaisalmer,76,regular,3,22,Tent,28 X 14 Sq.ft.,50,25,4.1,Rajasthan
+28a73e9c4ae9a739ffc681ebf84df578,Corbett,83,regular,3,9,Resort,14 X 14 Sq.ft.,22,85,4,Uttarakhand
+df6343b82675f4d2a614086b4ad47c15,Gurgaon,60,regular,0,7,Hotel,10 X 12 Sq.ft.,38,10,2.9,Haryana
+1e3699185822c4bc1424daa12146c24e,Goa,85,regular,4,11,Resort,18 X 18 Sq.ft.,27,70,4,Goa
+767535f0dc7ab67f5865d45b2c397dc1,Gurgaon,83,regular,0,25,BnB,12 X 15 Sq.ft.,13,6,4.3,Haryana
+e5820325cba5fcd7ced5e1694f3d35c8,Coimbatore,100,regular,0,5,Service Apartment,10 X 11 Sq.ft.,7,9,4.5,Tamil Nadu
+b040cc3680b700a8824e8157b6ee1a58,Goa,57,regular,0,8,Beach Hut,16 X 16 Sq.ft.,26,7,3.8,Goa
+d9cc9a67aba417f4b40b063e05a00e06,Hyderabad,100,regular,1,2,Guest House,10 X 10 Sq.ft.,10,1,3.6,Andhra Pradesh
+93e5a27402bfb6af4ccb12e4e1134ac7,Goa,86,regular,4,15,Resort,14 X 14 Sq.ft.,92,249,4.4,Goa
+186196507b5e1c41783fdcc516d2663d,Goa,84,regular,4,7,Resort,14 X 14 Sq.ft.,126,13,4.5,Goa
+af555f502741d7a3bda1a45295aede54,Amritsar,66,regular,3,9,Hotel,15 X 15 Sq.ft.,5,48,3.6,Punjab
+236ff85e3be652a61678ea636fbc6f63,Gangtok,70,regular,2,23,Hotel,12 X 15 Sq.ft.,10,140,3.1,Sikkim
+81494c21b043767deb1fef167853aece,Goa,72,regular,3,16,Resort,14 X 14 Sq.ft.,60,18,3.5,Goa
+805368154f4373fc46d6da8d19848df8,Kangra,76,regular,3,35,Hotel,12 X 12 Sq.ft.,10,21,4.1,Himachal Pradesh
+711ebbaaf757f4ae9722e75b27e7c6d0,Coorg,73,regular,3,5,Resort,19 X 19 Sq.ft.,10,89,3.5,Karnataka
+3ffc0b8ff3a6aeaf24cff3f70324bdbe,Gurgaon,88,regular,0,31,Homestay,10 X 8 Sq.ft.,6,25,4.8,Haryana
+50813bb793490fa3bdd2a06be7000610,Silvassa,68,regular,4,2,Resort,12 X 18 Sq.ft.,53,74,3.6,Dadra and Nagar Haveli
+47cd564c9ec88dc4cdb79b7101c919ea,Agra,100,regular,0,8,Hotel,10 X 8 Sq.ft.,18,8,3.5,Uttar Pradesh
+3bd55f08dde4f64686e197334e5b2058,Delhi,54,regular,4,16,Hotel,15 X 15 Sq.ft.,39,11,3.1,Delhi
+3242bbc128f47d350d65227943d95f28,Agra,85,regular,3,9,Hotel,11 X 11 Sq.ft.,15,20,3.9,Uttar Pradesh
+6864a129027903a8724ab1d518d9ed2f,Bangalore,82,regular,4,11,Hotel,17 X 17 Sq.ft.,100,185,4.5,Karnataka
+91b1138d8b8fca18a45b0c1f51a083b0,Katra,88,regular,4,50,Hotel,22 X 18 Sq.ft.,76,201,4.7,Jammu and Kashmir
+83a08ffe62aea4889337dd81728cc340,Ooty,72,regular,4,19,Resort,12 X 10 Sq.ft.,94,55,3.8,Tamil Nadu
+21bc1a34ec6a04f08a436d0c590c19ca,Goa,81,gostays,3,8,Hotel,25 X 25 Sq.ft.,14,143,3.9,Goa
+f01c741cbeee448215762f6635249334,Pune,86,regular,4,14,Hotel,23 X 23 Sq.ft.,30,90,4.6,Maharashtra
+222e5c9cdd3d55f1f3f8465b388faca8,Pune,62,regular,0,16,Service Apartment,360 X 400 Sq.ft.,10,8,3.8,Maharashtra
+6848723c97c6a756040546d05a429c65,Ghaziabad,52,regular,3,7,Hotel,16 X 16 Sq.ft.,27,46,2.8,Uttar Pradesh
+47104ec593d58aedcfbf744278c2e837,Auli,70,regular,4,12,Resort,23 X 23 Sq.ft.,29,17,3.1,Uttarakhand
+901c1844ebfcfee8229dcd864d50acfb,Panaji,82,regular,4,11,Hotel,12 X 14 Sq.ft.,20,84,4,Goa
+18cb94f96afa22ffb1379266e9264194,Bangalore,82,gostays,3,31,Hotel,14 X 14 Sq.ft.,10,124,4.1,Karnataka
+8ce6e3e18dc4ddf3b973764d26b62fb4,Delhi,91,regular,5,13,Hotel,25 X 25 Sq.ft.,44,35,4.4,Delhi
+b77beb48acfc2e0967e653e0f1d1243e,Chandigarh,81,regular,5,16,Resort,15 X 15 Sq.ft.,39,60,3.5,Punjab
+318c52679a0eadcd23431ddf46c32bf2,Gurgaon,91,regular,4,41,Hotel,16 X 16 Sq.ft.,129,70,4.5,Haryana
+a9c6e3ea45a257b08ff976faf8db01c0,Bandipur,95,regular,0,16,Homestay,16 X 16 Sq.ft.,5,23,4.8,Karnataka
+36013084590bec36955d7b02e4b4fed9,Hyderabad,69,regular,0,13,Service Apartment,10 X 12 Sq.ft.,28,13,3.4,Andhra Pradesh
+54e55360697b3790046881eb2a66e60f,Chennai,100,regular,0,18,Service Apartment,14 X 14 Sq.ft.,9,4,4.5,Tamil Nadu
+c067c4f171d145df2641886d9aa4bb75,Rishikesh,100,regular,3,10,Resort,12 X 12 Sq.ft.,20,1,5,Uttarakhand
+19c2fc263551d57b69fb1a8f88853afa,Bangalore,84,regular,3,24,Hotel,15 X 15 Sq.ft.,68,159,4.2,Karnataka
+5e5590f3bf55122b4f523aa9e760c11c,Indore,25,regular,0,5,Hotel,12 X 12 Sq.ft.,17,4,4.1,Madhya Pradesh
+deb628e11bcdaf390f632a5236d41cb1,Kolkata,90,regular,0,32,Guest House,13 X 13 Sq.ft.,15,10,4,West Bengal
+0d201c74ff02f4258981aab179a73b98,Chennai,77,regular,3,28,Service Apartment,15 X 15 Sq.ft.,37,31,3.7,Tamil Nadu
+38b7cac19b42dd074706450aa3584f40,Hyderabad,75,regular,3,31,Hotel,15 X 15 Sq.ft.,80,564,3.7,Andhra Pradesh
+14f047b58926db8ca403aa2f15160a84,Shimla,62,regular,3,8,Homestay,22 X 14 Sq.ft.,3,8,3.3,Himachal Pradesh
+49912fbaf6638b23003c4e9c4b11b4c8,Tirupati,85,regular,5,43,Hotel,12 X 13 Sq.ft.,113,663,4.5,Andhra Pradesh
+52dd4c3cf14a1e231e43552759cc3aef,Chennai,54,regular,2,17,Hotel,14 X 14 Sq.ft.,40,73,2.8,Tamil Nadu
+e2914ceb349ed725939336c40eeeb6de,Indore,80,regular,5,10,Hotel,17 X 17 Sq.ft.,113,61,4.3,Madhya Pradesh
+754a354c8624ed613cd8e45235c4cd91,Varanasi,84,regular,3,11,Hotel,12 X 15.5 Sq.ft.,40,66,4.1,Uttar Pradesh
+aff74c52488a354f1a1a3fca08501554,Pune,83,regular,3,26,Hotel,15 X 15 Sq.ft.,30,73,3.9,Maharashtra
+bb71280497edf50eafe3b10c73e75586,Bangalore,70,regular,3,21,Resort,16 X 16 Sq.ft.,16,47,3.4,Karnataka
+cccaac1d11a0541c739225f0a8160b98,Chennai,66,regular,1,13,Hotel,10 X 10 Sq.ft.,8,3,3.2,Tamil Nadu
+59c6d7c2c361bfe685a8d6059b80a0d5,Udaipur,100,regular,0,20,BnB,15 X 17 Sq.ft.,6,11,4.9,Rajasthan
+10cec95481331598accf86855a9241fd,Hyderabad,80,regular,0,14,Hotel,12 X 12 Sq.ft.,45,41,3.4,Andhra Pradesh
+9621ecb017059d7f69f61e81c4a38ceb,Goa,73,regular,3,48,Resort,15 X 15 Sq.ft.,27,26,3.1,Goa
+ca14631f758656c5f9132a40bc3f76c7,Srinagar,100,regular,0,5,Houseboat,13 X 14 Sq.ft.,4,2,4.8,Jammu and Kashmir
+297ecf89a120960a90c84e3d3a991fe2,Delhi,86,regular,3,32,Hotel,15 X 15 Sq.ft.,60,97,4.2,Delhi
+c6a4f7ef36fed5bd0a68f2ae0d59fbeb,Mumbai,70,regular,3,25,Service Apartment,20 X 20 Sq.ft.,7,10,3.7,Maharashtra
+8934ddbad18450c589ec835c5cfb0587,Bangalore,71,regular,5,15,Hotel,17 X 17 Sq.ft.,130,60,3.7,Karnataka
+e910d42ce6bfafe65321f20a00f9604b,Goa,79,regular,4,47,Resort,19 X 19 Sq.ft.,131,2094,4.1,Goa
+66d9ac94348fd95757a0cf47f1b8b434,Wayanad,90,regular,3,31,Resort,20 X 16 Sq.ft.,13,30,3.9,Kerala
+a197833785f55dba568e3501dfd3fba0,Nainital,62,regular,3,26,Resort,10 X 12 Sq.ft.,17,8,3.4,Uttarakhand
+f0df1726ada27ad118d33de9b30625ed,Chennai,77,regular,0,10,Guest House,14 X 14 Sq.ft.,12,9,4.1,Tamil Nadu
+858832b13d3ae9ee67c8e9d36d01ecd2,Pune,79,regular,3,26,Hotel,15 X 15 Sq.ft.,48,181,3.8,Maharashtra
+e4a30814959315656d951396ca9fbdad,Alibaug,80,regular,3,36,Resort,14 X 14 Sq.ft.,20,70,4,Maharashtra
+36bd68c1744733b6d46166cf495ed361,Hyderabad,84,regular,3,28,Hotel,15 X 15 Sq.ft.,60,96,4.1,Andhra Pradesh
+6d913c1eef5946a312e5a5029650c852,Pahalgam,80,regular,2,24,Cottage,10 X 13 Sq.ft.,8,10,4,Jammu and Kashmir
+d8d4253747207427c9dd219b78096f9e,Delhi,92,regular,0,10,BnB,13 X 12.5 Sq.ft.,14,52,4.3,Delhi
+8c8d86699b3958ce9456fe5673685fc6,Bangalore,69,regular,1,7,Hotel,15 X 10 Sq.ft.,18,68,3.5,Karnataka
+2bf15934c8f52e3ed3a4a2c367b31534,Pelling,42,regular,0,8,Hotel,22 X 28 Sq.ft.,17,7,2.6,Sikkim
+5ce1f035e48bdf58195751bbad1b5fe3,Jaipur,80,regular,3,21,Hotel,15 X 15 Sq.ft.,33,127,4,Rajasthan
+9abbe6308ecb68d5ef1cd3bb4a104495,Gurgaon,80,regular,0,6,Service Apartment,12 X 12 Sq.ft.,21,5,4.8,Haryana
+97c5f25184b76d8014a6ed1ac0d47fc4,Bangalore,86,regular,0,5,Hotel,300 X 300 Sq.ft.,10,15,3.5,Karnataka
+96bf43391eaa46bd3cc00bde5a2a3b20,Bangalore,81,regular,3,33,Hotel,15 X 15 Sq.ft.,52,27,3.9,Karnataka
+1aabc42b1ecdb4e3db5b09e64bfc667d,Bangalore,77,gostays,3,29,Hotel,15 X 15 Sq.ft.,19,54,3.5,Karnataka
+555669dabb431ba9139531f6434c3165,Jaipur,80,gostays,3,29,Hotel,14 X 14 Sq.ft.,33,145,4.3,Rajasthan
+91158f40e1abf6146fb84cb045cb50f9,Goa,75,regular,0,17,Service Apartment,18 X 18 Sq.ft.,4,8,4.8,Goa
+c9dfb3fa9fdc21c2129bf97c0f1dd5bf,Patna,69,regular,2,12,Hotel,10 X 12 Sq.ft.,8,23,3.7,Bihar
+35f91fdffb12055478cc6028243cd12d,Chennai,80,regular,4,26,Hotel,19 X 19 Sq.ft.,45,70,4.5,Tamil Nadu
+935d2d12c3502244214ad803c4bdad39,Aurangabad,100,regular,3,15,Resort,180 X 185 Sq.ft.,12,5,4.5,Maharashtra
+24e9dd5c6f81ba4403c9406731747284,Mount Abu,81,gostays,3,25,Homestay,15 X 15 Sq.ft.,5,38,4.6,Rajasthan
+b562b1e08a924b074b73b71dd661437c,Gurgaon,85,regular,3,37,Hotel,15 X 15 Sq.ft.,30,97,4.1,Haryana
+26f16caab8106699c93f68249225646e,Delhi,57,regular,3,25,Hotel,14 X 14 Sq.ft.,24,14,3.9,Delhi
+255ac073f4ceb10700d058d3a5475b46,Bhimavaram,76,regular,3,3,Hotel,10 X 12 Sq.ft.,7,13,3.9,Andhra Pradesh
+ab3fd1a561956d74e879fd2e07b01b54,Goa,69,regular,3,33,Hotel,15 X 15 Sq.ft.,40,55,3.5,Goa
+f81a5fd0e82c3822baf2070317c45053,Pune,100,regular,3,29,Hotel,10 X 14 Sq.ft.,40,13,4.1,Maharashtra
+1549dd44854ac3b72dea8f2d16204be3,Gurgaon,81,gostays,3,32,Hotel,14 X 14 Sq.ft.,26,100,3.8,Haryana
+83a9b523f577fca4d39d4d4e279c745a,Mahabaleshwar,82,regular,3,13,Hotel,12 X 16 Sq.ft.,16,76,4.2,Maharashtra
+c3848ffcfbba2fa88ab5fbdf9f5e9a11,Udaipur,70,regular,0,23,Guest House,10 X 10 Sq.ft.,8,41,3.7,Rajasthan
+e236864f65a0c1424895a6de70ef9897,Gurgaon,86,regular,4,15,Hotel,16 X 16 Sq.ft.,107,15,4.4,Haryana
+08e80f4b54cb58841def91b2935b035f,Thiruvananthapuram,81,regular,2,11,Hotel,14 X 14 Sq.ft.,20,27,3.5,Kerala
+9a918153d86dadaeb6ef318e4d6630f2,Munnar,100,regular,3,53,Resort,15 X 20 Sq.ft.,5,4,4.5,Kerala
+e9aa823f1105075372d94a4a66c28aed,Chennai,95,regular,3,37,Hotel,15 X 15 Sq.ft.,46,80,4.2,Tamil Nadu
+040e0b2fac7afccba5e221e9e7f5ae30,Gurgaon,86,regular,0,8,Guest House,14 X 16 Sq.ft.,17,45,4.1,Haryana
+426ca7944147b09d1f3ea9603858c388,Nainital,80,regular,3,19,Cottage,18 X 18 Sq.ft.,15,45,3.9,Uttarakhand
+8c078b097fc6ee0a951f326dbd6cf09d,Mysore,79,gostays,3,17,Hotel,15 X 15 Sq.ft.,54,264,3.9,Karnataka
+296455972d046443da2bd754bed73449,Munnar,83,regular,4,15,Resort,15 X 15 Sq.ft.,41,98,4.4,Kerala
+4d5116cf3f2f35d50d70cef813ed2dfd,Varkala,100,regular,3,18,Resort,14 X 12 Sq.ft.,9,1,5,Kerala
+00fcc67e888bb46f9e31dfd825b26d5d,Srinagar,66,regular,3,4,Hotel,14 X 16 Sq.ft.,40,3,3.5,Jammu and Kashmir
+0395e9771ab8e514897a2c9eb0858554,NOIDA,75,regular,3,9,Hotel,12 X 13 Sq.ft.,18,4,3.1,Uttar Pradesh
+db1e9091e002ce220d50ec2a6da34c7c,Udaipur,100,regular,0,18,Guest House,12 X 10 Sq.ft.,4,14,4.8,Rajasthan
+5f8c76faea4c0a80297516b5d5e20f0c,Delhi,81,regular,3,14,Hotel,15 X 12 Sq.ft.,20,181,4,Delhi
+f48f00d8036ec902c3efdd81562a228e,Mumbai,72,regular,3,10,Service Apartment,12 X 10 Sq.ft.,4,11,3.1,Maharashtra
+5d6b189f22753ac91c022eb2d02c4858,Manali,75,regular,3,9,Resort,12 X 14 Sq.ft.,18,8,2.9,Himachal Pradesh
+3bffec08b515046981bd6d76a35235c2,Mumbai,78,regular,1,6,Hotel,10 X 8 Sq.ft.,55,119,3.1,Maharashtra
+633ab7f87658857f303506af7bd6338b,Indore,70,regular,2,16,Resort,12 X 24 Sq.ft.,11,37,3.6,Madhya Pradesh
+cc89c1cd4acde76489067b4eb970f9aa,Delhi,81,regular,3,9,Hotel,12 X 10 Sq.ft.,35,53,4.1,Delhi
+3dbecd2bdebb86488a103bb9c76b7d3b,Idukki,66,regular,0,8,Resort,21 X 21 Sq.ft.,29,3,3.9,Kerala
+a7cb9b5a5f6dbc109e791c00ee8bdfc1,Goa,61,regular,3,22,Resort,14 X 14 Sq.ft.,60,44,2.8,Goa
+6442927004cb6f97dc9d8b54a6f2d26f,Coimbatore,90,gostays,2,20,Service Apartment,12 X 12 Sq.ft.,15,100,4.6,Tamil Nadu
+cd854832b11025bb3db72324ed7a7935,Pune,85,regular,0,8,Hotel,11 X 11 Sq.ft.,28,7,4.7,Maharashtra
+6ad4dee492d613e9f8133658ea2c5fd3,Gurgaon,100,regular,0,0,BnB,10 X 12 Sq.ft.,1,1,4,Haryana
+1053d92a9a2b99481310f77df914b64b,Coimbatore,90,regular,0,13,Service Apartment,10 X 10 Sq.ft.,12,40,4.1,Tamil Nadu
+13e9c113a60f50694e0550df6b92949f,Bangalore,78,regular,2,25,Hotel,15 X 15 Sq.ft.,41,61,3.4,Karnataka
+b0da4d33d61200284defc2f2474d7e5d,Ahmedabad,95,gostays,2,46,Hotel,14 X 16 Sq.ft.,13,171,4.6,Gujarat
+05f754d33e78398bbefa226ce16d370c,Delhi,50,regular,3,33,Hotel,15 X 15 Sq.ft.,21,2,4.3,Delhi
+740557602e4f4b3cbc05fa8fb0ea2039,Gurgaon,28,regular,3,9,Hotel,12 X 16 Sq.ft.,15,7,2.1,Haryana
+af8255eaf319ba9a42cf635581952141,Gurgaon,66,regular,3,10,Hotel,16 X 12 Sq.ft.,20,6,4.4,Haryana
+c2ca002a4c5b60638720142f0e211d7b,Rishikesh,80,regular,3,6,Hotel,15 X 12 Sq.ft.,10,5,2.6,Uttarakhand
+13920d7f255f3accf1bbc8a15099f465,Shirdi,82,regular,4,65,Hotel,12 X 10 Sq.ft.,75,218,4.1,Maharashtra
+1914e5a8c7e75f4c15430d5ddbf10939,Kumbakonam,79,gostays,2,26,Hotel,14 X 14 Sq.ft.,20,163,4.3,Tamil Nadu
+ccd32276b95ee8c6aceb99131617a8ab,Jaipur,50,regular,0,63,Guest House,11 X 09 Sq.ft.,8,2,3,Rajasthan
+5747b5a621a5c35ae21c08f85113731b,Raipur,77,regular,3,8,Hotel,18 X 16 Sq.ft.,51,137,4.3,Chhattisgarh
+04797bd06b2065626e350fee92706e0f,Thekkady,83,regular,4,42,Hotel,17 X 17 Sq.ft.,32,43,4.5,Kerala
+b17575673bbbe6d3eab64add9f7ef698,Pondicherry,64,regular,3,16,Resort,10 X 10 Sq.ft.,17,67,3.2,Pondicherry
+db732394df5522c3a8000fe7b911d0a0,Manali,100,regular,0,28,Hotel,12 X 12 Sq.ft.,22,1,5,Himachal Pradesh
+d1abde4d4150985318380bc70852c3e0,kanyakumari,86,regular,0,48,Resort,31 X 10 Sq.ft.,46,84,4.5,Tamil Nadu
+64056aad3bf827ba009c0a9aa24f138c,Leh,77,regular,3,8,Hotel,18 X 16 Sq.ft.,28,9,4,Jammu and Kashmir
+cbf76115166d3bd8e5293e4103301cf8,Gurgaon,59,regular,3,25,Hotel,12 X 12 Sq.ft.,33,32,3.3,Haryana
+2902b239dd24c72a6b259b03ae898376,Bangalore,76,regular,2,17,Hotel,16 X 14 Sq.ft.,30,95,3.7,Karnataka
+f939d24cec28599a4f63bef0c3ddef9c,Dalhousie,67,regular,3,18,Resort,17 X 17 Sq.ft.,49,144,3.7,Himachal Pradesh
+b5650af72b04abee7f6bfd8112351d1b,Gurgaon,64,gostays,3,26,Hotel,18 X 15 Sq.ft.,18,28,4,Haryana
+6f4273ba6c9221c5496a353584501529,Udaipur,62,regular,3,31,Hotel,25 X 15 Sq.ft.,16,8,2.5,Rajasthan
+e4d6d80588193e09bf7861d2234b266d,Ooty,73,regular,3,53,Resort,21 X 11 Sq.ft.,49,273,4.2,Tamil Nadu
+2ee8532c68fca61a448bda33a1bdcc26,Tiruchirappalli,76,regular,2,12,Hotel,14 X 16 Sq.ft.,8,25,3.7,Tamil Nadu
+4249cc6c6af4c02b3bea8fc26839c98d,Delhi,81,gostays,4,29,Hotel,12 X 15 Sq.ft.,57,171,4,Delhi
+2714735e56aba9dae7f522e69dccc1ac,Pune,58,regular,0,8,Service Apartment,6.5 X 5.9 Sq.ft.,3,12,4.6,Maharashtra
+aea3fb2e32116fa29aaea5050bd82219,Kumbakonam,54,regular,0,8,Lodge,10 X 10 Sq.ft.,45,35,2.4,Tamil Nadu
+9684fbf65dbb6041a6dd58015b91d00e,Hyderabad,81,gostays,4,16,Hotel,12 X 14 Sq.ft.,157,83,4.2,Andhra Pradesh
+a88ccbca2b253d417354eac0b595eef1,Shimla,78,gostays,3,21,Hotel,12 X 10 Sq.ft.,26,300,3.7,Himachal Pradesh
+1e1e6c2946da6e70a1ac0572d6d4e190,Mettupalayam,67,regular,2,9,Hotel,20 X 16 Sq.ft.,19,87,3.3,Tamil Nadu
+1a28f6ed3606ed31bb7e01d5e515dcbe,Bangalore,78,regular,2,10,Hotel,12 X 12 Sq.ft.,68,66,4,Karnataka
+40f40fbbcd5f47a044edaf92b55d664b,Coimbatore,80,gostays,2,19,Hotel,14 X 14 Sq.ft.,28,111,4,Tamil Nadu
+a0a707bcd33d6168bf39638bf9adf16b,Manali,0,regular,3,8,Cottage,11 X 11 Sq.ft.,10,1,5,Himachal Pradesh
+89d7b2030a25d24bb5ee98dc69461f93,Manali,100,regular,0,11,Cottage,12 X 16 Sq.ft.,16,1,4.6,Himachal Pradesh
+827b9e4681dabe4f5c6c49ad8b898f44,Tiruchengode,85,regular,2,13,Hotel,10 X 12 Sq.ft.,11,7,3.9,Tamil Nadu
+8e64eb1371d39ad4ba85608304687034,Sirsa,95,regular,3,29,Hotel,14 X 10 Sq.ft.,34,82,4.7,Haryana
+8f969af8dbc43e557e9dc80c01f10d1b,Port Blair,74,regular,3,34,Hotel,20 X 17.5 Sq.ft.,48,113,4.4,Andaman and Nicobar Islands
+63ac127082f7763d9931ca3cb93f910b,Darbhanga,82,regular,3,28,Hotel,14 X 10 Sq.ft.,27,28,4.4,Bihar
+622b73afd5b30702a020ff821dc51e17,Tirupati,100,regular,2,23,Hotel,600 X 650 Sq.ft.,9,1,1.6,Andhra Pradesh
+d5bb783d8293d36f128a7ab3cd68a04b,Delhi,43,regular,0,9,Guest House,14 X 14 Sq.ft.,28,16,2.9,Delhi
+666b97f6d99d75abcdddb98c314e868e,Coimbatore,72,regular,0,9,Lodge,12 X 12 Sq.ft.,5,11,4.1,Tamil Nadu
+785d6ce97c8d782a8387e8d8774ba42c,Kalimpong,82,regular,3,54,Hotel,29 X 13 Sq.ft.,40,58,4.5,West Bengal
+ef429f1c9f0beec6fbbcf1c0133a1308,Guwahati,0,regular,1,21,Resort,14 X 17 Sq.ft.,18,1,1,Assam
+a8880780ac639a86d046dfe16806e5d5,Ahmedabad,86,gostays,2,4,Hotel,12 X 12 Sq.ft.,16,155,4.3,Gujarat
+6edcf5959d689177c15f98232b639d56,Agra,85,regular,3,40,Hotel,14 X 14 Sq.ft.,12,14,4.1,Uttar Pradesh
+cdb41ff95d208b7a5f86f10b0237c9da,Goa,94,regular,0,17,Resort,0 X 0 Sq.ft.,41,57,4.5,Goa
+4c314c9245cbde3dcaf9034e0e8d6c8a,Gurgaon,86,regular,3,25,Hotel,15 X 18 Sq.ft.,26,79,4.3,Haryana
+4b06a546e47db128692dc5a643cb22da,Delhi,90,regular,3,10,Hotel,15 X 15 Sq.ft.,16,10,3.7,Delhi
+f0afe2c4208ba5695f92bdad17860655,Leh,0,regular,3,3,Hotel,18 X 16 Sq.ft.,1,1,5,Jammu and Kashmir
+970baefbff12745abe81e6da562e2fbd,Jodhpur,63,regular,0,13,Guest House,10 X 14 Sq.ft.,6,11,3.5,Rajasthan
+b4fea259654031786b80c99d56b91b3b,Alwar,89,regular,0,61,Hotel,10 X 15 Sq.ft.,18,19,4.3,Rajasthan
+40266902b314b9983f6038d3b1db3c11,Delhi,62,regular,3,25,Hotel,14 X 14 Sq.ft.,30,8,3.9,Delhi
+823b584a8b4f158bbf0b41fc7f6c9e93,Agra,81,regular,2,14,Hotel,10 X 15 Sq.ft.,10,53,3.8,Uttar Pradesh
+b60f6363edeb3ab3abd8b3f9b2a062be,Darjeeling,84,regular,4,38,Hotel,17 X 17 Sq.ft.,18,88,4.1,West Bengal
+589fb6ad33b52c3fabafc7b5e191b5e4,Falakata,80,regular,0,17,Resort,15 X 15 Sq.ft.,15,5,4.8,West Bengal
+cbfec2186bd0641b11b1d4f3ab71eacc,Gangtok,100,regular,4,16,Hotel,12 X 24 Sq.ft.,52,1,4.6,Sikkim
+330aaeb4c802b882f4c949a56f0f4eff,Goa,57,regular,3,11,Resort,16 X 16 Sq.ft.,36,56,2.8,Goa
+c1f25daf2fa78356b35db4dedf1fb34c,Agra,87,regular,3,30,Hotel,15 X 15 Sq.ft.,54,16,4,Uttar Pradesh
+a83584ac71d4285c27e36c82178a62bd,Mumbai,75,regular,3,8,Hotel,12 X 10 Sq.ft.,40,54,4.4,Maharashtra
+1098addab3c91399192ee94df20a0570,Leh,62,regular,3,34,Hotel,18 X 16 Sq.ft.,49,16,3.9,Jammu and Kashmir
+9d5dbad7312e394b21ccf6e2026f46c0,Chennai,65,regular,3,9,Hotel,11 X 12 Sq.ft.,8,20,3.5,Tamil Nadu
+b37c525575f7d70e9287af8619319366,Patna,0,regular,0,10,Hotel,25 X 12 Sq.ft.,30,1,2,Bihar
+72d45b5eb7c2bfd117d49bb8ce72a1f3,Delhi,78,regular,4,13,Hotel,15 X 15 Sq.ft.,77,71,3.9,Delhi
+698a58c9b0dfc1ec0255fc5bac9fca96,Mussoorie,80,gostays,3,21,Hotel,16 X 16 Sq.ft.,23,215,4.2,Uttarakhand
+167dbc97bb2b617439273fb99f39a6cf,Jabalpur,73,regular,2,15,Hotel,11 X 18 Sq.ft.,13,86,3.9,Madhya Pradesh
+a3918fd896f7aad06f6e1ba65089b072,Chandigarh,80,regular,1,6,Hotel,18 X 18 Sq.ft.,16,25,3.7,Punjab
+aedf6c0ae0581656434817ae492a0a66,Cochin,82,regular,3,28,Hotel,12 X 16 Sq.ft.,80,47,3.8,Kerala
+99257f9363f523f759688d0bb425c4b8,Kasauli,75,regular,0,19,BnB,14 X 14 Sq.ft.,10,70,3.6,Himachal Pradesh
+2a096f14656f781be21992422abdf849,Manali,100,regular,0,12,Tent,10 X 10 Sq.ft.,10,2,5,Himachal Pradesh
+23a4b1a042a89dafb87a06f09ac135fe,Delhi,77,regular,3,17,Hotel,14 X 14 Sq.ft.,20,71,4,Delhi
+dc19bcf26a39a3e3ffe58cfe921978b6,Dausa,50,regular,4,17,Resort,15 X 15 Sq.ft.,9,2,4.6,Rajasthan
+84b5db021dd6cd833e87fc3df09d0284,Goa,87,regular,0,4,Resort,15 X 15 Sq.ft.,12,8,4.3,Goa
+e1b6f517b324e4ff5cd606cf6bfa0b2d,Coimbatore,83,gostays,3,11,Hotel,10 X 10 Sq.ft.,48,141,4.4,Tamil Nadu
+3278adce559ae298e24b186e29671007,Jaipur,70,regular,3,25,Hotel,12 X 10 Sq.ft.,17,20,4.5,Rajasthan
+3c4d2de9892c295c2b37f6b740741a39,Bangalore,68,regular,3,14,Hotel,17 X 17 Sq.ft.,6,22,4.2,Karnataka
+f14bf42c0b8118ee21f5130002330ad2,Coimbatore,91,regular,2,5,Hotel,17 X 17 Sq.ft.,17,23,4.1,Tamil Nadu
+5c154d9b6b56215e4b42bd0075dbae58,Wayanad,94,regular,4,15,Resort,18 X 24 Sq.ft.,9,68,4.9,Kerala
+f8a06962115d4dece37a77155d9639ad,Srinagar,78,regular,0,9,Houseboat,15 X 15 Sq.ft.,10,14,4.2,Jammu and Kashmir
+ad848d7230ee0956d5aae3db3dd22e2e,Agra,81,regular,3,22,Hotel,14 X 14 Sq.ft.,22,11,3.9,Uttar Pradesh
+1af5473f51b1b4acfaeda77185fd77dc,Mumbai,100,regular,1,18,Hotel,10 X 10 Sq.ft.,15,2,3.1,Maharashtra
+d9692c1175cab440ddb8c637cf0201e9,Agra,76,regular,3,27,Hotel,15 X 15 Sq.ft.,35,414,3.9,Uttar Pradesh
+6e74a7ac4556e4ed62f12a686c54781b,Gangtok,87,regular,4,20,Resort,22 X 22 Sq.ft.,29,108,4.3,Sikkim
+b37c7f0e939e195bf793de7f4f64d3c3,Darjeeling,77,regular,4,15,Resort,16 X 16 Sq.ft.,13,110,4.3,West Bengal
+9bfa9c4888413d71f5d7b91cabedde6a,Vadodara,80,regular,3,11,Hotel,12 X 19 Sq.ft.,48,31,4.2,Gujarat
+063f51b2629b7e02f45e19330a197b49,Manali,78,regular,3,6,Cottage,14 X 16 Sq.ft.,8,19,4.6,Himachal Pradesh
+a376e8002ffbb8465302f37bf4bf16c8,Coorg,77,regular,2,17,Resort,12 X 12 Sq.ft.,25,85,3.5,Karnataka
+af397d7e44634eacf2441664ab2dc010,Hyderabad,80,regular,3,10,Resort,17 X 17 Sq.ft.,92,86,3.6,Andhra Pradesh
+adce0c7f4b1dce9fb038c9ee287c6264,Delhi,79,regular,4,19,Hotel,14 X 14 Sq.ft.,49,91,4.1,Delhi
+f6bb8826356a3463892cd15c901ccc69,Udaipur,51,regular,4,13,Resort,10 X 12 Sq.ft.,64,167,2.5,Rajasthan
+a9f39e41236dfd40826d631f2f0e0132,Pune,61,regular,0,14,Service Apartment,20 X 20 Sq.ft.,21,18,3.4,Maharashtra
+25dcd992f20b41a4b0e032165957beaf,Darjeeling,84,regular,4,25,Resort,22.6 X 14.3 Sq.ft.,8,39,4.3,West Bengal
+8b2f94ac980ccf0da59f92913da76293,Goa,84,gostays,2,10,Hotel,16 X 16 Sq.ft.,6,149,4.3,Goa
+f5444c77aa60cd87f804b9cb100c489c,Hyderabad,62,regular,0,14,Guest House,18 X 14 Sq.ft.,18,8,3.3,Andhra Pradesh
+b054a033874cb302c2c869ae0898d8d8,Surat,89,gostays,3,32,Hotel,17 X 12 Sq.ft.,31,189,4.4,Gujarat
+41f9e5a1f9e5a8e0b2ef3062010380b1,Agra,76,gostays,3,38,Hotel,15 X 20 Sq.ft.,45,68,4,Uttar Pradesh
+d91ccc52444d864f1e7c1e331c416a13,Ernakulam,76,regular,3,44,Resort,14 X 14 Sq.ft.,51,30,4,Kerala
+be386c2aac98efb3a57e580131aa86a4,Goa,67,regular,0,23,Guest House,15 X 15 Sq.ft.,24,34,3.7,Goa
+2c5a8459d1fa4a1ca78c23ffb22ba46b,Bangalore,79,regular,3,20,Resort,15 X 15 Sq.ft.,27,144,4,Karnataka
+4404421c824dded88472b8a1eed140d5,Haridwar,79,regular,2,12,Hotel,15 X 15 Sq.ft.,16,78,4,Uttarakhand
+d6705387dc805b73ca826673d01b62f2,Kolkata,75,regular,3,39,Hotel,15 X 14 Sq.ft.,35,136,3.9,West Bengal
+b6d497ecfad9c6c6aaffc23c5073f3bd,Gurgaon,100,regular,0,8,Guest House,14 X 14 Sq.ft.,8,1,5,Haryana
+19cad80da49a4fe4a8aa52588add3adf,Mumbai,76,regular,3,13,Service Apartment,15 X 15 Sq.ft.,5,38,3.8,Maharashtra
+6c76df25a803af77b3a5ccec995ee311,Delhi,82,regular,4,24,Hotel,14 X 18 Sq.ft.,57,359,4.2,Delhi
+7aea2f8b9208c3e1ba1a18e7f8f71a3d,Mumbai,80,regular,4,8,Hotel,10 X 12 Sq.ft.,65,46,4.2,Maharashtra
+aee566d93d9df1bf5104d8c0f2b75d90,Corbett,81,regular,3,20,Resort,16 X 16 Sq.ft.,24,22,4,Uttarakhand
+2bfc564242549afd0d04e66930e0310c,Gangtok,78,regular,2,21,Hotel,12 X 15 Sq.ft.,13,116,3.7,Sikkim
+da733b74727bd42b2cfab349dc787569,Coorg,78,regular,4,49,Resort,12 X 14 Sq.ft.,183,75,4.2,Karnataka
+f7b22308e376eb0772ccd00522198426,Pune,0,regular,0,14,Resort,30 X 10 Sq.ft.,18,2,1.3,Maharashtra
+fd9fe2d18ac83bbd9cae09362441bcfd,Nashik,100,regular,0,20,Service Apartment,18 X 12 Sq.ft.,25,1,4,Maharashtra
+fd096ec1153e96b5fa0922a106bee1e7,Chennai,73,regular,3,24,Hotel,12 X 14 Sq.ft.,178,261,3.8,Tamil Nadu
+5834d00851394487e550746b0d6774d9,Corbett,80,regular,4,22,Hotel,13 X 13 Sq.ft.,36,86,4.2,Uttarakhand
+435e6e19449194d795576bd6d4af5707,Sasan Gir,95,regular,3,7,Hotel,14 X 14 Sq.ft.,12,41,4.5,Gujarat
+1ac539cb0195c56070018358b475c024,Lachung,78,regular,3,30,Hotel,18 X 20 Sq.ft.,29,42,3.9,Sikkim
+2ec9794ff20a95e9975e8b5cd54ee58b,Ooty,93,regular,2,25,Resort,12 X 14 Sq.ft.,44,32,4.3,Tamil Nadu
+e98c98c5731c10db86d87e8748fa3218,Bhimtal,69,regular,5,46,Hotel,28 X 28 Sq.ft.,54,39,3.7,Uttarakhand
+d9dffa603d72b726a73d5a63f75819ae,Thekkady,76,regular,3,11,Resort,12 X 9 Sq.ft.,20,34,4.2,Kerala
+750dfc4024931cde24db33ed7ede74fa,Faridabad,50,regular,1,7,Hotel,10 X 12 Sq.ft.,10,4,2.5,Haryana
+d6aaee6359acb74276cec53220c5bfd0,Manali,94,regular,4,6,Resort,18 X 18 Sq.ft.,112,67,4.5,Himachal Pradesh
+539cf0e87650e9eef58cf6c0aae1bd86,Ooty,75,regular,3,28,Resort,20 X 30 Sq.ft.,22,226,4.1,Tamil Nadu
+715a9d9af35cebf5fb8e69de76a80128,Mahabaleshwar,89,regular,4,10,Resort,10 X 14 Sq.ft.,37,65,4.4,Maharashtra
+ae8d71523ba22b24ad8436b2742f738d,Sawai Madhopur,100,regular,3,21,Hotel,12 X 12 Sq.ft.,10,1,1,Rajasthan
+c0732d070fdaaf4652b8a3057de69547,Havelock Island,78,regular,0,38,Resort,14 X 14 Sq.ft.,10,175,4.2,Andaman and Nicobar Islands
+65d664c473fc2148b8b2eaa51e24b672,Delhi,72,regular,3,32,Hotel,12 X 12 Sq.ft.,31,90,4,Delhi
+ab053339cbaca5d67f02565424306280,Pune,72,regular,3,3,Hotel,28 X 10 Sq.ft.,39,48,3.8,Maharashtra
+0f0e0e4f7b53957a926b36d7ac870f89,Goa,69,regular,0,22,Hotel,10 X 8 Sq.ft.,5,43,3.6,Goa
+2417252ec5460deb46fdcf8e47ec9a4e,Goa,100,regular,0,4,Hotel,10 X 8 Sq.ft.,14,29,4.6,Goa
+248f517beb6385c6a8ffd2afccb8135b,Mahabaleshwar,57,regular,4,20,Resort,16 X 16 Sq.ft.,73,7,3.3,Maharashtra
+9d6c0add3b770777a3df2cc4b6ea3c89,Alleppey,77,regular,4,17,Resort,14 X 14 Sq.ft.,60,49,4.2,Kerala
+7321746126a44c10a044e12f5f9c51a5,Gurgaon,86,regular,0,15,Guest House,15 X 12 Sq.ft.,6,60,4.2,Haryana
+23f8247a0478c4b0ecf8d63985946abe,Kanha,78,regular,4,15,Resort,20 X 20 Sq.ft.,37,19,4,Madhya Pradesh
+22a93e951c5c929ad9e1612f1e56f6b1,Noida,63,regular,3,30,Hotel,15 X 18 Sq.ft.,29,30,3.1,Uttar Pradesh
+16881c5c0f047a900d0e842a5e05123d,Bangalore,75,regular,3,9,Hotel,12 X 10 Sq.ft.,48,49,4,Karnataka
+61e38fc13a823e5bb61e4bc61aff74c4,Goa,81,regular,4,14,Resort,11 X 11 Sq.ft.,38,22,4.3,Goa
+21bd2694acf5bf95ef13fafc4ef63014,Kurseong,78,regular,2,25,Hotel,15 X 15 Sq.ft.,27,14,4.2,West Bengal
+1cc0906536b11058c22c4fb706fcb25d,Gurgaon,88,regular,3,17,Hotel,18 X 14 Sq.ft.,20,78,3.9,Haryana
+e3270328a5294a795a0ccf212bc588b4,Mahabaleshwar,71,regular,2,18,Resort,12 X 10 Sq.ft.,15,192,3.9,Maharashtra
+e98ad03264db16f37aa3b6e73035e320,Kodaikanal,82,regular,3,15,Resort,12 X 10 Sq.ft.,60,29,3.7,Tamil Nadu
+83bf6a3c0fab9479684693574ec3f528,Ajmer,84,regular,4,11,Hotel,24 X 24 Sq.ft.,68,304,4.2,Rajasthan
+b5eb4ccf21b654c636c64e276805bf84,Pune,79,gostays,4,18,Hotel,14 X 12 Sq.ft.,48,187,4.1,Maharashtra
+25b503c6a40e5ac8f4deee968fc5d2a5,Jaisalmer,100,regular,0,46,Tent,170 X 150 Sq.ft.,20,45,4.9,Rajasthan
+e8b4ee3278fd33f10d42a6e4a9579160,Pune,60,regular,0,32,Service Apartment,14 X 15 Sq.ft.,13,38,3.8,Maharashtra
+eed3c4acfd17ceb3d143bc047e91211d,Hyderabad,25,regular,0,6,Service Apartment,12 X 12 Sq.ft.,12,4,3.9,Andhra Pradesh
+f488017b1f84dcb22c73fb45cdafc0a6,Kozhikode,84,regular,4,9,Hotel,15 X 15 Sq.ft.,24,76,4.4,Kerala
+29c7757ee48cbfbdf552a645414d2bfe,Jaipur,0,regular,2,9,Hotel,25 X 35 Sq.ft.,30,1,1,Rajasthan
+3fcadbbffc720ecca28f9cc10003364e,Bangalore,100,regular,0,13,Hotel,80 X 80 Sq.ft.,43,1,3.6,Karnataka
+c0acb4ba3d7ae704ef5960f17c0f5440,Sattal,68,regular,3,12,Resort,12 X 12 Sq.ft.,16,19,3.4,Uttarakhand
+8cbb187e264a5bd6c8961d9acf400f19,Dhanbad,80,regular,0,29,Hotel,32 X 32 Sq.ft.,40,71,4.3,Jharkhand
+99db250a8b6ffb74ded465e5a69e70be,Karsog,0,regular,0,13,Hotel,12 X 10 Sq.ft.,4,1,1,Himachal Pradesh
+b3a2fad193d0eb97e09c0b1d24fd6838,Bangalore,88,regular,4,49,Hotel,12 X 14 Sq.ft.,265,458,4.7,Karnataka
+c8783419c48c474974745ccd2b8d4eee,Srinagar,50,regular,3,59,Hotel,15 X 10 Sq.ft.,10,2,4.8,Jammu and Kashmir
+7fc0e6a59a2a3211a3fbdba0214c2e18,Corbett,73,regular,3,40,Resort,14 X 16 Sq.ft.,28,42,3.5,Uttarakhand
+9c2ede2c9c95d0ab83649ad23222d128,Kolkata,64,regular,1,21,Hotel,12 X 10 Sq.ft.,28,17,3.3,West Bengal
+07f8263240f49e70b2e6cba09f06f4bf,Salem,90,regular,3,13,Hotel,150 X 200 Sq.ft.,11,96,4.4,Tamil Nadu
+c42fd73eef552d3028819a682a202022,Ooty,70,regular,2,9,Hotel,16 X 16 Sq.ft.,35,37,3.7,Tamil Nadu
+5fe26d7912bb8cb9b6e6cbcb50ed5db2,Thekkady,64,regular,4,27,Resort,22 X 22 Sq.ft.,43,17,4,Kerala
+0912b4c5609256173e362ea973a3003b,Chennai,71,regular,4,8,Hotel,16 X 16 Sq.ft.,32,14,4.4,Tamil Nadu
+8568dc0700a2100f7195ed7fb50d943a,Pushkar,88,gostays,3,37,Resort,10 X 12 Sq.ft.,48,489,4.5,Rajasthan
+08d202e8a1079537de8da94ee95a696f,Mahabalipuram,94,regular,4,21,Resort,318 X 318 Sq.ft.,102,38,4.4,Tamil Nadu
+e1ea423d00a45a843353fbd151b6e6af,Surendranagar,0,regular,3,3,Hotel,14 X 15 Sq.ft.,2,1,3,Gujarat
+5de005896a16dd6c135a1ffd6a31d6ee,Kolkata,82,regular,4,19,Hotel,16 X 16 Sq.ft.,16,57,4.3,West Bengal
+f4c4dabc15bcf7741a96f808d43f1755,Pelling,88,regular,3,22,Hotel,15 X 18 Sq.ft.,34,77,4.3,Sikkim
+ea835e1e383e9ded39c1c5feb0998ae5,Dehradun,80,regular,4,14,Hotel,16 X 16 Sq.ft.,64,20,3.9,Uttarakhand
+85ae0a7ff2f90edb578bcaf7e71a4e05,Vadodara,75,regular,1,12,Hotel,10 X 10 Sq.ft.,24,12,3.2,Gujarat
+cfa1b966b12f67d65be2cc5df96d93a1,Dera Bassi,60,regular,2,32,Hotel,18 X 18 Sq.ft.,37,5,3.4,Punjab
+01ed80e847fa9bb2ced5d188b9c2463f,Delhi,84,regular,3,25,Hotel,10 X 10 Sq.ft.,18,13,3.3,Delhi
+2460a04aaaf6573ddc951c0d9c375372,Mahabaleshwar,72,regular,0,3,Hotel,12 X 10 Sq.ft.,15,11,2.6,Maharashtra
+d3abbca3a097550dcffbc702e47528ac,Ahmedabad,100,regular,1,2,Hotel,14 X 15 Sq.ft.,12,57,4.7,Gujarat
+7e415f73bd2b5dcc22b4deb8c4ceb152,Agra,55,regular,0,25,Hotel,10 X 12 Sq.ft.,21,29,2.5,Uttar Pradesh
+e554ef86860e2a0360c840b9f3a42879,Bokaro,76,regular,0,22,Hotel,12 X 10 Sq.ft.,38,42,4.1,Jharkhand
+507aefdcb0787d7edb92f50fc8fbe5a4,Delhi,66,regular,2,11,Hotel,14 X 14 Sq.ft.,26,3,4.2,Delhi
+4ae96dcaa12f6212636acc9c344706f4,Mysore,84,gostays,3,22,Hotel,15 X 15 Sq.ft.,64,50,3.9,Karnataka
+33f0d66e082dcf61d6324e42d8bc5f16,Jaisalmer,88,regular,2,20,Hotel,12 X 12 Sq.ft.,32,61,4.5,Rajasthan
+99bcfbe925cf3fa97ea53b405ccb9b31,Dwarka,90,regular,1,17,Hotel,15 X 10 Sq.ft.,20,21,4.3,Gujarat
+f4be4985c47b9425ff23bc94561e220c,Palampur,71,regular,1,6,Hotel,800 X 300 Sq.ft.,14,7,2.5,Himachal Pradesh
+05b1a9d8e69e6500cab7e357677adde7,Udaipur,84,regular,4,2,Hotel,13 X 14 Sq.ft.,52,64,4.1,Rajasthan
+532f57c119f92afb234afd9fa3ba0694,Delhi,84,regular,2,23,Hotel,14 X 14 Sq.ft.,16,13,3.8,Delhi
+0a94b2b162965fbf753172574186466a,Patna,76,regular,4,17,Hotel,12 X 10 Sq.ft.,120,26,3.7,Bihar
+5160878697822a82d48271752abdbe2e,Hyderabad,50,regular,0,2,Lodge,10 X 12 Sq.ft.,30,46,1.7,Andhra Pradesh
+aee909cd36126ba72500832a3d2db7ba,Jammu,68,regular,2,36,Hotel,12 X 10 Sq.ft.,26,150,3.8,Jammu and Kashmir
+8c2e911b1013ac7cbcb3b167d82f999d,Nashik,66,regular,2,1,Hotel,10 X 10 Sq.ft.,16,9,3.6,Maharashtra
+81cddd7521a79db86f7b242a79f38277,Manali,55,regular,2,19,Hotel,15 X 15 Sq.ft.,44,9,3.7,Himachal Pradesh
+2ad2809f344201d6d1dae9eb1cea42b5,Shimla,50,regular,2,10,Hotel,10 X 12 Sq.ft.,22,26,3.5,Himachal Pradesh
+cc56c3768e9665931c5d2214af6fa7bf,Kasauli,50,regular,0,8,Hotel,14 X 14 Sq.ft.,6,2,3.1,Himachal Pradesh
+06a014389defe1faad7ba41a396e51da,Vadodara,90,regular,3,10,Hotel,10 X 12 Sq.ft.,33,22,4.1,Gujarat
+a1eb38c36a2578d620468a11a587ce12,Morvi,100,regular,1,15,Hotel,15 X 15 Sq.ft.,8,1,5,Gujarat
+db90c3edc69cfc6d3eb4faf674358917,Patna,66,gostays,2,18,Hotel,18 X 14 Sq.ft.,41,112,3.4,Bihar
+9398060f5986c6991ee5f27f00993f8d,Shillong,70,regular,4,31,Hotel,12 X 12 Sq.ft.,57,24,4.1,Meghalaya
+c0c493f2abcfe6b622face905645fc23,Satna,85,regular,0,12,Hotel,13 X 13 Sq.ft.,15,7,4.6,Madhya Pradesh
+0f431bf504eb742cc7d40d5c82be63e6,Rohtak,70,regular,3,12,Hotel,10 X 12 Sq.ft.,20,30,3.4,Haryana
+f5bbe2b0e901107ce61b2a42cfc0e105,Patna,72,regular,0,37,Hotel,11.2 X 10.4 Sq.ft.,108,282,3.6,Bihar
+eb981bfa11268c4c24d4e797e367b689,Pune,76,regular,3,18,Hotel,10 X 15 Sq.ft.,7,123,3.6,Maharashtra
+1423dd05896867ef7122c71505879f69,Rajkot,91,regular,1,12,Hotel,12 X 12 Sq.ft.,26,12,4.5,Gujarat
+701963bca8c3a537f041f817c5a4deef,Pune,68,regular,2,11,Hotel,12 X 12 Sq.ft.,21,22,2.9,Maharashtra
+0e46f30da14c33bb25274ab9bc4986c9,Ajmer,66,regular,0,27,Hotel,18 X 18 Sq.ft.,9,6,3.1,Rajasthan
+8a4624c0985bfb6369b6532a00320ff5,Indore,59,regular,0,38,Hotel,12 X 16 Sq.ft.,39,27,3.1,Madhya Pradesh
+76e9b46101789c535c9c6424f564aa19,Nashik,71,regular,1,18,Hotel,16 X 16 Sq.ft.,14,21,3.1,Maharashtra
+833a9829033d89bca31a57d10c4efbe7,Pune,53,regular,3,13,Hotel,15 X 18 Sq.ft.,15,15,3,Maharashtra
+1d6aa83fafd07e08876d811183aa8fd2,Aurangabad,84,regular,2,19,Hotel,14 X 14 Sq.ft.,24,428,4,Maharashtra
+59cf42cc6d13bcdc24e9b15ac017b12f,Ahmadnagar,100,regular,0,6,Hotel,12 X 15 Sq.ft.,10,2,1.6,Maharashtra
+e9b7e5f972a7c746685ec1b48f948824,Jabalpur,65,regular,0,4,Hotel,10 X 12 Sq.ft.,48,44,2.5,Madhya Pradesh
+836e501ab0cd98d013ad89b35c25525d,Darjeeling,74,regular,1,19,Hotel,15 X 15 Sq.ft.,17,55,3.9,West Bengal
+03d37dd8d535a9c3cda2a05bb3090f75,Ahmedabad,75,regular,2,38,Hotel,12 X 15 Sq.ft.,57,28,4.2,Gujarat
+58b078976a978a6f57bcd04a11e3f079,Bangalore,89,regular,3,8,Hotel,16 X 16 Sq.ft.,29,39,3.7,Karnataka
+73e8b5aa90d234d74bcee36c45acaeb7,Jaipur,73,gostays,3,40,Hotel,13 X 13 Sq.ft.,21,26,3.8,Rajasthan
+8ede4fcf594908fb057b60ed7dfbf3a8,Panvel,100,regular,1,56,Hotel,15 X 15 Sq.ft.,26,11,4.5,Maharashtra
+f376edf4599af3559340b8bd99218c84,Pushkar,33,regular,3,43,Resort,14 X 14 Sq.ft.,50,3,3.1,Rajasthan
+6e16c20677048e9d423018b23b5726d2,Gangtok,63,regular,2,17,Hotel,15 X 18 Sq.ft.,15,11,3.5,Sikkim
+698f651b56748a8c2b41275b929bd697,Mussoorie,81,regular,0,15,Resort,18 X 10 Sq.ft.,10,53,3.7,Uttarakhand
+7777fa8995f0bfa3f336b4148f60bd62,Vijayawada,81,regular,3,16,Hotel,15 X 12 Sq.ft.,7,592,4.1,Andhra Pradesh
+aa3a02aa9b30100ae6aa8d130d03f22b,Goa,73,regular,3,15,Hotel,13 X 13 Sq.ft.,36,60,3.7,Goa
+4f0c3a43341521df890a32325da081cf,Tiruchengode,82,regular,2,25,Hotel,15 X 15 Sq.ft.,56,84,4.4,Tamil Nadu
+b2231afe60aecd941189b998b5ee3e0e,Chandigarh,75,regular,3,2,Hotel,18 X 18 Sq.ft.,16,4,3.6,Punjab
+f1817e8e1ff13d61feed1000a0c99b43,Varanasi,77,regular,2,12,Hotel,21 X 11 Sq.ft.,17,35,3.8,Uttar Pradesh
+963d4c226f88d4c73e1328622b439af1,Coimbatore,78,regular,3,9,Hotel,11 X 12 Sq.ft.,12,70,4,Tamil Nadu
+ce150b88a7ba95256b716d2066b60001,Jodhpur,75,regular,1,13,Hotel,12 X 12 Sq.ft.,14,29,3.9,Rajasthan
+600ee9b10b63af09b8551451a6e9b9cc,Srinagar,100,regular,3,6,Hotel,13 X 14 Sq.ft.,9,2,4.6,Jammu and Kashmir
+69fad99e595f44611a58b5adaaed2a16,Udaipur,66,regular,0,19,BnB,8 X 6 Sq.ft.,12,9,3,Rajasthan
+98f6c4d83af89ee3beab18f59c64846c,Delhi,66,regular,3,5,Hotel,10 X 12 Sq.ft.,15,3,3.7,Delhi
+942e75d45422638779cf26f154c55b17,Ajmer,85,regular,2,16,Hotel,14 X 14 Sq.ft.,24,212,4.1,Rajasthan
+422065f8af6f6e33ea56788a290dcdf3,Bhopal,75,regular,1,2,Hotel,15 X 15 Sq.ft.,6,8,3.8,Madhya Pradesh
+f23651af0cbc05a8101d8d3cb269a7c5,Dalhousie,57,regular,3,27,Hotel,14 X 14 Sq.ft.,51,14,3.6,Himachal Pradesh
+a67a30ba0601438604774de51e74ca0d,Gurgaon,66,regular,2,9,Hotel,15 X 12 Sq.ft.,17,3,4.2,Haryana
+c91a58e54ecea74aa678aa07c5755b90,Ahmedabad,78,regular,1,16,Hotel,10 X 12 Sq.ft.,9,46,3.8,Gujarat
+67a6e369dcf341de3d6a9aa89c86cc47,Gangtok,50,regular,2,19,Hotel,15 X 15 Sq.ft.,10,2,3.6,Sikkim
+687ffa7e00d0fe8069d953f0bdfd7f3c,Ahmedabad,83,regular,3,20,Hotel,18 X 18 Sq.ft.,10,42,4.3,Gujarat
+8f121190712b1351dd334d152d57bcb2,Navi Mumbai,75,regular,2,10,Hotel,12 X 15 Sq.ft.,10,4,3.9,Maharashtra
+07e37263772d473aac0f80b42cf368c4,Mumbai,66,regular,2,15,Hotel,10 X 12 Sq.ft.,25,27,3.5,Maharashtra
+3b10c320be331e961a4cc9a85ce0496a,Anklesvar,76,regular,2,75,Hotel,11 X 13.5 Sq.ft.,25,43,4.4,Gujarat
+28ffcede5f63f696cc43fd71abe6a3e7,Amritsar,33,regular,2,24,Hotel,15 X 15 Sq.ft.,14,6,1.7,Punjab
+c077e1659aff6f2c2bf35073c7bfab93,Diu,88,regular,2,22,Hotel,15 X 15 Sq.ft.,15,95,4.3,Gujarat
+943a0a6174ed264818817066e2e664e3,Delhi,82,regular,3,78,Hotel,22 X 22 Sq.ft.,62,70,3.7,Delhi
+f3a646451c661035e8dfeb67931439cb,Nashik,78,regular,1,59,Hotel,25 X 10.3 Sq.ft.,19,214,3.8,Maharashtra
+ad8d36c554a62b48230e4994f2df919b,Ahmadnagar,100,regular,3,19,Hotel,180 X 200 Sq.ft.,81,2,2.8,Maharashtra
+8267d101985c5308e24f7316934d6b55,Udaipur,86,gostays,2,48,Hotel,12 X 9 Sq.ft.,21,176,4.4,Rajasthan
+c02d1858ad016041c73c80b5d11ddcc4,Pushkar,100,regular,2,7,Resort,14 X 14 Sq.ft.,16,8,3.7,Rajasthan
+7dcd3ae4260e528d46cf0e509601cdbd,Goa,77,regular,0,27,Hotel,18 X 15 Sq.ft.,16,9,4.7,Goa
+c114ea1565b37fbd6a35d47d55957614,Haridwar,91,regular,3,14,Hotel,15 X 15 Sq.ft.,33,12,3.2,Uttarakhand
+0084cc73b6e116e480a7dee412aec7f2,Ahmedabad,77,regular,3,21,Hotel,12 X 14 Sq.ft.,31,27,4.2,Gujarat
+b718f471a67ced375fab7018bc898f64,Jabalpur,33,regular,3,38,Hotel,10 X 12 Sq.ft.,42,27,2.5,Madhya Pradesh
+b9f6236541769ec344ceb0eee16bb007,Moradabad,88,regular,2,9,Hotel,12 X 15 Sq.ft.,32,118,3.9,Uttar Pradesh
+eb7553e5fa716f476f11e9b05bf87f8d,Dharmsala,79,regular,3,17,Hotel,12 X 12 Sq.ft.,22,279,4.1,Himachal Pradesh
+b65d752ba05baa662056a489b90e2a74,Raigarh,95,regular,2,26,Hotel,12 X 18 Sq.ft.,31,226,4.6,Chhattisgarh
+8286ca905ae4e9c765341d35427a9c48,Chittorgarh,53,regular,3,28,Hotel,16 X 16 Sq.ft.,15,26,3.4,Rajasthan
+6c408ce0f7194b539476e074345bb90f,Karur,76,regular,3,5,Hotel,11 X 12 Sq.ft.,17,38,3.7,Tamil Nadu
+56add72a7dd3d6e89095ac964d127a0e,Chandigarh,80,regular,2,8,Hotel,10 X 10 Sq.ft.,11,236,3.7,Punjab
+e1843b445320e340b99d70faf90b448b,Surat,81,regular,2,9,Hotel,16 X 16 Sq.ft.,21,345,4.1,Gujarat
+e2a20facaaa32410b1fc4d9a4621634d,Amritsar,84,gostays,3,1,Hotel,18 X 15 Sq.ft.,27,215,4.3,Punjab
+8138c9c54b82c646e576ab2d7422731f,Chittaurgarh,77,regular,3,27,Hotel,16 X 16 Sq.ft.,16,44,3.9,Rajasthan
+27da4c8c7a13546375125fd1829831d2,Tirupati,79,gostays,2,17,Hotel,15 X 15 Sq.ft.,32,213,4,Andhra Pradesh
+bb220749a672a98fe64dd4ec6eb2484a,Srinagar,0,regular,3,10,Hotel,18 X 16 Sq.ft.,22,1,2.2,Jammu and Kashmir
+f25d159e8f6ab44efb83e5ff8797a8c6,Bhubaneswar,80,gostays,3,17,Hotel,15 X 15 Sq.ft.,58,447,4.1,Orissa
+08aec53a80bac5fa1dab7da4a5c536de,Nainital,73,regular,1,10,Hotel,10 X 12 Sq.ft.,19,61,3.3,Uttarakhand
+af47c5a06010fe9a1bdebc9df32624c9,Manali,60,regular,3,40,Hotel,12 X 16 Sq.ft.,17,20,3.7,Himachal Pradesh
+3e0e00dd4b90dd08b24fe98e0edbd65a,Delhi,83,regular,3,23,Hotel,12 X 12 Sq.ft.,27,43,3.6,Delhi
+e219afd742a94ecbdcccc683b60c9ec8,Puri,100,regular,0,11,Hotel,10 X 10 Sq.ft.,4,1,3.6,Orissa
+c68caa2c3f5adbbd38300913a526b137,Hyderabad,82,regular,2,1,Hotel,10 X 12 Sq.ft.,90,28,3.6,Andhra Pradesh
+50c1ce787a882c3bd7c0887a06b61551,Morbi,100,regular,1,8,Hotel,17 X 17 Sq.ft.,16,1,5,Gujarat
+800dec6aed383b02374e860a945a2b1c,Kolkata,89,regular,3,19,Hotel,12 X 13 Sq.ft.,44,46,3.9,West Bengal
+d19e4bce0cb229d336d54c7a805f8b46,Thiruvananthapuram,75,regular,3,20,Hotel,14 X 14 Sq.ft.,47,112,3.6,Kerala
+c96ee676f2361d29af20214378dec31f,Jammu,76,regular,0,44,Hotel,14 X 12 Sq.ft.,20,56,3.8,Jammu and Kashmir
+bd33c6952703ff108651963544a67ba1,Delhi,40,regular,0,14,Hotel,12 X 12 Sq.ft.,39,5,2,Delhi
+788cdfabfebabf2777d6bb85081ddc05,Dehradun,71,regular,0,6,Hotel,15 X 15 Sq.ft.,12,35,3.2,Uttarakhand
+cf4275b15bb3fa90a425d47f1301a984,Gurgaon,76,regular,3,16,Hotel,18 X 20 Sq.ft.,22,13,3.8,Haryana
+9bac4c3fa90a98d9a3cdb83b75938805,Nashik,77,regular,2,28,Hotel,10 X 12 Sq.ft.,25,22,4.1,Maharashtra
+c5e8b808c0c6acc5da079009d3d3c61c,Amritsar,86,regular,3,31,Hotel,12 X 18 Sq.ft.,29,82,4.4,Punjab
+7c1d60197b1bbb33363c2123cf2db0f5,Puri,78,gostays,3,42,Hotel,10 X 14 Sq.ft.,44,469,3.9,Orissa
+985de9de2345749d546aa1c4d47e4061,Agra,86,regular,0,26,Hotel,10 X 12 Sq.ft.,14,15,4.2,Uttar Pradesh
+bb2ddefe690cc63a3d032498ce8df583,Haridwar,0,regular,0,11,Hotel,16 X 16 Sq.ft.,32,1,1,Uttarakhand
+db559cfbd56c1b3c44a086bb8a6af245,Coimbatore,79,regular,2,12,Hotel,11 X 12 Sq.ft.,12,110,3.9,Tamil Nadu
+38c09d14eb3112125fd2767643069b7a,Hyderabad,60,regular,2,2,Hotel,12 X 12 Sq.ft.,19,5,3.6,Andhra Pradesh
+531e03652257b344296252e6285cc0e1,Mahabaleshwar,95,regular,0,10,Hotel,14 X 14 Sq.ft.,14,60,4.4,Maharashtra
+fc5e20461fa4c63473857f187669fe2b,Sri Ganganagar,88,regular,2,11,Hotel,11 X 23 Sq.ft.,26,270,4.5,Rajasthan
+4a5cd22ec52d72b67e5f268c4391b0ea,Bareilly,86,regular,3,24,Hotel,12 X 15 Sq.ft.,10,95,4,Uttar Pradesh
+0d4d1c0a5cdbf08fe3e013ede3871739,Delhi,62,regular,2,22,Hotel,13 X 13 Sq.ft.,35,40,3.1,Delhi
+a2edf681cc273f326f5ca7afa5450ecc,Aurangabad,73,regular,4,16,Hotel,12 X 14 Sq.ft.,21,45,4.3,Maharashtra
+21abe0cddcbe8db70d57f84e862b0f6c,Delhi,66,regular,2,29,Hotel,15 X 15 Sq.ft.,41,33,2.7,Delhi
+cbb430d837ec3c892548e5a3dc03bbfe,Indore,80,regular,3,27,Hotel,12 X 10 Sq.ft.,51,25,3.9,Madhya Pradesh
+0406567eda95f6a342ac19dee7929698,Vijayawada,100,regular,3,3,Hotel,12 X 14 Sq.ft.,28,6,3.6,Andhra Pradesh
+84d760bae7e5438c6809074c6ee7d141,Tirupati,80,gostays,2,19,Hotel,12 X 21 Sq.ft.,44,484,3.9,Andhra Pradesh
+51af8c6eac202e741df5e79484c3ae9e,Chennai,92,regular,3,38,Hotel,16 X 10 Sq.ft.,18,28,4.1,Tamil Nadu
+4551be17121d340c72b946a2dee3028f,Rourkela,92,regular,3,15,Hotel,20 X 20 Sq.ft.,80,127,4.5,Orissa
+e2265a807bed68b6d9f58efed125db4a,Parwanoo,76,regular,3,5,Resort,12 X 10 Sq.ft.,54,73,3.8,Himachal Pradesh
+4906d6b0194039c0331c8fd1c2f7b599,Gurgaon,85,gostays,0,129,Hotel,18 X 18 Sq.ft.,15,207,4.4,Haryana
+7974665e109590b078ab107154bfa1aa,Aurangabad,82,regular,3,33,Hotel,17.5 X 10 Sq.ft.,34,34,3.8,Maharashtra
+5bbb31bddbaa019ea4bd88ef2a3a9e32,Chennai,91,regular,2,18,Hotel,24 X 10 Sq.ft.,18,12,4.6,Tamil Nadu
+bd840a4566894646b67b360cff1ebbe2,Ahmedabad,81,gostays,3,72,Hotel,22 X 10 Sq.ft.,28,625,4.2,Gujarat
+b444d4f03356e586c784adf198805a02,Kullu,90,regular,0,35,Resort,12 X 10 Sq.ft.,5,10,4.3,Himachal Pradesh
+80dab81254a77d5dfd6e17154a6832c9,Gurgaon,100,regular,2,0,Hotel,20 X 10 Sq.ft.,15,3,5,Haryana
+02e35480676810ca2bbd77bf3cb2bd43,Noida,58,regular,0,7,Hotel,8 X 8 Sq.ft.,19,12,2.6,Uttar Pradesh
+72e232f913bba247245da4b51af0af67,Mussoorie,81,regular,3,16,Hotel,12 X 10 Sq.ft.,56,55,4.3,Uttarakhand
+659f49de2c398a57a1f79cf0145a4dce,Hyderabad,76,regular,3,17,Hotel,16 X 16 Sq.ft.,63,60,4,Andhra Pradesh
+864cd95241a3fb8e08b2dfd182a36753,Amarkantak,33,regular,0,9,Hotel,15 X 15 Sq.ft.,13,3,3,Madhya Pradesh
+fb6d6a53a59737660dc073d52b7799d0,Chennai,86,regular,5,20,Hotel,20 X 15 Sq.ft.,139,37,4.4,Tamil Nadu
+c5d4cd9f6492820fed6e0fc151119410,Pench,100,regular,0,20,Resort,10 X 12 Sq.ft.,10,1,5,Madhya Pradesh
+b65dbf51cf170a9290d407177845deca,Mandi,70,regular,3,4,Hotel,16 X 16 Sq.ft.,13,41,3.6,Himachal Pradesh
+fc23161d8e7245c46e7db3431d1f7658,Bangalore,88,regular,3,18,Hotel,26 X 10 Sq.ft.,34,36,4.2,Karnataka
+bb802bb8074150daa69b22884bd040c9,Kolkata,100,regular,3,15,Hotel,17 X 10 Sq.ft.,50,11,4.1,West Bengal
+41cfad43e79915b3aa8ffe72be840a02,Bangalore,66,regular,1,19,Hotel,12 X 11 Sq.ft.,57,162,3.1,Karnataka
+caa79c5f4b87c408f27697d71ea075b0,Katra,84,regular,5,34,Hotel,13 X 14 Sq.ft.,180,116,4.5,Jammu and Kashmir
+a8abb18cbe8c219243045304d4fb9b9c,Chandrapur,91,regular,3,13,Hotel,12 X 14 Sq.ft.,52,48,4.5,Maharashtra
+428cf8a9cb74846587d1f74d0b14f89b,Mysore,87,regular,3,29,Hotel,12 X 16 Sq.ft.,63,64,4,Karnataka
+63132701543dd7c3aaad39c2bb975306,Wayanad,90,regular,3,22,Resort,15 X 15 Sq.ft.,4,55,4.5,Kerala
+90ba5c786a84094141988c02acab509c,Lonavala,83,regular,3,22,Resort,15 X 15 Sq.ft.,20,6,4.7,Maharashtra
+bd36a9080f62d56c4c8c10a6dd5a2cd1,Hyderabad,87,regular,3,63,Hotel,25 X 10 Sq.ft.,22,55,3.7,Andhra Pradesh
+bdd73a3ae11d86accc2e436306d54fa1,Ahmedabad,95,regular,3,23,Hotel,15 X 16 Sq.ft.,29,63,4.7,Gujarat
+59c289efc317606eccc6ef21e6c81124,Chennai,75,regular,2,3,Hotel,17 X 17 Sq.ft.,27,8,4,Tamil Nadu
+49640b199176fd22be5fd2bd6dcc340a,Delhi,84,regular,3,54,Hotel,14 X 10 Sq.ft.,16,19,4,Delhi
+8a0710e2021b7cf9f883689b079e4f32,Chennai,80,regular,3,20,Hotel,12 X 14 Sq.ft.,41,139,3.9,Tamil Nadu
+2fc043634eb2daaddc656cf6551ade41,Bangalore,100,regular,3,0,Hotel,20 X 10 Sq.ft.,82,2,3.5,Karnataka
+0b8b23be518f05c4b97246a2af07ddcc,Bangalore,76,regular,3,10,Hotel,20 X 20 Sq.ft.,29,13,3.8,Karnataka
+87237684bbca0b94140a0014b7a79891,Shillong,77,regular,0,18,BnB,14 X 17 Sq.ft.,4,18,4.2,Meghalaya
+2d9c690886e4c6ccc0beb59bce988254,Haridwar,84,regular,3,13,Hotel,12 X 10 Sq.ft.,20,186,4.5,Uttarakhand
+c3c368737d2bd508aa03745201ea3cfa,Lucknow,50,regular,0,12,Guest House,10 X 10 Sq.ft.,6,20,2.9,Uttar Pradesh
+b9228a3501f88675c19be581384d656e,Ernakulam,100,regular,2,61,Hotel,24 X 10 Sq.ft.,29,1,5,Kerala
+e894b0fc22ac2fe5cfbd3ce073b08d79,Thekkady,100,regular,2,13,Homestay,17 X 12 Sq.ft.,11,3,4.7,Kerala
+9983dd390eb84eb2d6fd0642018233be,Munnar,84,regular,4,30,Hotel,550 X 100 Sq.ft.,26,123,4.6,Kerala
+093093b9f2a085380690dd30ae967a3e,Wayanad,76,regular,4,26,Resort,12 X 12 Sq.ft.,60,26,4.5,Kerala
+0bedd5f95d04d73498661c2560eaedbf,Kolkata,58,regular,4,23,Hotel,12 X 12 Sq.ft.,64,12,4.2,West Bengal
+26f89f604a5640a38c081f9b4d732ada,Bangalore,66,regular,3,19,Hotel,18 X 10 Sq.ft.,16,3,3.6,Karnataka
+c28a647cd161e40d424f1f48506aa481,Sawai Madhopur,85,regular,2,26,Resort,10 X 8 Sq.ft.,29,35,3.7,Rajasthan
+7ed4aea8cfca9f46fcd072d036646b77,Jaisalmer,83,regular,3,70,Resort,14 X 14 Sq.ft.,5874,12,3.9,Rajasthan
+f17697df643019f19ced54d0bfd15063,Leh,80,regular,2,10,Hotel,18 X 16 Sq.ft.,14,5,3.7,Jammu and Kashmir
+55f4acc86d0d8d61cf05b648f7250f57,Gangtok,62,regular,3,44,Hotel,14 X 14 Sq.ft.,32,27,3.6,Sikkim
+a4e37ddb7b69cb10db305e9e0c45bc29,Srinagar,93,regular,3,80,Houseboat,12 X 10 Sq.ft.,9,44,4.5,Jammu and Kashmir
+9fd5223f4aa61f1dc50377db9a92ce3a,Shirdi,88,regular,4,69,Hotel,23 X 10 Sq.ft.,96,18,4.4,Maharashtra
+95111fe6cc5fbca2f59e90dc9c2e16fd,Bangalore,80,regular,4,25,Hotel,16 X 16 Sq.ft.,46,136,4.2,Karnataka
+7389b968f41d1a922603134cf88c03df,Manali,87,gostays,3,86,Cottage,15 X 15 Sq.ft.,32,642,4.4,Himachal Pradesh
+3200658af2c8dffa4e20cce6559a6e5e,Jaipur,100,regular,5,52,Palace,24 X 15 Sq.ft.,9,1,5,Rajasthan
+240641aa319411260a817487aff6276e,Udaipur,73,regular,3,10,Hotel,12 X 12 Sq.ft.,28,49,3.5,Rajasthan
+d9b7c6076b2ab22e043b513f6a08044f,Bangalore,91,regular,2,15,Hotel,12 X 10 Sq.ft.,20,67,4.3,Karnataka
+a87eaff94030e519f4643a8c941a5f36,Bangalore,73,regular,3,12,Hotel,11 X 11 Sq.ft.,24,72,4.2,Karnataka
+7caa1c4a54497da0636d97d5bbcceab6,Matheran,79,regular,3,22,Hotel,14 X 14 Sq.ft.,83,87,3.8,Maharashtra
+b1ee2acd87f710681cde5ec08966bef5,Gurgaon,0,regular,0,16,Guest House,15 X 12 Sq.ft.,10,1,5,Haryana
+4b6f4954ea5f3a569493876ad9c98b48,Bangalore,83,regular,1,24,Hotel,12 X 12 Sq.ft.,43,663,4.2,Karnataka
+5084347c63cadbc7efcb59fff24f1dce,Thiruvananthapuram,80,regular,0,38,Hotel,16 X 15 Sq.ft.,16,5,3.8,Kerala
+eaf3d95db580d7e0e44d4faf5be27a03,Bangalore,82,regular,3,32,Hotel,10 X 10 Sq.ft.,32,74,3.8,Karnataka
+5545845ccb55ff2ec6996d8fcd01c2e7,Chandigarh,85,regular,3,52,Hotel,15 X 15 Sq.ft.,25,366,4.4,Punjab
+5375bc7496ffb1175a1bb41face7b071,Bangalore,75,regular,0,59,Hotel,12 X 14 Sq.ft.,56,4,3.6,Karnataka
+8f6147cd70c0695a2e5453811cc29a9d,Kolkata,94,regular,3,30,Hotel,14 X 10 Sq.ft.,32,52,4.4,West Bengal
+b49e9c345da1aa2ffd0404bc13f2440e,Mumbai,71,regular,2,28,Hotel,20 X 10 Sq.ft.,37,114,3.5,Maharashtra
+48ee0be5215a44da6f11a85685a8de2f,Goa,68,regular,3,77,Hotel,17 X 10 Sq.ft.,28,48,3.9,Goa
+addd72c527fdd685bf0e4c8813274c61,Goa,91,regular,3,37,Hotel,17 X 17 Sq.ft.,33,170,4.5,Goa
+7bf0c513030c9c0e41c5ed10e29cee49,Pench,100,regular,0,8,Resort,12 X 14 Sq.ft.,11,1,5,Madhya Pradesh
+795c24ea2368c304a701962abac913c7,Chennai,76,regular,5,22,Hotel,10 X 10 Sq.ft.,101,38,4.4,Tamil Nadu
+e8d12bea64f50b9e5421c72c5203f6e0,Hyderabad,63,regular,3,59,Hotel,24 X 10 Sq.ft.,35,11,3.3,Andhra Pradesh
+5b5604638291f44ac3a9ea0ce670fc8a,Mumbai,72,regular,3,33,Hotel,14 X 10 Sq.ft.,40,44,3.7,Maharashtra
+2b617a689c451af7670fefbac12a5580,Delhi,85,gostays,3,9,Hotel,12 X 14 Sq.ft.,25,62,3.6,Delhi
+8c76280da260c274012280e3c26e85ef,Chandigarh,77,regular,4,18,Hotel,18 X 18 Sq.ft.,69,1313,4,Punjab
+873a457ad396d3b150060c7d239e003a,Coorg,79,regular,5,52,Resort,25 X 25 Sq.ft.,66,39,4.4,Karnataka
+0dbe0f33d27fc938425c52ba78f8729a,Ooty,87,regular,3,45,Hotel,20 X 10 Sq.ft.,28,70,4.2,Tamil Nadu
+ef1079a373d4b2c44fc97d4edec85b4b,Kollam,84,regular,5,50,Hotel,17 X 17 Sq.ft.,93,63,4.5,Kerala
+6f27daea1b4b6a71276894f0ad090c16,Thane,87,regular,3,42,Hotel,17 X 10 Sq.ft.,42,32,4,Maharashtra
+28d8faf9b60d2093714d2c04342b334f,Cuttack,81,regular,3,16,Hotel,14 X 14 Sq.ft.,28,49,3.7,Orissa
+5264756ce172f8b79193878d32cd1b17,Allahabad,0,regular,2,3,Hotel,12 X 12 Sq.ft.,20,1,2.6,Uttar Pradesh
+81f204faa5203cffcc01c16cc8abec7f,Ahmedabad,87,regular,2,56,Hotel,26 X 10 Sq.ft.,26,73,4.2,Gujarat
+ce38629e60153dacfaad411888e1baee,Agra,68,regular,2,39,Hotel,15 X 10 Sq.ft.,44,29,4.1,Uttar Pradesh
+5a96cd46ec6f94bc978afe82f785854a,Delhi,71,regular,3,16,Hotel,16 X 16 Sq.ft.,14,7,4.4,Delhi
+2830c1611842d1bcfb6183c62ebd23f1,Nashik,82,regular,3,12,Hotel,16 X 16 Sq.ft.,27,46,3.7,Maharashtra
+7ef92a19d8d3e40cfa082eb9ffee1553,Bandhavgarh,85,regular,3,11,Resort,20 X 15 Sq.ft.,20,7,4.2,Madhya Pradesh
+d552d6d703be19a6d538ca03e9110f8f,Agra,64,regular,4,15,Hotel,16 X 14 Sq.ft.,70,173,3.4,Uttar Pradesh
+37d296e34a0cf3db1e8a97fb9c90cd07,Kolkata,88,regular,2,64,Hotel,15 X 10 Sq.ft.,24,9,4.2,West Bengal
+6a9f5a76841f87ba7b94f41c790e5964,Delhi,69,regular,3,33,Hotel,12 X 12 Sq.ft.,24,33,3.9,Delhi
+d03db9c0e8c545e5e89c560754b7aec2,Alleppey,72,regular,0,26,BnB,12 X 12 Sq.ft.,27,86,4,Kerala
+f8c7b3ee461f2f696c5f2fe1b362c886,Bangalore,83,regular,3,47,Hotel,13.5 X 13.5 Sq.ft.,20,65,4.5,Karnataka
+4e8dc4af279d86e530c55b8449c6b005,Shimla,66,regular,0,10,Homestay,12 X 12 Sq.ft.,3,3,2.4,Himachal Pradesh
+e6847fe7c6d1a40d71d386a778e7bc14,Bangalore,70,regular,3,21,Hotel,16 X 16 Sq.ft.,17,10,4.3,Karnataka
+a6618283a1ce654799b6217a9a5d2b17,Ahmedabad,100,regular,2,39,Hotel,17 X 10 Sq.ft.,53,6,4.6,Gujarat
+9ee9b78e0637f52581053a5d49de0471,Baleshwar,55,regular,2,14,Resort,10 X 10 Sq.ft.,60,9,2.8,Orissa
+e25960fc73571134d5a680629fb39695,Pushkar,96,gostays,3,33,Resort,14 X 14 Sq.ft.,22,95,4.7,Rajasthan
+2552e4758f96d34b62141bef5041e6af,Agra,81,regular,3,14,Hotel,14 X 14 Sq.ft.,31,100,4,Uttar Pradesh
+f715ed4791b83085264b214463f5c264,Secunderabad,83,regular,2,28,Hotel,18 X 10 Sq.ft.,19,36,3.9,Andhra Pradesh
+2b35ee8746c8f0eb937ddad6a01f012d,Ernakulam,75,regular,2,41,Hotel,16 X 16 Sq.ft.,15,4,4.2,Kerala
+cd07dfcc0df041257f251169e93bbc0a,Pune,82,gostays,3,22,Hotel,23 X 10 Sq.ft.,64,408,4.1,Maharashtra
+2ef12b0ccb71516b1af57a2925dcb66e,Ahmedabad,76,regular,3,6,Hotel,14 X 15 Sq.ft.,33,97,3.7,Gujarat
+c55d6c64f04dd79406fb385d4ae1de66,Ooty,100,regular,2,25,Hotel,18 X 10 Sq.ft.,13,7,4.5,Tamil Nadu
+9e28f05b93e5a3dfe7973fbb6e3b0ea6,Hyderabad,100,regular,2,20,Hotel,17 X 10 Sq.ft.,24,13,4,Andhra Pradesh
+03dd7e5b8391dc686f0c71167f7fe140,Bangalore,81,regular,5,32,Hotel,15 X 20 Sq.ft.,160,74,4.3,Karnataka
+b98011ed3058c9a5a51262f7e03b64cb,Ernakulam,83,gostays,4,13,Hotel,250 X 250 Sq.ft.,40,161,4,Kerala
+9f2b47b9225a7c36a5f98be4669eb8ba,Mysore,88,regular,3,21,Hotel,15 X 16 Sq.ft.,22,105,4.3,Karnataka
+783c5c8089c1b033049ddeff94b04706,Delhi,71,regular,3,5,Hotel,22 X 10 Sq.ft.,40,14,3.1,Delhi
+cd9d3481291a58cbac937a7160e7cecb,Ahmedabad,66,regular,3,17,Hotel,17 X 17 Sq.ft.,40,21,4.5,Gujarat
+711ac95c72ed94c82f26992aa2ac0d0f,Chandigarh,80,regular,3,30,Hotel,18 X 18 Sq.ft.,24,482,4.2,Punjab
+4c9718810b55886e9c89a72aebc09367,Gurgaon,83,regular,3,49,Hotel,15 X 20 Sq.ft.,49,49,3.8,Haryana
+db0207d64080bf413273f9b778494e9a,Chandigarh,80,regular,4,14,Hotel,18 X 12 Sq.ft.,54,47,3.9,Punjab
+6045615779fa17b5d6c6fbb450243cd1,Jaipur,85,regular,4,65,Hotel,12 X 12 Sq.ft.,35,183,4.5,Rajasthan
+89e113dec63b84136a31179c86bbce72,Jaipur,87,regular,3,41,Hotel,12 X 15 Sq.ft.,32,199,4.1,Rajasthan
+4c423e65f6d0551eb378c094067ea09d,Goa,84,regular,3,29,Resort,20 X 20 Sq.ft.,27,69,4.4,Goa
+e7a2b2d87fdcdc9c63b4d9090aa5d008,Durgapur,83,regular,0,17,Lodge,10 X 10 Sq.ft.,24,36,4,West Bengal
+527f7f01e0f28ef7cd93bb48c32e4262,Goa,85,gostays,3,31,Resort,19 X 13 Sq.ft.,38,185,4.3,Goa
+e15978e5b16c0682350a8a5df99c8936,Karnal,94,regular,5,55,Hotel,19 X 14 Sq.ft.,53,67,4.5,Haryana
+2adb632237c03c2bd8749c4b1ec1985f,Morbi,100,regular,3,6,Hotel,258 X 200 Sq.ft.,48,4,3.8,Gujarat
+e25c51c6d0d5084610abf32b544bf031,Varanasi,81,gostays,3,17,Hotel,13 X 12.2 Sq.ft.,23,260,4,Uttar Pradesh
+44633280f4210805fa053aca681bb141,Dhanbad,69,regular,0,8,Hotel,13 X 14 Sq.ft.,22,71,4.2,Jharkhand
+742c21219a177b1e6c0c3abd21256866,Thiruvananthapuram,85,regular,4,28,Hotel,14 X 14 Sq.ft.,45,119,4.4,Kerala
+8253e36f1fef7aa108c18971c9bdba10,Jaipur,86,regular,2,20,Hotel,11 X 11 Sq.ft.,21,79,4.4,Rajasthan
+8a6c9ef4893daaba7533ff5f9d75d27a,Jaipur,86,regular,3,17,Hotel,16 X 15.5 Sq.ft.,20,45,4.5,Rajasthan
+97076d863ce007e58590c3dfc9d42435,Mangalore,81,regular,3,25,Hotel,22 X 22 Sq.ft.,42,214,4.1,Karnataka
+b4f3e219332072a948411752cb324a98,Nagpur,80,regular,3,11,Hotel,10 X 12 Sq.ft.,93,133,4.3,Maharashtra
+c0904e6069911ab646d2fb962d11940a,Delhi,40,regular,3,23,Hotel,15 X 15 Sq.ft.,28,10,2.7,Delhi
+82b6bf8977534b45d19c0e230cb9e989,Chiplun,76,regular,4,31,Resort,28 X 14 Sq.ft.,56,17,4.1,Maharashtra
+bbcc21d2cf59fca999de15cc2120ab39,Delhi,71,regular,5,21,Hotel,16 X 16 Sq.ft.,52,235,4.2,Delhi
+4366043c7a439ba92836e4e87fc7ea73,Jaipur,88,regular,5,23,Resort,46 X 46 Sq.ft.,9,25,4.5,Rajasthan
+f45d8f9b090157c83e33c757af2f28e0,Mysore,94,regular,4,74,Resort,20 X 30 Sq.ft.,86,53,4.5,Karnataka
+d1bff830f2b051b21eb656b5b052bdbe,Corbett,81,regular,4,24,Resort,16 X 11 Sq.ft.,24,32,4.5,Uttarakhand
+8ef0dd9187148f6e7564ae970add7ab4,Kovalam,77,regular,5,36,Resort,17 X 17 Sq.ft.,264,229,4.3,Kerala
+de5955a1c9aafc3a4975ad298d6a058b,Bangalore,76,regular,1,29,Hotel,60 X 40 Sq.ft.,28,76,3.9,Karnataka
+d6c23a3e5de56a11831a52137c874feb,Sawai Madhopur,100,regular,3,42,Hotel,18 X 12 Sq.ft.,15,5,4.5,Rajasthan
+6e91f15bbe68a9ebbfa370269bbf8c10,Pondicherry,80,regular,3,50,Guest House,30 X 10 Sq.ft.,15,57,4,Pondicherry
+ee3f6b6cfdf4cd85de46cfa8d7c08d06,Mysore,80,regular,5,10,Hotel,12 X 10 Sq.ft.,57,168,4.1,Karnataka
+3858773c7a1eb615cb96e4df573ddea8,Kaziranga,81,regular,0,26,Resort,12 X 12 Sq.ft.,20,38,4.1,Assam
+691fc05af09638a8fb9737ef4d634c79,Delhi,84,regular,3,47,Hotel,11 X 10 Sq.ft.,49,59,4.3,Delhi
+e8a269780907ff01083a9d3960eed267,Manali,78,gostays,3,29,Hotel,20 X 10 Sq.ft.,36,84,4.2,Himachal Pradesh
+aaa047736a9debc9d80a0a7b2dd61fb3,Goa,33,regular,3,60,Hotel,30 X 10 Sq.ft.,10,3,3.3,Goa
+a53b2613f9ed8f41a6e0722b048165f8,Delhi,92,regular,4,38,Hotel,25 X 10 Sq.ft.,19,14,4.4,Delhi
+f791e19e7380dd16bcc2f9eee3b785b6,Pune,79,regular,3,41,Hotel,15 X 15 Sq.ft.,44,104,4.1,Maharashtra
+4657d8a53979f581ae9f0e6dfcddeddb,Manali,80,gostays,4,68,Resort,22 X 14 Sq.ft.,41,77,4.4,Himachal Pradesh
+639474a33029172f92b1e0972ddbb392,Hyderabad,70,regular,2,29,Hotel,23 X 10 Sq.ft.,20,10,3.7,Andhra Pradesh
+0ce93b8ce00c861bcfecfa27ee0a62fe,Gurgaon,75,regular,3,26,Hotel,18 X 10 Sq.ft.,48,16,4.1,Haryana
+8cf6fef9fa9d4fbf8b2b035de634d602,Udaipur,50,regular,3,21,Resort,18 X 18 Sq.ft.,43,6,2.7,Rajasthan
+4be36e40c8c77017c22173d05c569b33,Hyderabad,50,regular,3,50,Hotel,28 X 10 Sq.ft.,57,10,3,Andhra Pradesh
+5a034ceda99af10cd9490de603b82147,Delhi,74,regular,3,31,Hotel,16 X 14 Sq.ft.,27,144,3.7,Delhi
+e97eebadbc9af703c390b1cd1d63d7f8,Bangalore,70,regular,4,35,Hotel,16 X 18 Sq.ft.,104,97,3.6,Karnataka
+d20eea39a299d0f8bf8b3d06e83a1b5b,Mumbai,85,regular,5,30,Resort,12 X 12 Sq.ft.,74,636,4.3,Maharashtra
+53e2eadd9e7c068202ef1f0053636fa6,Alwar,28,regular,0,23,Hotel,60 X 60 Sq.ft.,50,7,2.6,Rajasthan
+a8a206bed18582980d92085ff8ffd0f4,Ooty,86,regular,0,27,Cottage,50 X 50 Sq.ft.,5,22,3.6,Tamil Nadu
+35c782fdd07560616c8f94990c2f4e88,Chennai,76,regular,5,14,Hotel,11 X 14 Sq.ft.,162,124,4.3,Tamil Nadu
+0bc0e50c4f70da8d74393365fed978a9,Sawai Madhopur,52,regular,0,9,Resort,14 X 14 Sq.ft.,40,17,3.2,Rajasthan
+e571734584cdeae3f6b7bb4e06cb1d18,Hyderabad,90,regular,3,17,Hotel,15 X 15 Sq.ft.,38,73,4,Andhra Pradesh
+ccc0ac2286c9a9dca38c05fca6abb25e,Bangalore,85,regular,3,25,Hotel,17 X 18 Sq.ft.,38,125,4.2,Karnataka
+5341ac0b04013ec77de95a27400c6f01,Alleppey,71,regular,4,16,Resort,14 X 14 Sq.ft.,39,7,2.5,Kerala
+f9a95080e74e1ecc0166c2a8207d9fa6,Thiruvananthapuram,88,regular,3,21,Resort,15 X 15 Sq.ft.,6,18,4.2,Kerala
+a0cfe38a5d3c765c6be6a985cdbaf83a,Manali,50,regular,0,14,BnB,16 X 17 Sq.ft.,12,6,3.9,Himachal Pradesh
+31e339fffb44b6bcf1c4856ba3999fc4,Bangalore,92,regular,3,34,Hotel,18 X 10 Sq.ft.,28,14,4,Karnataka
+6fec614273cbec7800fd148d74ece4f4,Katra,69,regular,3,16,Hotel,14 X 12 Sq.ft.,28,13,4,Jammu and Kashmir
+2857b411baee1a2b35d40e3a74c7afcc,Ahmedabad,70,regular,3,13,Hotel,17 X 17 Sq.ft.,12,320,3.6,Gujarat
+bf1a3671629770c0c0a73a7be9eed8df,Kodaikanal,73,regular,3,17,Resort,12 X 10 Sq.ft.,31,112,3.7,Tamil Nadu
+c3e9b21dd52b283994640739e048eaf8,Mussoorie,71,regular,3,12,Hotel,15 X 15 Sq.ft.,35,190,3.7,Uttarakhand
+98903f4f3959cfd097665e460864ad4d,Gurgaon,97,gostays,4,16,Hotel,10 X 12 Sq.ft.,78,70,4.4,Haryana
+0989389a0d4ea9690d413ac2f0048114,Puri,85,gostays,3,6,Hotel,12 X 10 Sq.ft.,12,84,4.1,Orissa
+df1bf6a769c4fcf6946117f8cf6ac01b,Udaipur,88,regular,4,35,Resort,20 X 17 Sq.ft.,67,44,4.3,Rajasthan
+697487d374ba97ed23fac5a81529334e,Thrissur,57,regular,0,12,Resort,10 X 12 Sq.ft.,25,7,4.4,Kerala
+f3245f9ac8d40515a4b6c78c63191c87,Goa,76,regular,2,9,Hotel,16 X 16 Sq.ft.,11,64,3.8,Goa
+250eea4c61aa7646c85934b170982bf6,Srinagar,92,regular,0,14,Homestay,13 X 13 Sq.ft.,3,13,5,Jammu and Kashmir
+9e7b0c541a423ed299962efedfe204eb,Kollam,50,regular,3,20,Resort,15 X 15 Sq.ft.,32,6,2,Kerala
+222c65c80885b675bcc5b436d108ee5f,Manali,83,regular,3,32,Hotel,12 X 14 Sq.ft.,24,31,4.5,Himachal Pradesh
+63f44c3db20ccc93f2728aa758247048,Silvassa,84,regular,3,22,Resort,26 X 13 Sq.ft.,28,156,4.5,Dadra and Nagar Haveli
+f908b6493f4f3d81efe806ea2ef158ce,Pune,87,regular,2,63,Hotel,17 X 10 Sq.ft.,22,31,4.2,Maharashtra
+f0f5e08dc1751206885d8649587a9fe8,Kolkata,83,regular,0,15,Guest House,16 X 14 Sq.ft.,16,127,4.3,West Bengal
+e5564c3c63111503728468d10d12755f,Bangalore,73,regular,3,47,Hotel,17 X 10 Sq.ft.,22,30,3.5,Karnataka
+46d758e8546aca5df8bffa5be8da797f,Hyderabad,83,regular,3,23,Hotel,15 X 18 Sq.ft.,32,108,4.2,Andhra Pradesh
+90b671e779a628efe86aef88ded03de3,Jaipur,76,regular,3,11,Hotel,12 X 10 Sq.ft.,16,25,4.7,Rajasthan
+4efc834e069e97ad5124f02a501791c9,Coorg,97,regular,5,10,Resort,25 X 25 Sq.ft.,28,38,4.9,Karnataka
+2c660c22de100caefd13b0b52c8a652a,Kukke,86,regular,0,3,Lodge,14 X 14 Sq.ft.,40,76,4.5,Karnataka
+46e9d7adb6710b3df3d609b71e8f5832,Ooty,73,regular,0,19,Resort,12 X 12 Sq.ft.,31,57,3.9,Tamil Nadu
+f9577575e65c65b8ea062c4e627206c8,Kanyakumari,83,regular,3,13,Hotel,10 X 12 Sq.ft.,4,18,4.3,Tamil Nadu
+3eb569138f58884394fcb4e31860fc79,Lataguri,71,regular,0,24,Resort,14 X 16 Sq.ft.,14,14,4.3,West Bengal
+6cac10573084aedec160f47f31f8c025,Bangalore,85,regular,3,14,Hotel,15 X 15 Sq.ft.,23,35,4.2,Karnataka
+2e72566e81175e37ef308feb26344790,Chandigarh,79,regular,3,20,Hotel,15 X 10 Sq.ft.,18,93,4.3,Punjab
+e22bbb9313cc4ca298873e07155c20d2,Havelock Island,74,regular,0,21,Resort,14 X 14 Sq.ft.,18,75,4.1,Andaman and Nicobar Islands
+d652f2f218578ebe80f88f26835d3568,Goa,83,regular,5,22,Resort,21 X 21 Sq.ft.,150,59,4.5,Goa
+5a0c43b524e88fa57f04a250fb54afe2,Bangalore,75,regular,2,26,Hotel,10 X 10 Sq.ft.,18,8,4.4,Karnataka
+5c298a84197a2b997939e8c7a795a2e5,Thiruvananthapuram,82,regular,3,41,Hotel,14 X 14 Sq.ft.,15,79,4.1,Kerala
+4cfd81a3d97d9d97389a5f7606728819,Bangalore,76,regular,4,24,Hotel,16 X 16 Sq.ft.,61,67,4.2,Karnataka
+6ab9aa8e243e52591f0e0ce16ecd7ce7,Mysore,78,gostays,2,16,Hotel,12 X 10 Sq.ft.,26,65,3.9,Karnataka
+22a30787aba4d9059d118e4a49d812b9,Gurgaon,75,regular,3,8,Hotel,12 X 12 Sq.ft.,16,4,4.4,Haryana
+2e6955fc619c48ca7fdf79ba8dcee212,Wayanad,100,regular,0,4,Lodge,20 X 16 Sq.ft.,7,2,5,Kerala
+3a900ddff4ec75e8701fc781050b4243,Coimbatore,100,regular,3,40,Service Apartment,11 X 12 Sq.ft.,5,4,4.7,Tamil Nadu
+ff711c7c69a219c6ed8f786de9849500,Ghaziabad,85,regular,3,13,Hotel,15 X 13 Sq.ft.,28,21,4.4,Uttar Pradesh
+caa098feffdf4bcf57d618f5450c39b0,Shimla,77,regular,3,26,Hotel,12 X 10 Sq.ft.,84,107,4.1,Himachal Pradesh
+e7224534ab8cdb7c8cd5d6000147288f,Bhavnagar,80,regular,3,20,Hotel,18 X 18 Sq.ft.,25,63,4.1,Gujarat
+686338564260cc886916270d4669d1e8,Panchkula,92,regular,2,9,Resort,18 X 18 Sq.ft.,6,13,4.1,Haryana
+fdf1e6df8ee36e1e8de60b0181bfa7b3,Goa,88,regular,4,20,Hotel,15 X 15 Sq.ft.,34,79,4.4,Goa
+90b24e6b696474311d7ee42dd1c05f83,Srinagar,78,regular,3,41,Resort,18 X 16 Sq.ft.,26,46,3.9,Jammu and Kashmir
+ffd90d946d03d6a5f63678d71d2fb344,Mumbai,76,regular,3,19,Hotel,10 X 12 Sq.ft.,28,21,3.9,Maharashtra
+179212174a7345d40590f96690eee3f1,Kolkata,0,regular,3,6,Hotel,20 X 10 Sq.ft.,14,1,4.6,West Bengal
+3ffa15cd03e75238bd4e2a12423eebd6,Mumbai,92,regular,3,20,Hotel,15 X 14 Sq.ft.,21,52,4.1,Maharashtra
+1074fa58ca233383c7ba1bc7fcf58b6b,Udaipur,71,gostays,2,42,Hotel,15 X 10 Sq.ft.,45,183,3.9,Rajasthan
+65dcbc4af1740b4c1a93157371c4376f,Chandigarh,86,gostays,2,19,Hotel,25 X 15 Sq.ft.,7,22,4.2,Punjab
+bca5cf7e6cefb307f182b8e86c8d923a,Mumbai,71,regular,0,11,Service Apartment,11 X 11 Sq.ft.,10,35,3.5,Maharashtra
+6212623c3197ef4d232a34e24cbd5cc5,Chennai,100,regular,3,31,Hotel,17 X 10 Sq.ft.,12,3,4.9,Tamil Nadu
+76d51711c888f945726dc08ff21f70dc,Chikmagalur,100,regular,4,23,Resort,15 X 15 Sq.ft.,39,3,5,Karnataka
+b21294ec057d18ff71c808fa7206e5f0,Corbett,75,regular,4,20,Resort,14 X 14 Sq.ft.,67,37,4.7,Uttarakhand
+24f9e681247025a4067ef216ca306a08,Manali,84,gostays,4,24,Resort,14 X 14 Sq.ft.,18,173,4.4,Himachal Pradesh
+9359b322a6c28d8bcb72753e24992c81,Shimla,60,regular,0,1,Hotel,10 X 10 Sq.ft.,14,10,3.3,Himachal Pradesh
+d0cba31ded83363b954fcbd2dcd64a68,Bhuj,66,regular,3,18,Hotel,14 X 15 Sq.ft.,25,3,2.9,Gujarat
+25878e711d2b1247e45bfeace2028e2b,Kodaikanal,84,regular,3,39,Hotel,16 X 10 Sq.ft.,38,39,4.4,Tamil Nadu
+496ed6884a0ec43b290fa28889ae9a5f,Puri,75,regular,2,28,Hotel,32 X 16 Sq.ft.,8,8,2.5,Orissa
+11a342fbcf0f1bb0d21d5ec04e146ed3,Dehradun,0,regular,0,26,Lodge,12 X 12 Sq.ft.,9,1,1.6,Uttarakhand
+969149a6dec514ac3ddf97e38faafebb,Pune,94,regular,3,29,Hotel,22 X 10 Sq.ft.,45,17,3.8,Maharashtra
+dffa9a9099f9a4dc2582fe15f8776030,Delhi,58,regular,3,23,Hotel,15 X 15 Sq.ft.,45,17,3.7,Delhi
+c6fd5ab34b895185f7c7464347ecf7eb,Malwan,80,regular,0,12,Hotel,10 X 12 Sq.ft.,24,26,4,Maharashtra
+826fbb0d69ecf2a7a590d4dc2153c8cf,Bangalore,78,regular,3,34,Hotel,18 X 18 Sq.ft.,17,14,4.6,Karnataka
+18d452570ddd38074be26fc7d97f4775,Goa,77,regular,3,34,Hotel,25 X 32 Sq.ft.,11,18,4.4,Goa
+15191574a94cd21e2bb2bf9dadc7931c,Ahmedabad,82,gostays,4,13,Hotel,14 X 14 Sq.ft.,87,56,4,Gujarat
+0c567c36c4e69c4af7ae1f863f0c88e3,Gurgaon,83,gostays,3,17,Hotel,12 X 15 Sq.ft.,15,91,3.9,Haryana
+39d30d3062ecf6b48fae48cf8b843404,Virudhunagar,88,regular,1,2,Lodge,10 X 80 Sq.ft.,16,9,4.7,Tamil Nadu
+c6791d04c1ab7a5da68d97ebef71fb7b,Visakhapatnam,84,gostays,2,19,Hotel,15 X 12 Sq.ft.,19,274,4.3,Andhra Pradesh
+3b57fef752941e42414ea073aab9f47c,Bangalore,70,regular,3,14,Hotel,17 X 17 Sq.ft.,39,34,4,Karnataka
+59be64cc11cbdc727b980ec93db91625,Wayanad,84,regular,4,42,Resort,25 X 17 Sq.ft.,12,50,4.7,Kerala
+eb80256b25c9dec44634b6c41d9b695d,Chennai,77,regular,3,23,Hotel,16 X 15 Sq.ft.,16,9,3.8,Tamil Nadu
+5ac3ea9de6a0d965c6bb0ef9d23fbcc4,Goa,77,gostays,2,17,Resort,12 X 10 Sq.ft.,25,218,4,Goa
+0652b678708d30d01193057d22e12eb9,Chennai,100,regular,2,35,Service Apartment,18 X 10 Sq.ft.,14,2,4.5,Tamil Nadu
+410c1ea4190f41349529cbba3da42588,Mathura,80,gostays,4,70,Hotel,16 X 16 Sq.ft.,33,92,4.3,Uttar Pradesh
+1e1280e416cf736f7e3817acfcf1f973,Pench,74,regular,3,16,Resort,750 X 750 Sq.ft.,10,54,4.2,Madhya Pradesh
+7978487d3bfc50cbd4712157e91463b6,Nainital,75,regular,0,26,Resort,12 X 12 Sq.ft.,4,4,3.9,Uttarakhand
+b00228b76145965e919237b88076edca,Bangalore,77,regular,3,30,Service Apartment,18 X 10 Sq.ft.,22,9,3.9,Karnataka
+58a3e0f214b78fe17627997c9daf8fed,Mukteshwar,89,regular,4,19,Resort,14.5 X 15 Sq.ft.,12,19,4.2,Uttarakhand
+2f0f43ad7b50439a20dfc087e4fbc453,Kanyakumari,54,regular,1,9,Hotel,15 X 10 Sq.ft.,79,48,3.7,Tamil Nadu
+7392acd9b7819e8bdf392f7b66b98b5f,Udaipur,84,gostays,3,30,Hotel,19 X 10 Sq.ft.,22,108,4.2,Rajasthan
+85946781a07e35cd96c731a1f9876c18,Bangalore,67,regular,2,5,Hotel,21 X 10 Sq.ft.,57,37,4,Karnataka
+7b62f5141955e2e9b0ad402459d55415,Gurgaon,100,regular,0,7,Guest House,160 X 180 Sq.ft.,11,3,3.9,Haryana
+c7ba32800826b0d569d594bd6fe42638,Jaipur,79,regular,3,23,Hotel,12 X 12 Sq.ft.,24,24,3.8,Rajasthan
+e9943d213903c40baf678fe513999d2a,Delhi,85,regular,3,12,Hotel,12 X 12 Sq.ft.,15,21,4.1,Delhi
+8482b448f643c378f34aeed5281d7956,Hyderabad,60,regular,3,26,Hotel,17 X 10 Sq.ft.,48,10,3.4,Andhra Pradesh
+8e877d5e0bc88d0f24eae63cc05ce7ce,Bangalore,50,regular,3,30,Hotel,15 X 12 Sq.ft.,24,2,4.8,Karnataka
+8b411c81ee5723ef6795bfd45854385d,Jharsuguda,89,regular,4,19,Hotel,17 X 17 Sq.ft.,52,48,4.3,Orissa
+369e05cc1d1d1355c61c0799682c8466,Goa,77,regular,0,16,Resort,14 X 14 Sq.ft.,10,61,3.7,Goa
+c67baabb25648628f87803bc206a2dcb,Jaipur,78,regular,3,13,Hotel,12 X 10 Sq.ft.,22,46,4.1,Rajasthan
+cad01aadd4d94eded7bbd89bcf2bd21e,Raipur,74,gostays,3,19,Hotel,12 X 15 Sq.ft.,19,202,4.2,Chhattisgarh
+0c86719c2553ec534638eb5f015c0808,Goa,69,regular,3,12,Hotel,13 X 13 Sq.ft.,8,82,3.7,Goa
+125436f198c8bc6b8e2aa25b5f10e0d1,Pondicherry,84,regular,2,10,Hotel,31 X 31 Sq.ft.,18,138,4.2,Pondicherry
+6f6aff09ce90d6c860d6a635bdcf5eda,Goa,86,regular,3,17,Service Apartment,27 X 27 Sq.ft.,35,51,4.3,Goa
+2044a054399a4a45013bef71bc520286,Mussoorie,75,regular,0,6,BnB,12 X 10 Sq.ft.,8,12,3.3,Uttarakhand
+cc6a9b5a0f699fc00bebd2819211354d,Alleppey,70,regular,4,65,Resort,22 X 17 Sq.ft.,20,30,4.2,Kerala
+fc0d92fb5d984f2ecf464570bedaac0e,Chennai,62,regular,3,7,Hotel,12 X 10 Sq.ft.,5,8,4.3,Tamil Nadu
+b38ee50bd483bee0aa5083f52f4b8cb1,Mumbai,100,regular,2,12,Hotel,15 X 15 Sq.ft.,16,5,3.6,Maharashtra
+a047ce02453f539a181d6ad9124f94df,Gurgaon,80,regular,3,19,Hotel,15 X 20 Sq.ft.,40,57,3.8,Haryana
+fe20ec9ac022371b448e4293c7e02efb,Kolkata,74,gostays,2,15,Hotel,12 X 10 Sq.ft.,19,196,3.5,West Bengal
+d4202d3a61b62415bd9dbadf97561b9d,Darjeeling,64,regular,2,16,Hotel,14 X 14 Sq.ft.,11,17,3.5,West Bengal
+ed68bd7cc13d184c2088b3d9e9e33178,Wayanad,85,regular,4,68,Resort,20 X 15 Sq.ft.,18,164,4.4,Kerala
+591d8dc84aab8d0515ad5458cdf0bdb6,Masinagudi,100,regular,3,4,Resort,22 X 22 Sq.ft.,4,3,3.7,Tamil Nadu
+1be2789b4e7a836da8f9529b1348ba6f,Bangalore,80,regular,3,34,Hotel,18 X 15 Sq.ft.,72,15,3.8,Karnataka
+5d00fc9b086473d5de11ce07a05df431,Katra,66,regular,0,24,Hotel,12 X 12 Sq.ft.,26,89,3.9,Jammu and Kashmir
+181c8ab2c3a5e55c3a644946270a8341,Katra,58,regular,3,24,Hotel,12 X 12 Sq.ft.,36,36,3.9,Jammu and Kashmir
+8661e8b65c1488bae46032d42e728269,Kolkata,80,regular,3,65,Hotel,12 X 12 Sq.ft.,74,147,4.2,West Bengal
+2e4ffc275323c4a5b91b7865772585a6,Dausa,87,regular,3,30,Palace,17 X 17 Sq.ft.,21,8,4,Rajasthan
+449b7268da96feddcbb45435a61e64e0,Pathankot,50,regular,0,9,Resort,20 X 16 Sq.ft.,19,2,2.5,Punjab
+ff108b2761fca32fc4804e0a0264b611,Mussoorie,61,regular,3,32,Hotel,14 X 10 Sq.ft.,17,13,3.1,Uttarakhand
+0f032bc5d4d4c2e42d027999ad881b88,Chennai,87,regular,2,26,Hotel,12 X 10 Sq.ft.,17,33,4,Tamil Nadu
+9217ba9dcc053f0d76eff271a47a79c0,Kolkata,73,regular,3,31,Hotel,12 X 10 Sq.ft.,25,19,4.2,West Bengal
+bda3411e753daa87cad6180be3013935,Shirdi,86,regular,3,25,Hotel,18 X 10 Sq.ft.,18,60,4.2,Maharashtra
+e5120f55f79fa1a6067933d7dabdb3a1,Ujjain,53,regular,1,10,Hotel,14 X 14 Sq.ft.,10,13,2.9,Madhya Pradesh
+30f0652da9b76f3d4472b7293a73b5db,Agra,40,regular,3,29,Hotel,14 X 14 Sq.ft.,35,101,2.7,Uttar Pradesh
+57db061ba538e0cd0cc2c79c60c5c09c,Ahmedabad,78,regular,3,35,Hotel,12 X 12 Sq.ft.,48,28,4.4,Gujarat
+3bd1f52abf06b8089533b8dc3b941564,Shirdi,100,regular,3,21,Hotel,15 X 18 Sq.ft.,34,5,5,Maharashtra
+c636ff2d9fcffeed1ed4390825729f6d,Gangtok,100,regular,0,6,Hotel,18 X 18 Sq.ft.,45,2,4.3,Sikkim
+ad9d90a57bb94d87055637bf649676fd,Chennai,90,gostays,3,15,Hotel,14 X 14 Sq.ft.,10,175,4.1,Tamil Nadu
+e3c4d048c49fbf7f8b307bc69cdd9af0,Siliguri,62,regular,1,24,Hotel,20 X 18 Sq.ft.,32,29,2.9,West Bengal
+19846221159093bc5e59d9436d831a51,Mahabaleshwar,94,regular,0,9,Hotel,14 X 14 Sq.ft.,14,36,4.2,Maharashtra
+c9b4a2e1234f88c878d474ade285e219,Thane,80,regular,3,34,Hotel,14 X 14 Sq.ft.,24,15,2.6,Maharashtra
+e06e38cdfdec1c6e863f4816f73fdb2d,Shirdi,60,regular,0,23,Hotel,12 X 13 Sq.ft.,22,25,2.8,Maharashtra
+4c475dcb45632739e21190fda2822e0f,Kovalam,73,regular,3,10,Hotel,10 X 12 Sq.ft.,64,64,4.1,Kerala
+432c8057ca964b3eff645ff1864f5d21,Puri,74,regular,2,12,Hotel,10 X 10 Sq.ft.,28,51,3.5,Orissa
+d8595194f43605ef70f838da31241b77,Begusarai,0,regular,0,9,Hotel,12 X 12 Sq.ft.,14,1,1.6,Bihar
+94c3c404246bc90f4d9430b6dcf0478d,Srinagar,85,regular,3,9,Hotel,13 X 14 Sq.ft.,44,7,4.3,Jammu and Kashmir
+880f674c0ba613c996ad5d9beaeaabec,Thane,76,gostays,2,13,Hotel,10 X 10 Sq.ft.,19,101,3.7,Maharashtra
+4d1e554d67c24b080776df64665cc437,Thekkady,77,regular,3,11,Hotel,14 X 14 Sq.ft.,31,31,4.2,Kerala
+1a65320707f3906b3ddf708554507e06,Hyderabad,50,regular,1,2,Lodge,12 X 14 Sq.ft.,15,2,1,Andhra Pradesh
+a0d8b9974edb00b8d34ae93f391bd04c,Bikaner,66,regular,3,15,Hotel,14 X 14 Sq.ft.,71,15,4,Rajasthan
+bc9c288fbedaee9cd7c6c735c3c27c31,Daman,83,regular,3,28,Hotel,10 X 12 Sq.ft.,19,147,4.1,Gujarat
+6100866b638b985fcd983fd08d532295,Shirdi,75,regular,3,23,Hotel,14 X 14 Sq.ft.,97,331,3.9,Maharashtra
+b082553831dc1513e4857f17541bf8c6,Satna,86,regular,0,4,Hotel,11 X 21 Sq.ft.,25,123,4.1,Madhya Pradesh
+3bdbcc0644f33d7ecc5e28b40d3e79c9,Mandawa,92,regular,0,18,Hotel,100 X 100 Sq.ft.,15,25,4.5,Rajasthan
+12e1e2e729f3ba2feb729b078406da82,Ooty,77,regular,2,48,Hotel,12 X 10 Sq.ft.,37,189,4,Tamil Nadu
+3f4dc4af11e3d574f8325352627c3e62,Allahabad,86,regular,3,11,Hotel,15 X 15 Sq.ft.,40,194,4.1,Uttar Pradesh
+e2016c64f072205364e263d1382f2954,Guwahati,80,regular,3,6,Hotel,14 X 17 Sq.ft.,16,57,4.6,Assam
+ce858c8bad809e53e4d54468915e1d66,Jodhpur,50,regular,3,46,Hotel,13 X 13 Sq.ft.,26,2,2.5,Rajasthan
+3669f0ba9f13e22081267a0bfadb384b,Panvel,100,regular,0,27,Hotel,10 X 12 Sq.ft.,18,3,4.5,Maharashtra
+9ec3079c78b184a12b7bb4fe463a183b,Dehradun,88,gostays,3,12,Hotel,20 X 14 Sq.ft.,22,120,4.3,Uttarakhand
+75fa55412b64440a4b0c162e8becb67d,Hyderabad,41,regular,2,8,Hotel,10 X 10 Sq.ft.,55,62,2.4,Andhra Pradesh
+daf54cf2b7a1b115c8bf75d3fc68f6a0,Bangalore,80,regular,5,19,Hotel,18 X 18 Sq.ft.,238,146,3.8,Karnataka
+2e3fc53e93f71a640c7849087cc790ed,Nashik,80,regular,0,19,Lodge,180 X 190 Sq.ft.,10,15,3.9,Maharashtra
+f1278aafcfb496aa1465374cfea2c847,Ahmedabad,85,regular,1,10,Hotel,12 X 15 Sq.ft.,8,21,4,Gujarat
+00e239e609e0f22f338aa3d0ff2b729c,Gurgaon,88,gostays,2,8,Hotel,18 X 15 Sq.ft.,48,77,4.4,Haryana
+e863cb5e7c672950a3d735af7957a798,Puri,74,regular,2,42,Hotel,10 X 10 Sq.ft.,74,250,3.5,Orissa
+b41cc38df1c2e72958bc249fd821afac,Mahabaleshwar,90,regular,0,4,Hotel,14 X 14 Sq.ft.,14,134,4.4,Maharashtra
+34c438fd39fa8eac23bfd035cc04a650,Vijayawada,40,regular,0,8,Hotel,10 X 10 Sq.ft.,34,5,2.6,Andhra Pradesh
+810bab4950df551e6d98827787004c17,Jabalpur,73,gostays,3,30,Hotel,12 X 14 Sq.ft.,12,95,4,Madhya Pradesh
+679747e6ff9bd84ba63e48f7ed00ca65,Amritsar,83,gostays,3,30,Hotel,10 X 10 Sq.ft.,14,213,4.1,Punjab
+fcfdbcb72d6c210dee44a05124a3cfde,Aurangabad,90,regular,0,1,Hotel,10 X 12 Sq.ft.,8,22,3.9,Maharashtra
+7a30ec32fb09fff8ef330434842ccb29,Delhi,81,regular,4,34,Hotel,15 X 15 Sq.ft.,60,58,4,Delhi
+acb00fcfaa4e5cdd3d06cfff45e7bf33,Manali,71,regular,2,9,Resort,12 X 10 Sq.ft.,13,7,4.1,Himachal Pradesh
+9c1acaee47c2fcf7ecfaac6b9f90992e,Shirdi,66,regular,0,7,Hotel,14 X 15 Sq.ft.,23,3,3.3,Maharashtra
+3626d7ee58d684a542e79cb75cf03e1c,Roorkee,72,regular,0,16,Hotel,10 X 11 Sq.ft.,9,11,3.6,Uttarakhand
+23ddb28ebb379924121500a39787ef29,Delhi,66,regular,3,15,Hotel,11 X 11 Sq.ft.,23,6,2.7,Delhi
+caf486eedc9d64f42a9d1127e9a36baf,Mysore,88,gostays,3,48,Hotel,15 X 13 Sq.ft.,78,343,4.2,Karnataka
+9c230e766331bbb3dbb81e2849c04021,Jaisalmer,83,regular,2,24,Hotel,16 X 14 Sq.ft.,12,122,4.4,Rajasthan
+86560a8aaa6e04803a8cf84a1f7ae119,Mahabaleshwar,100,regular,1,12,Hotel,10 X 10 Sq.ft.,25,8,3.6,Maharashtra
+17809669967a99c3172eaba7888f5274,Thiruvananthapuram,73,regular,3,6,Hotel,14 X 14 Sq.ft.,11,15,4.1,Kerala
+ead0b87689344ca58fd8ac6a787adb02,Ghaziabad,100,regular,0,15,Hotel,13 X 15 Sq.ft.,51,1,3,Uttar Pradesh
+a2d47679bfce851ecb2cf819012a79dd,Mumbai,71,regular,3,11,Hotel,12 X 10 Sq.ft.,31,53,3.5,Maharashtra
+d94b15d8239bb36618d73a3d2ec50d3a,Delhi,79,regular,3,35,Hotel,14 X 14 Sq.ft.,27,153,4.1,Delhi
+c78bd723a08d429ab49dfc9ffabc7c2b,Ahmedabad,70,regular,2,18,Hotel,12 X 12 Sq.ft.,29,48,3.3,Gujarat
+d37f1686a06c1864938115d32b369b1e,Guwahati,74,regular,3,14,Hotel,15 X 15 Sq.ft.,33,63,3.6,Assam
+df011999b5bc44841b8271fa7c176302,Ahmedabad,82,gostays,3,7,Hotel,12 X 12 Sq.ft.,49,152,4.3,Gujarat
+6b907efeb9e51089d7cc91ec685bc377,Navi Mumbai,100,regular,0,20,Hotel,18 X 18 Sq.ft.,26,6,4.5,Maharashtra
+5aac1a752dcabe7ecba90788e910b784,Puri,50,regular,0,5,Homestay,16 X 14 Sq.ft.,11,4,2.4,Orissa
+cab30711ae4c5bc4ca8e521afe12c572,Tanuku,100,regular,0,6,Hotel,12 X 12 Sq.ft.,6,2,4.5,Andhra Pradesh
+ecedc49d76bc23494656a4376938f023,Shirdi,67,regular,3,32,Hotel,10 X 13 Sq.ft.,27,58,3.8,Maharashtra
+10d2ca4145835ecc524168e09524fdc2,Pune,78,regular,3,21,Hotel,12 X 10 Sq.ft.,35,91,3.6,Maharashtra
+e26809eb05d0972efd6a4e6af8328422,Patna,85,regular,0,9,Hotel,10 X 10 Sq.ft.,17,195,4.1,Bihar
+47525e0fdf8ce6a99470edc676001bb3,Leh,64,regular,2,7,Hotel,10 X 14 Sq.ft.,30,14,3.6,Jammu and Kashmir
+f59345c6e0bb41ea1568487122c0d925,Guna,79,regular,1,1,Hotel,12 X 13 Sq.ft.,9,79,3.6,Madhya Pradesh
+4f597f3a4278a62006a70a429817cbe7,Jabalpur,75,gostays,2,27,Hotel,10 X 12 Sq.ft.,42,334,3.8,Madhya Pradesh
+b6ab378d6269e6b08bd0da6761fdec6b,Kumbakonam,77,regular,0,11,Hotel,11 X 11 Sq.ft.,20,9,3.7,Tamil Nadu
+0a7804ce6738fd0ac41d31f4cf1763eb,Delhi,80,regular,0,12,Hotel,16 X 14 Sq.ft.,4,5,4,Delhi
+b9b85d80001103bda8d5c47673615a94,Gwalior,76,regular,2,29,Hotel,10 X 12 Sq.ft.,43,17,4.1,Madhya Pradesh
+e8dda0ba95115544785601d2a770ddde,Bhopal,60,regular,0,20,Hotel,14 X 14 Sq.ft.,18,85,3,Madhya Pradesh
+efa1196441158ab9b1b1aabc3a5b05d3,Yercaud,86,regular,1,12,Hotel,14 X 14 Sq.ft.,15,44,3.9,Tamil Nadu
+3e3be8c83eb55580b3f71ef7f216fa4d,Ahmedabad,83,regular,3,8,Hotel,15 X 20 Sq.ft.,12,56,4.2,Gujarat
+c58d5f0800ad819f752a379f711e5712,Ahmadnagar,73,regular,2,12,Hotel,15 X 12 Sq.ft.,13,52,4,Maharashtra
+db289b3e07938c0c0989779b05e826fe,Delhi,64,regular,3,22,Hotel,15 X 15 Sq.ft.,15,17,3.4,Delhi
+cacb051ba1327fe37c79e526307b0059,Mount Abu,78,gostays,2,27,Hotel,12 X 18 Sq.ft.,11,226,4.1,Rajasthan
+9f5abf4b202e76ca7a487461711387e5,Pune,70,regular,3,22,Hotel,10 X 15 Sq.ft.,16,20,3.4,Maharashtra
+c4aa3afbbdf2e85efbe3ae2e83b70a8e,Chennai,83,gostays,4,25,Hotel,16 X 16 Sq.ft.,254,576,4.3,Tamil Nadu
+cddf36acc19ab93bdbc2fb7e94d5fb52,Delhi,100,regular,3,16,Hotel,14 X 14 Sq.ft.,24,2,5,Delhi
+07726c70257e92ca988bb31ac19699f1,Almora,100,regular,0,26,Hotel,12 X 14 Sq.ft.,11,2,3.3,Uttarakhand
+2643dada5fb2858229d919c2b3016a48,Lucknow,90,regular,3,4,Hotel,49 X 49 Sq.ft.,30,40,4.1,Uttar Pradesh
+9f7f748eeba3e63dc95ce9d5c76a189e,Vadodara,86,gostays,2,15,Hotel,15 X 12 Sq.ft.,44,52,4,Gujarat
+2979181979c455fd38dc6dafd14c98d5,Aurangabad,85,regular,2,9,Hotel,10 X 11 Sq.ft.,22,55,4.2,Maharashtra
+27c059166f990e8a260e2c0ff3af073d,Shimla,77,regular,3,15,Hotel,10 X 12 Sq.ft.,28,170,4.2,Himachal Pradesh
+58687a5a879c70a04eda30b7bfc31743,Surat,88,regular,2,16,Hotel,20 X 10 Sq.ft.,14,128,4.3,Gujarat
+0e01e7c678e9cbc63c4d7a28f4013f59,Khajuraho,50,regular,0,14,Hotel,12 X 18 Sq.ft.,25,2,1.6,Madhya Pradesh
+4b7af733fbe91729e266eb6d6e9fb586,Delhi,69,regular,3,14,Hotel,12 X 14 Sq.ft.,64,71,3.4,Delhi
+f5d0e7daf272e595510b048febbbc859,Delhi,80,regular,3,7,Hotel,14 X 14 Sq.ft.,15,10,4.5,Delhi
+bf3b287c25c2fbe455176c102945bfcd,Hyderabad,82,regular,0,17,Hotel,10 X 10 Sq.ft.,32,99,4.5,Andhra Pradesh
+29b138a0a737cf1b3784275c51ee6bc1,Rajkot,81,regular,4,8,Hotel,18 X 12 Sq.ft.,27,37,3.4,Gujarat
+21c95b83e986f79e34d66bed9bfbc5f6,Pune,0,regular,2,8,Hotel,12 X 15 Sq.ft.,17,1,2,Maharashtra
+8fa6373187152212a31570de09ad756c,Alibag,46,regular,0,11,Hotel,14 X 14 Sq.ft.,19,15,2.9,Maharashtra
+695d67ec6dc21bca0bd3fa265a00f5f8,Surat,87,regular,2,23,Hotel,25 X 12 Sq.ft.,8,81,4.3,Gujarat
+4c939c0769783609415c754ebf47572f,Ludhiana,70,regular,1,15,Hotel,12 X 15 Sq.ft.,38,108,3.8,Punjab
+4162ebac40b8dbee20fc0ad86d9f5405,Jaipur,61,regular,0,8,Hotel,10 X 9 Sq.ft.,47,34,3.1,Rajasthan
+06e60182d17e40f2f374867a81982583,Mathura,83,regular,3,28,Hotel,12 X 18 Sq.ft.,27,6,3.2,Uttar Pradesh
+b416e92dff1f79178a63706d00ec2587,Kolkata,70,regular,3,20,Hotel,18 X 18 Sq.ft.,16,20,3.4,West Bengal
+1ef4402836e647dbbf9051c339ff2c9f,Delhi,79,regular,3,26,Hotel,12 X 11 Sq.ft.,40,34,3.5,Delhi
+1a24373bf11a08488d3563b7efa67c01,Ujjain,66,regular,0,11,Hotel,12 X 12 Sq.ft.,21,42,3.5,Madhya Pradesh
+32466eb440c46523aea39aa73d71f854,Bhopal,72,regular,3,8,Hotel,12 X 20 Sq.ft.,22,152,4.1,Madhya Pradesh
+83549f85679d88286e8acfe45754e3e2,Kathgodam,0,regular,0,9,Hotel,12 X 10 Sq.ft.,13,2,3,Uttarakhand
+90b99348cb41a6cfd30b767e71356115,Shimla,79,gostays,2,49,Hotel,10 X 10 Sq.ft.,15,539,4,Himachal Pradesh
+a3f8783769856c1d3bcf8493e1ed9bff,Vapi,88,gostays,3,19,Hotel,15 X 15 Sq.ft.,20,115,4.4,Gujarat
+cdbd66024f5631e60c55a9beeb0b172b,Anantapur,89,regular,2,5,Hotel,10 X 10 Sq.ft.,19,77,4.3,Andhra Pradesh
+8a80316474bf9e7e4ae4b5bc6c18b994,Katra,70,gostays,2,10,Hotel,12 X 14 Sq.ft.,35,186,3.7,Jammu and Kashmir
+eecc4e9a98c156f0d6893402daa3532b,Goa,83,regular,2,8,Hotel,13 X 13 Sq.ft.,8,30,4,Goa
+a243f5e4732f41177947b5706732c037,Lucknow,77,gostays,3,27,Hotel,14 X 16 Sq.ft.,36,134,3.8,Uttar Pradesh
+ffc60cf9c60844d24ca0fe6af8261abd,Leh,70,regular,3,5,Hotel,12 X 12 Sq.ft.,24,10,4.2,Jammu and Kashmir
+d49ac4c576ef87579eb809ef060daa1f,Bhopal,75,gostays,3,15,Hotel,14 X 14 Sq.ft.,25,32,4.4,Madhya Pradesh
+7f0215f6d7bce534ce9faab8cb439f5f,Jabalpur,71,regular,4,6,Hotel,18 X 18 Sq.ft.,51,21,4.1,Madhya Pradesh
+a03a7798f09b17a863733a9fdf11b206,Jaipur,77,regular,3,15,Hotel,10 X 10 Sq.ft.,50,22,3.6,Rajasthan
+f37bde65e1e112906157a81da1c87a84,Agra,80,regular,2,17,Hotel,13 X 13 Sq.ft.,20,68,4.4,Uttar Pradesh
+ebc1d7d2b57cf27c556f08c11f6f111e,Jabalpur,74,regular,3,20,Hotel,14 X 18 Sq.ft.,26,170,3.7,Madhya Pradesh
+0a7aa68e86b7bb18dc30e67652bcacdb,Coimbatore,63,regular,2,11,Hotel,12 X 12 Sq.ft.,15,11,3.6,Tamil Nadu
+35bc4e5cbe52c72e9997ee96106f85d9,Delhi,77,regular,2,46,Hotel,11 X 12 Sq.ft.,39,508,3.8,Delhi
+65f41cf4d32db5238fc6e4ccaf012374,Amritsar,75,regular,3,1,Hotel,12 X 15 Sq.ft.,36,4,3.3,Punjab
+022be0b81ac3ea59504a5ec018e3cdbb,Dehradun,84,gostays,3,8,Hotel,12 X 10 Sq.ft.,45,233,4.2,Uttarakhand
+8b1942b4e9f24a3863d66ed1c008e1f4,Hisar,87,regular,1,9,Hotel,13 X 9 Sq.ft.,9,176,4.2,Haryana
+4f523b746f61e2b1d6abdfc012f04247,Mumbai,66,regular,2,18,Hotel,12 X 12 Sq.ft.,24,42,3.6,Maharashtra
+bf129a1062697514b3f61cec416ac542,Aurangabad,69,regular,3,20,Hotel,18 X 13 Sq.ft.,38,121,3.8,Maharashtra
+56d8ab9b58c5036a551162e854db8918,Amritsar,76,regular,2,15,Hotel,10 X 12 Sq.ft.,18,211,3.9,Punjab
+b0fb2db86ae65ff241a0bc5c7b5c712c,Delhi,33,regular,0,19,Hotel,14 X 14 Sq.ft.,14,12,3.4,Delhi
+34c10e4324bfd67035526640d3c29b3e,Delhi,79,gostays,3,49,Hotel,10 X 12 Sq.ft.,26,68,4.1,Delhi
+959986ff051c3faf729613ca34c08f27,Dehradun,78,regular,3,14,Hotel,11 X 14 Sq.ft.,25,414,3.6,Uttarakhand
+fd9bb0af282072b20a9c7aaebf3bc2a8,Hyderabad,71,regular,2,13,Hotel,16 X 16 Sq.ft.,60,559,3.5,Andhra Pradesh
+cfc7f4cb746df28cf83290ac1b0c8430,Lucknow,86,regular,2,4,Hotel,10 X 10 Sq.ft.,25,15,4.5,Uttar Pradesh
+20d87febc9210380564dcdfd1b7cfa5b,Delhi,66,regular,2,36,Hotel,10 X 8 Sq.ft.,14,39,3.1,Delhi
+887bcd7fd05e73980c0544c777c47561,Bikaner,81,regular,3,21,Homestay,12 X 10 Sq.ft.,16,76,4.4,Rajasthan
+ba0fd7c6db3695b789a395a4d2a270e4,Vadodara,89,regular,0,7,Hotel,12 X 10 Sq.ft.,47,49,4.4,Gujarat
+e8ef6a88467d9c67ca15946fd6497be9,Vapi,88,gostays,4,21,Hotel,16 X 8 Sq.ft.,63,35,4.2,Gujarat
+761440b777aefcb9137be0b596d589de,Srinagar,100,regular,3,17,Hotel,13 X 14 Sq.ft.,50,7,4,Jammu and Kashmir
+f30791d303d8296be55384d21fc8f6a1,Hyderabad,70,regular,2,7,Hotel,15 X 15 Sq.ft.,32,40,3.2,Andhra Pradesh
+4fe12d4e1ccdedec0157005858156ed9,Chhindwara,83,regular,3,7,Hotel,12 X 18 Sq.ft.,26,48,4.3,Madhya Pradesh
+6c2baabd37f91af0144cb4befb29fbd2,Bodh Gaya,25,regular,1,21,Hotel,10 X 12 Sq.ft.,20,4,3.3,Bihar
+79f305a0e4e252917072a0fde7501fc9,Shirdi,80,gostays,4,11,Hotel,16 X 20 Sq.ft.,43,482,4.3,Maharashtra
+6fe55155323a21fbced7fab008442ec3,Mumbai,68,regular,0,13,Service Apartment,12 X 12 Sq.ft.,15,16,3.6,Maharashtra
+dfe8cfa7dbc15bb13ca8d03cfa0a17e3,Lucknow,75,regular,0,18,Homestay,12 X 12 Sq.ft.,10,8,4.9,Uttar Pradesh
+bf818d2aceb1e8c9770acc1bf533591a,Chail,83,regular,2,6,Resort,14 X 14 Sq.ft.,10,6,4.5,Himachal Pradesh
+768896c63b2b41c4d40b0e0ce6e50eac,Bikaner,92,regular,4,44,Palace,12 X 12 Sq.ft.,48,54,4.5,Rajasthan
+8b638ea96390b893d7a6ca362df9e109,Shimla,67,regular,3,15,Resort,12 X 14 Sq.ft.,30,95,3.3,Himachal Pradesh
+9b4b1913ea93a402bdf37ddce94647a2,Wayanad,75,regular,0,19,Hotel,12 X 10 Sq.ft.,17,33,3.9,Kerala
+a4caf53d4d4800be65a07d0ab5a2f390,Wayanad,100,regular,0,46,Villa,200 X 250 Sq.ft.,7,4,5,Kerala
+756ee25328eb85db61688f827308dd9a,Patnitop,79,regular,3,16,Hotel,12 X 10 Sq.ft.,45,288,4.2,Jammu and Kashmir
+6530a3a2eda88c993acbdd88aa061ed9,Kozhikode,83,regular,4,7,Resort,15 X 15 Sq.ft.,57,60,4.1,Kerala
+c9117622fe0b218db4b168023bf3fc6e,Goa,58,regular,3,26,Resort,22 X 22 Sq.ft.,51,17,3.2,Goa
+852eddd5012124048ee8ebe8f2c70ce0,Jaipur,74,regular,3,20,Hotel,16 X 16 Sq.ft.,30,39,4,Rajasthan
+ca8d5021fec77d3ed0a5b90192821fae,Ooty,57,regular,0,42,Hotel,300 X 300 Sq.ft.,51,59,2.4,Tamil Nadu
+63cc2f207c71e6b6f8d9a51d72b8bb7f,Panvel,88,regular,3,3,Hotel,15 X 15 Sq.ft.,38,108,4.3,Maharashtra
+5f963597ff0c1ed0c02289051fb3e781,Agra,50,regular,1,3,Hotel,10 X 10 Sq.ft.,14,2,3.1,Uttar Pradesh
+892792ba641f6c6887d8a18db633c5ff,Bangalore,84,regular,3,23,Hotel,16 X 14 Sq.ft.,32,32,4.1,Karnataka
+86a92d33e6db9cd768fe3807566bbbd4,Srinagar,84,regular,4,12,Houseboat,16 X 16 Sq.ft.,12,13,4.8,Jammu and Kashmir
+c8d8237ac849410fa85f9ef7ae73ff31,Gurgaon,93,regular,3,29,Hotel,15 X 15 Sq.ft.,11,16,4.4,Haryana
+f34bfee9e586e460152f9178d7bdcecd,Aurangabad,73,regular,5,36,Hotel,17 X 17 Sq.ft.,30,63,4.3,Maharashtra
+9c30988bf98170fe7782b6415b2d0791,Araku Valley,75,regular,0,9,Hotel,520 X 520 Sq.ft.,9,4,3.1,Andhra Pradesh
+aa0117db87393f91a0658e1f347cf6c8,Pune,88,gostays,3,46,Hotel,27 X 10 Sq.ft.,37,109,4.4,Maharashtra
+a5e18aefac6affb71e35ed04c63a789d,Goa,74,regular,4,31,Resort,16 X 16 Sq.ft.,116,117,4.1,Goa
+5c3816a1ccfa800cb61cc8d83e690e76,Kasauli,86,regular,3,35,Hotel,16 X 10 Sq.ft.,39,342,4.5,Himachal Pradesh
+81fe340b7bb5eff0e901cb5491f4d9af,Pahalgam,79,regular,3,23,Hotel,13 X 14 Sq.ft.,55,62,4.1,Jammu and Kashmir
+3a6879e82ce344ce46c0a75996b72d07,Gurgaon,83,regular,3,21,Guest House,12 X 15 Sq.ft.,12,90,4.4,Haryana
+ba676e1eb387d5653d234006e3f8ba04,Leh,100,regular,0,0,Tent,10 X 12 Sq.ft.,20,1,3.9,Jammu and Kashmir
+cd72fab198acc0683174c15c56cb1bea,Jaisalmer,60,regular,3,0,Resort,14 X 14 Sq.ft.,25,25,4.4,Rajasthan
+c7cb58a6a5a4084aac91c094ac04fb45,Jaipur,86,regular,3,30,Hotel,12 X 14 Sq.ft.,58,165,4.1,Rajasthan
+69aea7ee254dcd413396ef5d929cd9c3,Panchkula,75,regular,4,12,Hotel,14 X 12 Sq.ft.,9,74,4.3,Haryana
+ef033692f0f1193482f154b98968f845,Goa,86,regular,0,3,Cottage,14 X 14 Sq.ft.,7,15,4.4,Goa
+349a72b933d6ad5fc5f13ced1c8929c7,Bangalore,80,regular,3,31,Hotel,17 X 17 Sq.ft.,30,10,4.2,Karnataka
+f719c28a6bfb5f10000dd5071d75710d,Ooty,41,regular,0,15,Cottage,14 X 14 Sq.ft.,8,29,2.4,Tamil Nadu
+3dd8a302d5919d2d6e48987b2ebf5a19,Ranikhet,79,regular,4,41,Resort,12 X 12 Sq.ft.,10,82,4.4,Uttarakhand
+39e90f0113cd9ce84797305a353a2a0c,Jaipur,86,gostays,3,18,Hotel,16 X 16 Sq.ft.,45,150,4.2,Rajasthan
+4861eda2f5aa17da67a7767989806479,Manali,61,regular,0,46,Cottage,120 X 144 Sq.ft.,15,67,3.8,Himachal Pradesh
+486857285efe3de003348487febd4842,Srinagar,100,regular,0,7,Houseboat,14 X 16 Sq.ft.,19,8,3.9,Jammu and Kashmir
+b48f2d3859668dcd5a4caf069909f450,Goa,50,regular,0,11,Guest House,12 X 12 Sq.ft.,28,4,2.9,Goa
+9d74e016c549001813dfc49a13337b1c,Delhi,50,regular,0,18,BnB,15 X 15 Sq.ft.,24,4,2.3,Delhi
+fa5ecd14bfb5fe64584ab4cb2e3ce584,Gurgaon,55,regular,3,23,Hotel,15 X 15 Sq.ft.,11,9,3.5,Haryana
+c946fe4fdd1a755bdaa9cec9c34dca36,Mysore,85,regular,2,14,Service Apartment,20 X 20 Sq.ft.,5,34,4.4,Karnataka
+7a37b346310d17c73512e12f8a5379cc,Surat,86,gostays,3,15,Hotel,10 X 12 Sq.ft.,53,375,4.3,Gujarat
+648d2b6191a0d4391d9061137a477d78,Chennai,75,regular,3,11,Hotel,19 X 19 Sq.ft.,17,29,3.9,Tamil Nadu
+4e480f1e75813f5fa9db0bbbe1a63086,Ernakulam,66,regular,2,27,Hotel,15 X 18 Sq.ft.,53,9,3.4,Kerala
+3de5297480bb86025dd5b20c435e164d,Rajahmundry,89,regular,2,5,Hotel,14 X 12 Sq.ft.,10,294,4.2,Andhra Pradesh
+b1a53f82640d6591914f9411b129fa7f,Haridwar,100,regular,2,2,Hotel,10 X 12 Sq.ft.,22,3,3.9,Uttarakhand
+01223b40e848d508318fb49970ef384a,Jaipur,83,regular,4,25,Hotel,12 X 12 Sq.ft.,82,217,4,Rajasthan
+0042b947bd2dff8337cdd43aef148c98,Navi Mumbai,67,regular,3,8,Hotel,12 X 10 Sq.ft.,30,74,3.3,Maharashtra
+bd799fb59f7d1a226025bc49695fb825,Gurgaon,60,regular,3,2,Hotel,12 X 12 Sq.ft.,27,28,3.6,Haryana
+80718e859c3986ef02b707e1db90f50e,Darjeeling,100,regular,0,15,Villa,20 X 20 Sq.ft.,23,1,1,West Bengal
+e2e8a5dc86c1e96c2b25c5ce9e774f0f,Pune,75,regular,3,27,Hotel,10 X 15 Sq.ft.,10,4,4.2,Maharashtra
+0a833c6b12d63c873b483f5984afe9bf,Bhopal,60,regular,3,33,Service Apartment,10 X 12 Sq.ft.,8,5,3.8,Madhya Pradesh
+fd42fa66ea8088076a5a4c6488b1339e,Palakkad,64,regular,3,21,Resort,12 X 12 Sq.ft.,40,14,3.3,Kerala
+01eb71757613e5b13dca87e2c5af9205,Pune,85,gostays,4,12,Hotel,15 X 15 Sq.ft.,100,391,4.1,Maharashtra
+ba1bc501bfa5c7586f8e20a5b16c0145,Shimla,81,regular,2,69,Hotel,12 X 14 Sq.ft.,9,58,3.8,Himachal Pradesh
+0819d00e139a90d9367b0822cdc41af2,Jalandhar,92,regular,3,12,Hotel,20 X 20 Sq.ft.,23,56,4.4,Punjab
+12aed8dde7772b6b07614ba3202a7ac9,Pondicherry,87,regular,4,10,Hotel,15 X 15 Sq.ft.,11,72,4.1,Pondicherry
+098b5d5631ab5c652d32c5d28f0af647,Ooty,73,regular,0,33,Homestay,11 X 11 Sq.ft.,3,15,4.4,Tamil Nadu
+e24e81a6541564f621235d4af2c11eec,Kasauli,77,regular,0,29,Homestay,16 X 14 Sq.ft.,4,79,4,Himachal Pradesh
+188e4e608bf3e27a0d8288c4e56f6d55,Shimla,89,regular,4,25,Resort,12 X 14 Sq.ft.,21,37,4.5,Himachal Pradesh
+88c812babcda312764ac85dc253644db,Shimla,68,regular,2,30,Resort,12 X 15 Sq.ft.,22,45,3.4,Himachal Pradesh
+70ec4d39916e849ba99f63d97e9f2884,Shimla,70,regular,0,18,Homestay,10 X 10 Sq.ft.,8,17,4,Himachal Pradesh
+9d4618983eb410665fefc4b6fc1b2132,Delhi,77,regular,3,7,Hotel,14 X 14 Sq.ft.,11,31,3.9,Delhi
+b5080c0a338afb0aa1316eb32d61fb07,Munnar,86,regular,2,26,Resort,14 X 14 Sq.ft.,21,22,4.2,Kerala
+63b8f7570e8be90b587511d974216b56,Bangalore,100,regular,3,8,Hotel,0 X 0 Sq.ft.,1,1,4,Karnataka
+e3ae3f45e294a814ecdeb025632ddbd4,Goa,100,regular,3,9,Hotel,20 X 20 Sq.ft.,6,2,4.8,Goa
+5f763b0a4a4f44510a47761e5a436b54,Hyderabad,66,regular,3,20,Hotel,10 X 10 Sq.ft.,45,230,3.2,Andhra Pradesh
+61c32f4ee59bd68d0d601c5285b6fb49,Mandawa,66,regular,4,13,Hotel,12 X 10 Sq.ft.,23,12,4.4,Rajasthan
+62c1c2046403d9c3a5ad7cd61afe2cc9,Alleppey,73,regular,0,30,Hotel,15 X 15 Sq.ft.,12,60,3.8,Kerala
+17efc36df9f0d88797ed6fc34f794fea,Mussoorie,88,gostays,0,24,BnB,16 X 11 Sq.ft.,8,96,4.3,Uttarakhand
+daffceb57c202feae10294101e017fce,Navi Mumbai,84,regular,4,23,Hotel,12 X 10 Sq.ft.,69,96,4.1,Maharashtra
+f2db3756488dc566a62a6a1f60274219,Goa,100,regular,0,11,Hotel,14 X 14 Sq.ft.,19,6,4.3,Goa
+34b8e8b74f824412c8f426efc82b0c6d,Udaipur,100,regular,3,16,Hotel,13 X 10 Sq.ft.,42,12,4.4,Rajasthan
+5ede47e21f72937ea4fd233322368143,Ajmer,91,regular,4,41,Hotel,22 X 12 Sq.ft.,30,138,4.6,Rajasthan
+9fd6c621d1784633ec89685db2848f23,Srinagar,93,regular,0,17,Houseboat,13 X 14 Sq.ft.,10,16,4.6,Jammu and Kashmir
+6ed6ca681b88878c6a6431e66568eb4b,Wayanad,89,regular,5,24,Resort,12 X 10 Sq.ft.,39,85,4.1,Kerala
+c408c54befb5d9dffd7a51e22daeb58c,Goa,78,regular,3,22,Hotel,16 X 16 Sq.ft.,38,28,4.2,Goa
+1bbe3d9f2bde145483168777cf2bc5f0,Delhi,80,regular,2,7,Hotel,10 X 12 Sq.ft.,16,5,3.7,Delhi
+bf1292bae1dcf9525e2fb89dbb8ece44,Srinagar,79,regular,3,10,Houseboat,12 X 10 Sq.ft.,8,39,3.9,Jammu and Kashmir
+aebc946cc02d567242769948810241b7,Goa,85,regular,5,19,Resort,15 X 10 Sq.ft.,11,125,4.3,Goa
+80a4a8ff53caf1340db85a43754951e4,Lucknow,85,regular,4,31,Hotel,15 X 12 Sq.ft.,19,68,4.3,Uttar Pradesh
+5cb27873883b784d0b2bc75cf0f7bfc8,Mathura,100,regular,3,11,Hotel,12 X 12 Sq.ft.,59,2,5,Uttar Pradesh
+4ee692da76aca6284c0a8579f93a9ff2,Mount Abu,57,regular,3,16,Hotel,11 X 12 Sq.ft.,68,28,2.9,Rajasthan
+9ca9959e90978911d66ce2613a297e2e,Ajmer,89,regular,3,4,Hotel,14 X 14 Sq.ft.,36,48,4.7,Rajasthan
+b24d7f7b48305a536f0f625df03b48fd,Ajmer,74,regular,3,22,Hotel,13 X 13 Sq.ft.,20,213,3.6,Rajasthan
+32cccd16945dbe2ca9f2ea7e59827401,Udaipur,81,gostays,2,7,Hotel,10 X 13 Sq.ft.,44,135,4.2,Rajasthan
