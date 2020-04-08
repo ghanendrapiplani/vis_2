@@ -45,28 +45,26 @@ circle.hidden {
 }
 
 </style>
+
 <body>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://d3js.org/d3.v3.min.js"></script>
-<script src="/static/d3-tip.js"></script>
 <script>
 
 var data = {{ data | safe }}
 var ttl = {{ title | safe }}
 var rs = {{ rs | safe }}
-console.log(data)
 drawScatterPlotMatrix(data,rs.rs, ttl.title)
 console.log(rs.rs)
 
 function drawScatterPlotMatrix(jdata, rs, chart_title){
-    d3.select('#chart').remove();
-    //  To get column names of most weighted attributes/columns
+    console.log(jdata)
     var ftrNames = Object.keys(jdata);
-    var width = 960,
-    size = 230,
-    padding = 20;
+    var width = 900,
+    size = 350,
+    padding = 60;
 
-    console.log("Inside Sctter plot matrix1");
+    console.log("Inside Scatter plot matrix1");
     var x = d3.scale.linear()
         .range([padding/2, size - padding/2]);
 
@@ -78,7 +76,7 @@ function drawScatterPlotMatrix(jdata, rs, chart_title){
         .orient("bottom")
         .ticks(6);
 
-    console.log("Inside Sctter plot matrix2");
+    console.log("Inside Scatter plot matrix2");
     var yAxis = d3.svg.axis()
         .scale(y)
         .orient("left")
@@ -94,7 +92,7 @@ function drawScatterPlotMatrix(jdata, rs, chart_title){
     data[ftrNames[1]] = jdata[ftrNames[1]];
     data[ftrNames[2]] = jdata[ftrNames[2]];
 
-    console.log("Inside Sctter plot matrix3");
+    console.log("Inside Scatter plot matrix3");
 
     var domainByFtr = {},
       ftrNames = d3.keys(data).filter(function(d) { return d !== "clusterid"; }),
@@ -150,7 +148,7 @@ function drawScatterPlotMatrix(jdata, rs, chart_title){
         .attr("dy", ".71em")
         .text(function(d) { return d.x; });
 
-    console.log("Inside Sctter plot matrix4");
+    console.log("Inside Scatter plot matrix4");
     function plot(p) {
           var cell = d3.select(this);
           x.domain(domainByFtr[String(p.x)]);

@@ -18,112 +18,159 @@ path {
     shape-rendering: crispEdges;
 }
 
+#loader-img{
+margin: 0 auto;
+display: block;
+}
+
+#content{
+    width: 40%;
+    margin: 0 auto;
+    padding: 3em;
+    text-align: center;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.border{border: 3px solid #fff;     border-radius: 5px;}
+
 </style>
 <head>
     <meta charset="UTF-8">
-    <title>Visualization lab2 - Flight data analytics</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Visualization Mini Project 2</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for ('static', filename='style.css') }}">
 </head>
-<body>
-<center>
-    <h1>Visualization Lab 2</h1>
-    <h2>Data Clustering and Dimension Reduction</h2>
+<body >
+<center style="margin:30px">
+    <h2>Visualization Mini Project 2</h2><br/>
+    <h3>Currency Exchange Rates of 22 countries vs US Dollar (USD)</h3>
 </center>
-<hr>
- <div class="row" >
-     <div class="dropdown1">
-        <select id="map1">
-            <option val="Select Task">Select Task</option>
-            <option val="Task 1">Task 1</option>
-            <option val="Task 2">Task 2</option>
+
+ <div class="row" style=" margin:0 auto;">
+
+
+    <div class="dropdown " style=" margin:20px auto;">
+        <select id="map" class="btn btn-primary dropdown-toggle" onchange="mapSelect()">
+            <option val="Select sub-task">Select visualization technique</option>
         </select>
-     </div>
-     <div class="dropdown2">
-        <select id="map2" onchange="mapSelect()">
-            <option val="Select sub-task">Select sub-task</option>
-        </select>
-     </div>
+
+    </div>
+
+
+
  </div>
+     <div id="div_big"  style="margin-left=100px">
+        <div id="div1">
+
+        </div>
+     </div>
+
+      <div class="loader"  >
+            <img style=" margin:0 auto ; " src="https://cssauthor.com/wp-content/uploads/2018/06/Animated-Loading-%C3%97-1.gif"/>
+       </div>
+
+
 </body>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
-<script src="/static/d3-tip.js"></script>
 <script>
-select_category = new Array('Select sub-task');
-task_category=new Array('Select sub-task', 'PCA_SCREE');
-task_category_names = new Array('Select sub-task', "PCA Scree Plot");
-tasks=new Array('Select sub-task', 'PCA_RANDOM_SAMPLING','PCA_ADAPTIVE_SAMPLING','MDS_EUCLIDEAN_RANDOM_SAMPLING', 'MDS_EUCLIDEAN_ADAPTIVE_SAMPLING',
-    'MDS_CORRELATION_RANDOM_SAMPLING', 'MDS_CORRELATION_ADAPTIVE_SAMPLING', 'SCATTER_MATRIX_RANDOM_SAMPLING', 'SCATTER_MATRIX_ADAPTIVE_SAMPLING');
-task_names=new Array('Select sub-task', 'PCA Random Sampling','PCA Adaptive Sampling','MDS Euclidean Random Sampling', 'MDS Euclidean Adaptive Sampling',
-    'MDS Correlation Random Sampling', 'MDS Correlation Adaptive Sampling', 'Scatter Matrix Random Sampling', 'Scatter Matrix Adaptive Sampling');
+tasks=new Array('Select task',
+    'SCREE_FULL','SCREE_RANDOM','SCREE_KMEANS',
+    'PCA_FULL','PCA_RANDOM','PCA_KMEANS',
+    'MDS_EUCLIDEAN_FULL', 'MDS_EUCLIDEAN_RANDOM', 'MDS_EUCLIDEAN_KMEANS',
+    'MDS_CORRELATION_FULL', 'MDS_CORRELATION_RANDOM', 'MDS_CORRELATION_KMEANS',
+    'SCATTER_MATRIX_FULL','SCATTER_MATRIX_RANDOM', 'SCATTER_MATRIX_KMEANS');
+
+task_names=new Array(
+    'Scree Plot Full Data','Scree Plot Random Sampling','Scree Plot KMeans Sampling',
+    'PCA Full Data','PCA Random Sampling','PCA KMeans Sampling',
+    'MDS Euclidean Full data', 'MDS Euclidean Random Sampling', 'MDS Euclidean KMeans Sampling',
+    'MDS Correlation Full Data','MDS Correlation Random Sampling', 'MDS Correlation KMeans Sampling',
+    'Scatter Matrix Full Data', 'Scatter Matrix Random Sampling', 'Scatter Matrix KMeans Sampling');
 
 populateSelect();
 
-$(function() {
-      $('#map1').change(function(){
-        populateSelect();
-    });
-});
-
 function populateSelect(){
-    map1=$('#map1').val();
-    console.log(map1);
-    $('#map2').html('');
-
-    if(map1=='Task 1'){
-        task_category.forEach(function(t, i) {
-            $('#map2').append('<option value='+t+'>'+task_category_names[i]+'</option>');
-        });
-    }
-
-    if(map1=='Task 2'){
+        $(".loader").hide();
         tasks.forEach(function(t, i) {
-            $('#map2').append('<option value='+t+'>'+task_names[i]+'</option>');
+        if (t!="Select task"){
+            $('#map').append('<option value='+t+'>'+task_names[i-1]+'</option>');
+            console.log(i+" "+t+" "+task_names[i-1])
+        }
         });
     }
 
-    if(map1=='Select Task'){
-        select_category.forEach(function(t, i) {
-            $('#map2').append('<option> '+t+'</option>');
-        });
-    }
-}
 
 function mapSelect() {
     console.log('mapselect')
-    var dropdown = document.getElementById("map2");
+    var dropdown = document.getElementById("map");
     var selectedValue = dropdown.options[dropdown.selectedIndex].value;
+    console.log(selectedValue)
     if(selectedValue == -1) {
-        // Do nothing
-    } else if(selectedValue == "PCA_RANDOM_SAMPLING") {
+        //none
+    } else if(selectedValue == "SCREE_FULL") {
         console.log(selectedValue)
-
-    } else if(selectedValue == "PCA_ADAPTIVE_SAMPLING") {
+        ajax_fx("http://127.0.0.1:5000/fulldata_scree_plot")
+    } else if(selectedValue == "SCREE_RANDOM") {
         console.log(selectedValue)
-
-    } else if(selectedValue == "MDS_EUCLIDEAN_RANDOM_SAMPLING") {
+        ajax_fx("http://127.0.0.1:5000/random_scree_plot");
+    } else if(selectedValue == "SCREE_KMEANS") {
         console.log(selectedValue)
-
-    } else if(selectedValue == "MDS_EUCLIDEAN_ADAPTIVE_SAMPLING") {
+        ajax_fx("http://127.0.0.1:5000/kmeans_scree_plot");
+    } else if(selectedValue == "PCA_FULL") {
         console.log(selectedValue)
-
-    } else if(selectedValue == "MDS_CORRELATION_RANDOM_SAMPLING") {
+        ajax_fx("http://127.0.0.1:5000/scatter_2d_fulldata")
+    } else if(selectedValue == "PCA_RANDOM") {
         console.log(selectedValue)
-
-    } else if(selectedValue == "MDS_CORRELATION_ADAPTIVE_SAMPLING") {
+        ajax_fx("http://127.0.0.1:5000/scatter_2d_random");
+    } else if(selectedValue == "PCA_KMEANS") {
         console.log(selectedValue)
-
-    } else if(selectedValue == "SCATTER_MATRIX_RANDOM_SAMPLING") {
+        ajax_fx("http://127.0.0.1:5000/scatter_2d_kmeans");
+    } else if(selectedValue == "MDS_EUCLIDEAN_FULL") {
         console.log(selectedValue)
-    window.open("http://127.0.0.1:5000/scatter_matrix_random");
-    }else if(selectedValue == "SCATTER_MATRIX_ADAPTIVE_SAMPLING") {
+        ajax_fx("http://127.0.0.1:5000/mds_euclidean_full");
+    } else if(selectedValue == "MDS_EUCLIDEAN_RANDOM") {
         console.log(selectedValue)
-
-    }else if(selectedValue == "PCA_SCREE") {
+        ajax_fx("http://127.0.0.1:5000/mds_euclidean_random");
+    } else if(selectedValue == "MDS_EUCLIDEAN_KMEANS") {
         console.log(selectedValue)
-
+        ajax_fx("http://127.0.0.1:5000/mds_euclidean_kmeans");
+    } else if(selectedValue == "MDS_CORRELATION_FULL") {
+        console.log(selectedValue)
+        ajax_fx("http://127.0.0.1:5000/mds_correlation_full");
+    } else if(selectedValue == "MDS_CORRELATION_RANDOM") {
+        console.log(selectedValue)
+        ajax_fx("http://127.0.0.1:5000/mds_correlation_random");
+    }else if(selectedValue == "MDS_CORRELATION_KMEANS") {
+        console.log(selectedValue)
+        ajax_fx("http://127.0.0.1:5000/mds_correlation_kmeans");
+    }else if(selectedValue == "SCATTER_MATRIX_FULL") {
+        console.log(selectedValue)
+        ajax_fx("http://127.0.0.1:5000/scatter_matrix_full");
+    }else if(selectedValue == "SCATTER_MATRIX_RANDOM") {
+        console.log(selectedValue)
+        ajax_fx("http://127.0.0.1:5000/scatter_matrix_random");
+    }else if(selectedValue == "SCATTER_MATRIX_KMEANS") {
+        console.log(selectedValue)
+        ajax_fx("http://127.0.0.1:5000/scatter_matrix_kmeans");
     }
+}
+
+function ajax_fx(url){
+    $(".loader").show();
+    d3.select("svg").remove();
+    $.ajax({url: url, success: function(result){
+            $(".loader").hide();
+            $("#div1").html(result);
+    }});
 
 }
+
+
+
 </script>
 </html>
