@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+svg {
+  font: 10px sans-serif;
+  padding: 10px;
+}
+
+.axis,
+.frame {
+  shape-rendering: crispEdges;
+}
+
+.axis line {
+  stroke: #ddd;
+}
+
+.axis path {
+  display: none;
+}
+
+.cell text {
+  font-weight: bold;
+  text-transform: capitalize;
+  fill: black;
+}
+
+.frame {
+  fill: none;
+  stroke: #aaa;
+}
+
+circle {
+  fill-opacity: .7;
+}
+
+circle.hidden {
+  fill: #ccc !important;
+}
+
+.extent {
+  fill: #000;
+  fill-opacity: .125;
+  stroke: #fff;
+}
+
+</style>
+<body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="/static/d3-tip.js"></script>
+<script>
+
+var data = {{ data | safe }}
+console.log(data)
+drawScatter(data,"2D Scatter Plot for random sampled data")
+function drawScatter(sData,  chart_title) {
+    d3.select('#chart').remove();
+<!--    var data = JSON.parse(sData);-->
+    console.log(sData['0']['0'])
+    var array = [];
+    var min = 0, max = 0;
+//  To get column names of most weighted attributes/columns
+    ftrNames = Object.keys(data);
+    console.log(ftrNames)
+    for(var i=0; i< Object.keys(data[0]).length; ++i){
+        obj = {}
+        obj.x = data['0'][i];
+        obj.y = data['1'][i];
+        if ("clusterid" in data){
+            obj.clusterid = data['clusterid'][i]
+        console.log(data['clusterid'][i]);
+        }
+<!--        obj.ftr1 = data[ftrNames[2]][i]-->
+<!--        obj.ftr2 = data[ftrNames[3]][i]-->
+<!--        console.log(obj);-->
+        array.push(obj);
+    }
+    data = array;
+
+    var margin = {top: 20, right: 20, bottom: 30, left: 40},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+    var xValue = function(d) { return d.x;}, xScale = d3.scale.linear().range([0, width]),
+        xMap = function(d) { return xScale(xValue(d));}, xAxis = d3.svg.axis().scale(xScale).orient("bottom");
+
+    var yValue = function(d) { return d.y;}, yScale = d3.scale.linear().range([height, 0]),
+        yMap = function(d) { return yScale(yValue(d));}, yAxis = d3.svg.axis().scale(yScale).orient("left");
+
+    var cValue = function(d) { return d.clusterid;}
+
+    var color = d3.scale.category10();
+
+    var svg = d3.select("body").append("svg")
+        .attr('id', 'chart')
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    var tooltip = d3.select("body").append('div').style('position','absolute');
+
+    xScale.domain([d3.min(data, xValue)-1, d3.max(data, xValue)+1]);
+    yScale.domain([d3.min(data, yValue)-1, d3.max(data, yValue)+1]);
+
+    svg.append("g")
+          .attr("transform", "translate(0," + height + ")")
+          .attr("class", "x_axis")
+          .call(xAxis)
+        .append("text")
+          .attr("class", "label")
+          .attr("y", -6)
+          .attr("x", width)
+          .text("Component 1")
+          .style("text-anchor", "end");
+
+    svg.append("g")
+          .attr("class", "y_axis")
+          .call(yAxis)
+        .append("text")
+          .attr("class", "label")
+          .attr("y", 6)
+          .attr("transform", "rotate(-90)")
+          .attr("dy", ".71em")
+          .text("Component 2")
+          .style("text-anchor", "end");
+
+    svg.selectAll(".dot")
+          .data(data)
+          .enter().append("circle")
+          .attr("class", "dot")
+          .attr("cx", xMap)
+          .attr("r", 1.6)
+          .attr("cy", yMap)
+          .style("fill", function(d) { return color(cValue(d));})
+
+
+    svg.append("text")
+        .attr("x", (width / 2))
+        .attr("y", 0 + (margin.top / 2))
+        .attr("text-anchor", "middle")
+        .style("font-size", "16px")
+        .style("text-decoration", "underline")
+        .style("font-weight", "bold")
+        .text(chart_title);
+}
+
+
+</script>
