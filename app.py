@@ -3,14 +3,11 @@ import json
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from flask import Flask, render_template, request, jsonify
-from scipy.spatial.distance import cdist
+from flask import Flask, render_template
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
-from sklearn import decomposition
 from sklearn.decomposition import PCA
 from sklearn import preprocessing
-import random
 from sklearn import manifold
 from sklearn.metrics import pairwise_distances
 
@@ -44,17 +41,23 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/kmeans", methods=['POST', 'GET'])
+@app.route("/kmeans_scree_plot", methods=['POST', 'GET'])
 def kmeans():
     global df_main
     df = kmeans_cluster(df_main)
     return render_template("pca.html", data=pca(df))
 
 
-@app.route("/fulldata", methods=['POST', 'GET'])
+@app.route("/fulldata_scree_plot", methods=['POST', 'GET'])
 def fulldata():
     global df_main
     return render_template("pca.html", data=pca(df_main))
+
+
+@app.route("/random_scree_plot", methods=['POST', 'GET'])
+def random():
+    global df_main_random
+    return render_template("pca.html", data=pca(df_main_random))
 
 
 def plot_k(k, x):
@@ -122,30 +125,6 @@ def random_sampling():
     return render_template("pca.html", data=pca(df_random))
 
 
-def generate_eigenValues(data):
-    cov_mat = np.cov(data.T)
-    eig_values, eig_vectors = np.linalg.eig(cov_mat)
-    idx = eig_values.argsort()[::-1]
-    eig_values = eig_values[idx]
-    eig_vectors = eig_vectors[:, idx]
-    return eig_values, eig_vectors
-
-
-def plot_intrinsic_dimensionality_pca(data, k):
-    [eigenValues, eigenVectors] = generate_eigenValues(data)
-    print("eigenValues")
-    squaredLoadings = []
-    ftrCount = len(eigenVectors)
-    for ftrId in range(0, ftrCount):
-        loadings = 0
-        for compId in range(0, k):
-            loadings = loadings + eigenVectors[compId][ftrId] * eigenVectors[compId][ftrId]
-        squaredLoadings.append(loadings)
-
-    print('squaredLoadings {}'.format(squaredLoadings))
-    return squaredLoadings
-
-
 def pca(df_=None):
     pca_obj = PCA()
     scaled_data = preprocessing.scale(df_)
@@ -167,25 +146,6 @@ def process_val(val):
         return float(val)
 
 
-@app.route('/scatter_matrix_random')
-def scatter_matrix_plot():
-    global df_main
-    df_ = plot_k(3, df_main)
-    squared_loadings = plot_intrinsic_dimensionality_pca(df_, 3)
-    imp_ftrs = sorted(range(len(squared_loadings)), key=lambda k: squared_loadings[k], reverse=True)
-    print("important features {}".format(imp_ftrs))
-    data_columns = pd.DataFrame()
-    for i in range(0, 4):
-        data_columns[df_.columns[imp_ftrs[i]]] = df_[df_.columns[imp_ftrs[i]]]
-    print(data_columns.columns)
-    data_columns['clusterid'] = df_['cluster_num']
-    data_columns = data_columns.drop("cluster_num", axis=1)
-    print(data_columns)
-    csv = data_columns.to_csv("csv")
-    print(csv)
-    return render_template("scatter_matrix.html", data=csv)
-
-
 @app.route('/scatter_2d_fulldata')
 def scatter_fulldata_plot():
     global df_main
@@ -193,10 +153,13 @@ def scatter_fulldata_plot():
     pca_data.fit(df_main)
     df_ = pca_data.transform(df_main)
     data_final = pd.DataFrame(df_)
-    print("shapes {} {}".format(df_main.shape, data_final.shape))
-    print(data_final.head)
-    print(df_main.head)
-    return render_template("scatter_2d.html", data=json.dumps(data_final.to_dict()))
+    loadings = np.sum(np.square(pca_data.components_), axis=0)
+    indices_of_top_3_attributes = loadings.argsort()[-2:][::-1]
+    print(indices_of_top_3_attributes)
+    for i in range(len(indices_of_top_3_attributes)):
+        data_final[df_main_random.columns[indices_of_top_3_attributes[i]]] = df_main_random[
+            df_main_random.columns[indices_of_top_3_attributes[i]]]
+    return render_template("scatter_2d.html", data=json.dumps(data_final.to_dict()), title=json.dumps({"title":"2D Scatter plot for full data"}))
 
 
 @app.route('/scatter_2d_random')
@@ -206,10 +169,15 @@ def scatter_random_plot():
     pca_data.fit(df_main_random)
     df_ = pca_data.transform(df_main_random)
     data_final = pd.DataFrame(df_)
-    print("shapes {} {}".format(df_main_random.shape, data_final.shape))
-    print(data_final.head)
-    print(df_main_random.head)
-    return render_template("scatter_2d.html", data=json.dumps(data_final.to_dict()))
+    loadings = np.sum(np.square(pca_data.components_), axis=0)
+    indices_of_top_3_attributes = loadings.argsort()[-2:][::-1]
+    print(indices_of_top_3_attributes)
+    for i in range(len(indices_of_top_3_attributes)):
+        data_final[df_main_random.columns[indices_of_top_3_attributes[i]]] = df_main_random[
+            df_main_random.columns[indices_of_top_3_attributes[i]]]
+    print(data_final)
+
+    return render_template("scatter_2d.html", data=json.dumps(data_final.to_dict()), title=json.dumps({"title":"2D Scatter plot for full data"}))
 
 
 @app.route('/scatter_2d_kmeans')
@@ -219,45 +187,50 @@ def scatter_kmeans_plot():
     pca_data.fit(df_main_kmeans)
     df_ = pca_data.transform(df_main_kmeans)
     data_final = pd.DataFrame(df_)
-    print("shapes {} {}".format(df_main_kmeans.shape, data_final.shape))
-    print(data_final.head)
-    print(df_main_kmeans.head)
+
+    loadings = np.sum(np.square(pca_data.components_), axis=0)
+    indices_of_top_3_attributes = loadings.argsort()[-2:][::-1]
+    print(indices_of_top_3_attributes)
+    for i in range(len(indices_of_top_3_attributes)):
+        data_final[df_main_kmeans.columns[indices_of_top_3_attributes[i]]] = df_main_kmeans[
+            df_main_kmeans.columns[indices_of_top_3_attributes[i]]]
+    print(data_final)
     data_final['clusterid'] = np.nan
     x = 0
     for index, row in df_main_kmeans.iterrows():
         data_final['clusterid'][x] = row['cluster_num']
         x = x + 1
-    return render_template("scatter_2d.html", data=json.dumps(data_final.to_dict()))
+    return render_template("scatter_2d.html", data=json.dumps(data_final.to_dict()), title=json.dumps({"title":"2D Scatter plot for kmeans clustered data"}))
 
 
 @app.route('/mds_euclidean_full')
 def mds_euclidean_full():
     global df_main
-    df_full_subset = df_main.sample(n=int(0.2 * len(df_main)))
+    df_full_subset = df_main[0:int(0.1 * len(df_main))]
     print("dfdf {}".format(df_full_subset.shape))
     mds_data = manifold.MDS(n_components=2, dissimilarity='precomputed')
     similarity = pairwise_distances(df_full_subset, metric='euclidean')
     X = mds_data.fit_transform(similarity)
     data_final = pd.DataFrame(X)
-    return render_template("scatter_2d.html", data=json.dumps(data_final.to_dict()))
+    return render_template("scatter_2d.html", data=json.dumps(data_final.to_dict()), title=json.dumps({"title":"2D Scatter plot for MDS unsampled data"}))
 
 
 @app.route('/mds_euclidean_random')
 def mds_euclidean_random():
     global df_main_random
-    df_random_subset = df_main_random.sample(n=int(0.2 * len(df_main_random)))
+    df_random_subset = df_main_random[0:int(0.1 * len(df_main))]
     print("dfdf {}".format(df_random_subset.shape))
     mds_data = manifold.MDS(n_components=2, dissimilarity='precomputed')
     similarity = pairwise_distances(df_random_subset, metric='euclidean')
     X = mds_data.fit_transform(similarity)
     data_final = pd.DataFrame(X)
-    return render_template("scatter_2d.html", data=json.dumps(data_final.to_dict()))
+    return render_template("scatter_2d.html", data=json.dumps(data_final.to_dict()), title=json.dumps({"title":"2D Scatter plot for MDS random data"}))
 
 
 @app.route('/mds_euclidean_kmeans')
 def mds_euclidean_kmeans():
     global df_main_kmeans
-    df_kmeans_subset = df_main_kmeans.sample(n=int(0.2 * len(df_main_kmeans)))
+    df_kmeans_subset = df_main_kmeans.sample(int(0.2 * len(df_main)))
     print("dfdf {}".format(df_kmeans_subset.shape))
     mds_data = manifold.MDS(n_components=2, dissimilarity='precomputed')
     similarity = pairwise_distances(df_kmeans_subset, metric='euclidean')
@@ -268,7 +241,40 @@ def mds_euclidean_kmeans():
     for index, row in df_kmeans_subset.iterrows():
         data_final['clusterid'][x] = row['cluster_num']
         x = x + 1
-    return render_template("scatter_2d.html", data=json.dumps(data_final.to_dict()))
+    return render_template("scatter_2d.html", data=json.dumps(data_final.to_dict()), title=json.dumps({"title":"2D Scatter plot for MDS Kmeans clustered data"}))
+
+
+@app.route('/scatter_matrix_random')
+def scatter_matrix_random_plot():
+    global df_main_random
+    data_columns = pd.DataFrame()
+    pca = PCA()
+    pca.fit(df_main_random)
+    loadings = np.sum(np.square(pca.components_), axis=0)
+    indices_of_top_3_attributes = loadings.argsort()[-3:][::-1]
+    for i in range(len(indices_of_top_3_attributes)):
+        data_columns[df_main_random.columns[indices_of_top_3_attributes[i]]] = df_main_random[df_main_random.columns[indices_of_top_3_attributes[i]]]
+    return render_template("scatter_matrix.html",
+                           rs=json.dumps({'rs': True}),
+                           data=json.dumps(data_columns.to_dict()),  title=json.dumps({"title": "Scatter Matrix Random Data"}))
+
+
+@app.route('/scatter_matrix_kmeans')
+def scatter_matrix_kmeans_plot():
+    global df_main_kmeans
+    data_columns = pd.DataFrame()
+    # for col in df_main_kmeans.columns:
+    #     data_columns[col] = df_main_kmeans[col]
+    pca = PCA()
+    pca.fit(df_main_random)
+    loadings = np.sum(np.square(pca.components_), axis=0)
+    indices_of_top_3_attributes = loadings.argsort()[-3:][::-1]
+    for i in range(len(indices_of_top_3_attributes)):
+        data_columns[df_main_random.columns[indices_of_top_3_attributes[i]]] = df_main_random[df_main_random.columns[indices_of_top_3_attributes[i]]]
+    data_columns['clusterid'] = df_main_kmeans['cluster_num']
+    return render_template("scatter_matrix.html",
+                           rs=json.dumps({'rs': False}),
+                           data=json.dumps(data_columns.to_dict()),  title=json.dumps({"title": "Scatter Matrix Kmeans Data"}))
 
 
 if __name__ == "__main__":

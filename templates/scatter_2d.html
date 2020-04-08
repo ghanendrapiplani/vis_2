@@ -48,19 +48,17 @@ circle.hidden {
 <body>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://d3js.org/d3.v3.min.js"></script>
-<script src="/static/d3-tip.js"></script>
 <script>
 
 var data = {{ data | safe }}
-console.log(data)
-drawScatter(data,"2D Scatter Plot for random sampled data")
-function drawScatter(sData,  chart_title) {
+var ttl = {{ title | safe }}
+drawScatter(data,ttl.title)
+
+function drawScatter(sData, chart_title) {
     d3.select('#chart').remove();
-<!--    var data = JSON.parse(sData);-->
     console.log(sData['0']['0'])
     var array = [];
     var min = 0, max = 0;
-//  To get column names of most weighted attributes/columns
     ftrNames = Object.keys(data);
     console.log(ftrNames)
     for(var i=0; i< Object.keys(data[0]).length; ++i){
@@ -71,9 +69,6 @@ function drawScatter(sData,  chart_title) {
             obj.clusterid = data['clusterid'][i]
         console.log(data['clusterid'][i]);
         }
-<!--        obj.ftr1 = data[ftrNames[2]][i]-->
-<!--        obj.ftr2 = data[ftrNames[3]][i]-->
-<!--        console.log(obj);-->
         array.push(obj);
     }
     data = array;
@@ -148,3 +143,4 @@ function drawScatter(sData,  chart_title) {
 
 
 </script>
+<script src="/static/d3-tip.js"></script>
